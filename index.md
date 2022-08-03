@@ -37,9 +37,16 @@ _Kšu admpū pi ürherpē gahi dur._
 For very simple sentences, this makes Daemonica resemble an SOV
 language:
 
-| Tatorhu | artir-ðī   | abū.|
-| bear    | D2\1PL-two | chase|
-|A bear chased both of us.|
+<div class="gloss">
+  
+- Tatorhu artir-ðī abū.
+- bear D2\1PL-two chase
+- A bear chased both of us.
+  
+Tatorhu | artir-ðī | abū.
+bear | D2\1PL-two | chase
+A bear chased both of us. ||
+</div>
 
 > Aspect and tense will be discussed below. In
 general, Daemonica words are unmarked as to both; these
