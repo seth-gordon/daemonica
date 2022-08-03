@@ -38,12 +38,9 @@ For very simple sentences, this makes Daemonica resemble an SOV
 language:
 
 <div class="gloss">
-  
-- Tatorhu artir-ðī abū.
-- bear D2\1PL-two chase
-- A bear chased both of us.
-  
+
 Tatorhu | artir-ðī | abū.
+:--|:--|:--
 bear | D2\1PL-two | chase
 A bear chased both of us. ||
 </div>
