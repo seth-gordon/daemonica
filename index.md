@@ -25,43 +25,51 @@ modified, and
 removed, until a single predicate remains and the speaker yields
 their turn.
 
-> The endonyms for Daemonica are
+<aside>
+
+The endonyms for Daemonica are
 _artorgorpū_, “our language,” and
 _garštōbŋtþū_, “acid language.” However, even its native
 speakers admit that “Daemonica” has a certain cachet.
+  
+</aside>
 
-> Daemonica is inspired by Jeffrey
+<aside>
+
+Daemonica is inspired by Jeffrey
 Henning’s award-winning conlang, [Fith](https://www.frathwiki.com/Fith).
 _Kšu admpū pi ürherpē gahi dur._
+
+</aside>
 
 For very simple sentences, this makes Daemonica resemble an SOV
 language:
 
-<div class="gloss">
+>- Tatorhu artir-ðī abū.
+>- bear D2\1PL-two chase
+>- A bear chased both of us.
 
-Tatorhu | artir-ðī | abū.
-:--|:--|:--
-bear | D2\1PL-two | chase
-A bear chased both of us. ||
-</div>
+<aside>
 
-> Aspect and tense will be discussed below. In
+Aspect and tense will be discussed below. In
 general, Daemonica words are unmarked as to both; these
 English translations will use whatever verb form makes the
 most sense in context, which would usually be the simple past.
+
+</aside>
 
 When words are used out of their canonical order, or when the
 same word is used as an argument more than once, prefixes can be
 used to change the word’s valence, invert the argument order, or
 manipulate the stack:
 
-|Dntšu-pū | taterhi | mta-vi | ürter-ðē | mhar-vi | abū.|
-|young-NMLZ | D2\bear | D2\OVER-DNMLZ | D3\2PL-TWO | D2\ROLL-DNMLZ | chase|
-|A bear, who is young like we are, chased both of us.|
+>- Dntšu-pū taterhi mta-vi ürter-ðē mhar-vi abū.
+>- young-NMLZ D2\bear D2\OVER-DNMLZ D3\2PL-TWO D2\ROLL-DNMLZ chase
+>- A bear, who is young like we are, chased both of us.
 
-|Pu | taterhi | te | darhir | ahnbzu.|
-|1SG | D2\bear | D3\1SG | D2\choice.or | flee|
-|I don’t have to outrun the bear; I just have to outrun you.|
+>- Pu taterhi te darhir ahnbzu.
+>- 1SG D2\bear D3\1SG D2\choice.or flee
+>- I don’t have to outrun the bear; I just have to outrun you.
 
 Every word is inflected, by changing its vowels, to indicate the
 current depth of the stack: hence _tatorhu_
