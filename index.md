@@ -13,6 +13,15 @@ collected enough samples of this language to develop a phonology
 and a list of words, but the few cryptanalysts and linguists who
 have studied it have not been able to deduce a lexicon or a grammar.
 
+<aside>
+
+The endonyms for Daemonica are
+_artorgorpū_, “our language,” and
+_garštōbŋtþū_, “acid language.” However, even its native
+speakers admit that “Daemonica” has a certain cachet.
+
+</aside>
+
 The reason for their frustration, and for the Inquisition’s
 accusations of heresy, is that the fundamental structure of
 Daemonica is
@@ -24,15 +33,6 @@ _stack_, on which predicates can be added,
 modified, and
 removed, until a single predicate remains and the speaker yields
 their turn.
-
-<aside>
-
-The endonyms for Daemonica are
-_artorgorpū_, “our language,” and
-_garštōbŋtþū_, “acid language.” However, even its native
-speakers admit that “Daemonica” has a certain cachet.
-  
-</aside>
 
 <aside>
 
