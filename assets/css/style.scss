@@ -1,0 +1,30 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+// TODO make font and color customization work in a more skin-compatible way
+
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+  // background-color: TBD
+  // color: TBD
+  font: 14px/1.5 "Bitter", serif;
+}
+
+blockquote ul { list-style-type: none; font-style: normal; font-stretch: normal; }
+
+blockquote ul li:nth-of-type(1) { font-style: italic; }
+blockquote ul li:nth-of-type(2) { font-stretch: condensed; }
+
+aside {
+  width: 40%;
+  padding-left: .5rem;
+  float: right;
+}
+  
+aside > p {
+  margin: .5rem;
+  font-size: smaller;
+}
