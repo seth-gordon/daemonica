@@ -13,6 +13,18 @@ collected enough samples of this language to develop a phonology
 and a list of words, but the few cryptanalysts and linguists who
 have studied it have not been able to deduce a lexicon or a grammar.
 
+<div class="gfmtest">
+  
+  _This is a test._
+
+</div>
+
+<div class="gfmtest">
+
+_This is another test._
+
+</div>
+
 <aside>
 
 The endonyms for Daemonica are
