@@ -87,7 +87,7 @@ NKVD, might fancy a stiff drink.
 
 {% assign pages = site.grammar | sort: "order" %}
 {% for page in pages %}
-- [{{ page.title }}]({{ page.url }})
+- [{{ page.title }}]({{ site.baseurl }}{{ page.url }})
 {% endfor %}
 
 ### Sample texts
@@ -96,5 +96,5 @@ NKVD, might fancy a stiff drink.
 
 ### Other
 
-- [Lexicon (very much WIP)](/lexicon)
-- [Colophon](/about)
+- [Lexicon (very much WIP)]({{ site.baseurl }}/lexicon)
+- [Colophon]({{ site.baseurl }}/about)

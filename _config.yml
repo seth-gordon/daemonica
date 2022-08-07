@@ -1,6 +1,7 @@
 theme: jekyll-theme-minimal
 markdown: GFM
 logo: /assets/img/bear-logo.jpg
+baseurl: /daemonica
 collections:
   grammar:
     output: true

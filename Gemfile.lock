@@ -258,6 +258,7 @@ PLATFORMS
 DEPENDENCIES
   github-pages (~> 227)
   http_parser.rb (~> 0.6.0)
+  jekyll-relative-links
   jekyll-theme-minimal (~> 0.2.0)
   tzinfo (~> 1.2)
   tzinfo-data

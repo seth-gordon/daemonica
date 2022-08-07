@@ -1,6 +1,6 @@
 ---
 title: Colophon
-permalink: /about/
+permalink: about/
 ---
 
 This Web site depends on the selfless work of many other people.
