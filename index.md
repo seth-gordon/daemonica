@@ -1,4 +1,6 @@
-## Introduction
+## A language of demons
+
+### Introduction
 
 One of the more obscure records of the Inquisition refers to a cell
 of heretics who spoke among each other using “a language of demons
@@ -13,62 +15,41 @@ collected enough samples of this language to develop a phonology
 and a list of words, but the few cryptanalysts and linguists who
 have studied it have not been able to deduce a lexicon or a grammar.
 
-<div class="gfmtest">
-  
-  _This is a test._
-
-</div>
-
-<div class="gfmtest">
-
-_This is another test._
-
-</div>
-
-<aside>
-
-The endonyms for Daemonica are
-_artorgorpū_, “our language,” and
-_garštōbŋtþū_, “acid language.” However, even its native
-speakers admit that “Daemonica” has a certain cachet.
-
-</aside>
-
 The reason for their frustration, and for the Inquisition’s
 accusations of heresy, is that the fundamental structure of
-Daemonica is
+Daemonica[^1] is
 unlike that of any natural human language. In other
 languages, a complete sentence is a sequence of words can be
 parsed into a recursive, tree-like structure. In Daemonica, every
 utterance-in-progress is associated with a notional
-_stack_, on which predicates can be added,
+_stack_[^2], on which predicates can be added,
 modified, and
 removed, until a single predicate remains and the speaker yields
 their turn.
 
-<aside>
+[^1]:
+    The endonyms for Daemonica are
+    _artorgorpū_, “our language,” and
+    _garštōbŋtþū_, “acid language.” However, even its native
+    speakers admit that “Daemonica” has a certain cachet.
 
-Daemonica is inspired by Jeffrey
-Henning’s award-winning conlang, [Fith](https://www.frathwiki.com/Fith).
-_Kšu admpū pi ürherpē gahi dur._
-
-</aside>
+[^2]:
+    Daemonica is inspired by Jeffrey
+    Henning’s award-winning conlang, [Fith](https://www.frathwiki.com/Fith).
+    _Kšu admpū pi ürherpē gahi dur._
 
 For very simple sentences, this makes Daemonica resemble an SOV
 language:
 
 >- Tatorhu artir-ðī abū.
 >- bear D2\1PL-two chase
->- A bear chased both of us.
+>- A bear chased[^3] both of us.
 
-<aside>
-
-Aspect and tense will be discussed below. In
-general, Daemonica words are unmarked as to both; these
-English translations will use whatever verb form makes the
-most sense in context, which would usually be the simple past.
-
-</aside>
+[^3]:
+    Aspect and tense will be discussed below. In
+    general, Daemonica words are unmarked as to both; these
+    English translations will use whatever verb form makes the
+    most sense in context, which would usually be the simple past.
 
 When words are used out of their canonical order, or when the
 same word is used as an argument more than once, prefixes can be
@@ -101,3 +82,19 @@ of speaking it proficiently at all.
 At this point, you, like the
 priests of the medieval Inquisition or the analysts of Stalin’s
 NKVD, might fancy a stiff drink.
+
+### Reference grammar
+
+{% assign pages = site.grammar | sort: "order" %}
+{% for page in pages %}
+- [{{ page.title }}]({{ page.url }})
+{% endfor %}
+
+### Sample texts
+
+> **TODO**
+
+### Other
+
+- [Lexicon (very much WIP)](/lexicon)
+- [Colophon](/about)

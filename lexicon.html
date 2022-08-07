@@ -1,0 +1,37 @@
+---
+layout: default
+---
+<h2>Preliminary lexicon</h2>
+
+{% assign lexicon = site.data.lexicon | sort: "key" %}
+<dl class="lexicon">
+    {% for lexitem in site.data.lexicon %}
+    <dt data-collate="{{ lexitem.key }}" class="lexitem-{{ lexitem-valence }}">
+        {{ lexitem.daemonica }} <span class="valence-tag">{{ lexitem.valence }}</span>
+    </dt>
+    <dd>
+        <ol class="translations">
+            {% for tr in lexitem.translations %}
+            <li>
+                {% for tag in tr.tags %}
+                <span class="semantic-tag">{{ tag }}</span>
+                {% endfor %}
+                {{ tr.english }}
+            </li>
+            {% endfor %}
+        </ol>
+        {% if lexitem.xref.size > 0 %}
+        <ul class="xref" role="list" title="See also">
+            {% for ref in lexitem.xref %}
+            <li>{{ ref }}</li>
+            {% endfor %}
+        </ul>
+        {% endif %}
+        {% if lexitem.notes.size > 0 %}
+        <blockquote>
+            {{ lexitem.notes }}
+        </blockquote>
+        {% endif %}
+    </dd>
+    {% endfor %}
+</dl>

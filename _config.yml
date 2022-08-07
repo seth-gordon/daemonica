@@ -1,2 +1,12 @@
 theme: jekyll-theme-minimal
 markdown: GFM
+logo: /assets/img/bear-logo.jpg
+collections:
+  grammar:
+    output: true
+    permalink: /:collection/:name
+    order:
+      - phonology.md
+      - conventional.md
+      - morphology.md
+      - numbers.md

@@ -3,28 +3,107 @@
 
 @import "{{ site.theme }}";
 
-// TODO make font and color customization work in a more skin-compatible way
+@font-face {
+  font-family: 'Gentium Plus';
+  font-weight: 400;
+  font-style: normal;
+  src: url('../fonts/GentiumPlus/web/GentiumPlus-Regular.woff2') format('woff2'),
+       url('../fonts/GentiumPlus/web/GentiumPlus-Regular.woff') format('woff'),
+       url('../fonts/GentiumPlus/GentiumPlus-Regular.ttf') format('truetype');
+}
 
-@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@font-face {
+  font-family: 'Gentium Plus';
+  font-weight: 700;
+  font-style: normal;
+  src: url('../fonts/GentiumPlus/web/GentiumPlus-Bold.woff2') format('woff2'),
+       url('../fonts/GentiumPlus/web/GentiumPlus-Bold.woff') format('woff'),
+       url('../fonts/GentiumPlus/GentiumPlus-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Gentium Plus';
+  font-weight: 400;
+  font-style: italic;
+  src: url('../fonts/GentiumPlus/web/GentiumPlus-Italic.woff2') format('woff2'),
+       url('../fonts/GentiumPlus/web/GentiumPlus-Italic.woff') format('woff'),
+       url('../fonts/GentiumPlus/GentiumPlus-Italic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Gentium Plus';
+  font-weight: 700;
+  font-style: italic;
+  src: url('../fonts/GentiumPlus/web/GentiumPlus-BoldItalic.woff2') format('woff2'),
+       url('../fonts/GentiumPlus/web/GentiumPlus-BoldItalic.woff') format('woff'),
+       url('../fonts/GentiumPlus/GentiumPlus-BoldItalic.ttf') format('truetype');
+}
+// paletton base rgb #eeca92, 50 degree hue, complementary
+
+header img { border: 2px solid #956720; }
 
 body {
-  // background-color: TBD
-  // color: TBD
-  font: 14px/1.5 "Bitter", serif;
+  background-color: #fff6e8;
+  color: #1b3c62;
+  font: 1rem/1.5 'Gentium Plus', serif;
 }
+
+h1, h2 { font-size: 2.618rem; } // phi squared
+h3 { font-size: 1.618rem; } // phi
+h4, h5, h6 { font-size: 1.272rem; } // square root of phi
+
+section h2 {
+    background: linear-gradient(to right, #ffe8c6, transparent);
+}
+
+h1, h2, h3, h4 { color: #956720; }
+h5, h6 { color: #000 }
+
+h4, h5, h6 { font-weight: inherit; }
+h4, h5 { font-style: italic;}
+h6 { font-variant: all-small-caps; }
+
+h1, h2 { margin: 0 0 1ex; }
+h3, h4 { margin: 1ex 0 0.5ex; }
+h5, h6 { margin: 0.5ex 0 0; }
+
+a { color: #3b57bf; }
+
+a:hover, a:focus { color: #95a7bc; font-weight: inherit; }
+
+// prevent footnote markers from affecting the line spacing
+// https://leancrew.com/all-this/2011/12/beating-the-spread/
+sup, sub { vertical-align: 0; position: relative; }
+sup { bottom: 1ex; }
+sub { top: 0.8ex; }
+
+blockquote { border-left: 0.5ex solid #ffe8c6; padding-left: 0.5ex; }
 
 blockquote ul { list-style-type: none; font-style: normal; font-stretch: normal; }
 
 blockquote ul li:nth-of-type(1) { font-style: italic; }
-blockquote ul li:nth-of-type(2) { font-stretch: condensed; }
+blockquote ul li:nth-of-type(2) { font-size: smaller; word-spacing: 0.75ch; }
+blockquote ul li:nth-of-type(3)::before { content: open-quote; }
+blockquote ul li:nth-of-type(3)::after { content: close-quote; }
 
-aside {
-  width: 40%;
-  padding-left: .5rem;
-  float: right;
-}
-  
-aside > p {
-  margin: .5rem;
-  font-size: smaller;
-}
+ul ul { padding-left: 1ex; margin: 0; }
+
+section p { margin: 0; }
+
+section p + p { text-indent: 2em; margin-top: 0; }
+
+section p + * { margin-top: 0.5ex; }
+
+.lexicon .valence-tag { font-size: smaller; }
+.lexicon dt { font-weight: inherit; color: #956720; }
+.lexicon dd { margin-left: 2em; }
+.lexicon dd ol, .lexicon dd ul { padding-left: 0; margin-bottom: 0.5ex; }
+.lexicon dd blockquote { font-style: normal; }
+.lexicon .semantic-tag { font-size: smaller; font-variant: small-caps; }
+.lexicon .translations li:only-child { list-style-type: none; }
+.lexicon .translations li::marker { font-size: smaller; }
+.lexicon .xref { list-style: none; }
+.lexicon .xref::before { content: "See also:"; }
+.lexicon .xref li { display: inline; font-style: italic; }
+.lexicon .xref li::after { content: "; "}
+.lexicon .xref li:last-of-type::after { content: "." }

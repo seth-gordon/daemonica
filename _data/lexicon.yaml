@@ -1,0 +1,2297 @@
+- daemonica: a
+  key: a0
+  notes: ''
+  translations:
+  - english: singular
+    tags:
+    - prefix
+  valence: 2
+  xref:
+  - u
+- daemonica: abū
+  key: a0bu1
+  notes: ''
+  translations:
+  - english: chase
+    tags: []
+  valence: 2
+  xref: []
+- daemonica: admpū
+  key: a0d0mpu1
+  notes: ''
+  translations:
+  - english: heavy
+    tags: []
+  - english: massive
+    tags: []
+  valence: 2
+  xref: []
+- daemonica: adu
+  key: a0d0u0
+  notes: ''
+  translations:
+  - english: adjoin accusative case
+    tags: []
+  valence: 2
+  xref: []
+- daemonica: adur
+  key: a0d0u0r
+  notes: ''
+  translations:
+  - english: come from
+    tags: []
+  valence: 2
+  xref: []
+- daemonica: aðnbu
+  key: a0d1n0bu0
+  notes: ''
+  translations:
+  - english: suck
+    tags: []
+  valence: 2
+  xref: []
+- daemonica: ahmhū
+  key: a0hmhu1
+  notes: ''
+  translations:
+  - english: crying
+    tags: []
+  valence: 2
+  xref: []
+- daemonica: ahnbzu
+  key: a0hn0bz0u0
+  notes: ''
+  translations:
+  - english: flee
+    tags: []
+  - english: escape
+    tags: []
+  valence: 2
+  xref: []
+- daemonica: ahntur
+  key: a0hn0t0u0r
+  notes: ''
+  translations:
+  - english: person (of any gender)
+    tags: []
+  - english: computer
+    tags: []
+  - english: corporation
+    tags: []
+  - english: sentient being
+    tags: []
+  valence: 0
+  xref: []
+- daemonica: ahodur
+  key: a0ho0d0u0r
+  notes: ''
+  translations:
+  - english: hide, conceal
+    tags: []
+  valence: 2
+  xref: []
+- daemonica: ahu
+  key: a0hu0
+  notes: ''
+  translations:
+  - english: yonder
+    tags: []
+  valence: 2
+  xref: []
+- daemonica: ahur
+  key: a0hu0r
+  notes: ''
+  translations:
+  - english: free valence-1 variable
+    tags: []
+  valence: 2
+  xref: []
+- daemonica: ar
+  key: a0r
+  notes: ''
+  translations:
+  - english: color/shape/sound/smell of a…
+    tags:
+    - prefix
+  valence: 2
+  xref: []
+- daemonica: ardortur
+  key: a0rd0o0rt0u0r
+  notes: ''
+  translations:
+  - english: running
+    tags: []
+  valence: 2
+  xref: []
+- daemonica: ardu
+  key: a0rd0u0
+  notes: ''
+  translations:
+  - english: eat
+    tags: []
+  - english: drink
+    tags: []
+  valence: 2
+  xref: []
+- daemonica: arhmbur
+  key: a0rhmbu0r
+  notes: ''
+  translations:
+  - english: wear
+    tags: []
+  - english: carry
+    tags: []
+  - english: use
+    tags: []
+  valence: 2
+  xref: []
+- daemonica: arhmvur
+  key: a0rhmvu0r
+  notes: ''
+  translations:
+  - english: laughing
+    tags: []
+  valence: 2
+  xref: []
+- daemonica: arhŋtur
+  key: a0rhn1t0u0r
+  notes: ''
+  translations:
+  - english: wing
+    tags: []
+  valence: 0
+  xref: []
+- daemonica: arhu
+  key: a0rhu0
+  notes: ''
+  translations:
+  - english: bitter
+    tags: []
+  - english: disgusted
+    tags: []
+  valence: 2
+  xref: []
+- daemonica: arhur
+  key: a0rhu0r
+  notes: ''
+  translations:
+  - english: far away
+    tags: []
+  - english: long ago or far in the future
+    tags: []
+  valence: 2
+  xref: []
+- daemonica: arhū
+  key: a0rhu1
+  notes: ''
+  translations:
+  - english: open
+    tags: []
+  valence: 2
+  xref: []
+- daemonica: artrhur
+  key: a0rt0rhu0r
+  notes: ''
+  translations:
+  - english: stone, rock
+    tags: []
+  - english: 47 kg
+    tags:
+    - measure
+  valence: 0
+  xref: []
+- daemonica: artur
+  key: a0rt0u0r
+  notes: ''
+  translations:
+  - english: we (inclusive)
+    tags: []
+  valence: 0
+  xref: []
+- daemonica: artū
+  key: a0rt0u1
+  notes: ''
+  translations:
+  - english: hello
+    tags: []
+  - english: greetings
+    tags: []
+  valence: 0
+  xref: []
+- daemonica: arzdyhu
+  key: a0rz0d0yhu0
+  notes: ''
+  translations:
+  - english: is to the right of
+    tags: []
+  valence: 2
+  xref: []
+- daemonica: arzu
+  key: a0rz0u0
+  notes: ''
+  translations:
+  - english: hungry
+    tags: []
+  valence: 2
+  xref: []
+- daemonica: azu
+  key: a0z0u0
+  notes: ''
+  translations:
+  - english: big
+    tags: []
+  valence: 2
+  xref: []
+- daemonica: āhnbzū
+  key: a1hn0bz0u1
+  notes: ''
+  translations:
+  - english: becomes more distant from
+    tags: []
+  valence: 2
+  xref: []
+- daemonica: bahur
+  key: ba0hu0r
+  notes: ''
+  translations:
+  - english: adjoin locative case
+    tags: []
+  - english: is simultaneous with
+    tags: []
+  valence: 2
+  xref: []
+- daemonica: barhŋtu
+  key: ba0rhn1t0u0
+  notes: ''
+  translations:
+  - english: red
+    tags: []
+  - english: sad
+    tags: []
+  valence: 2
+  xref: []
+- daemonica: batŋdu
+  key: ba0t0n1d0u0
+  notes: ''
+  translations:
+  - english: tie, bind
+    tags: []
+  valence: 2
+  xref: []
+- daemonica: bazu
+  key: ba0z0u0
+  notes: ''
+  translations:
+  - english: arbitrary action
+    tags: []
+  valence: 2
+  xref: []
+- daemonica: bðāzur
+  key: bd1a1z0u0r
+  notes: ''
+  translations:
+  - english: pause
+    tags: []
+  valence: 2
+  xref: []
+- daemonica: bmhu
+  key: bmhu0
+  notes: ''
+  translations:
+  - english: adjoin adessive (near…) case
+    tags: []
+  - english: add argument for “X wants…”
+    tags:
+    - suffix
+  valence: 2
+  xref: []
+- daemonica: bmpu
+  key: bmpu0
+  notes: ''
+  translations:
+  - english: '11'
+    tags:
+    - number
+  valence: 2
+  xref: []
+- daemonica: bmvur
+  key: bmvu0r
+  notes: ''
+  translations:
+  - english: (other form of causation?)
+    tags: []
+  valence: 2
+  xref: []
+- daemonica: bnhur
+  key: bn0hu0r
+  notes: ''
+  translations:
+  - english: hit, strike
+    tags: []
+  valence: 2
+  xref: []
+- daemonica: bntar
+  key: bn0t0a0r
+  notes: ''
+  translations:
+  - english: specify something organic as distinct from mechanical
+    tags:
+    - prefix
+  valence: 2
+  xref: []
+- daemonica: bu
+  key: bu0
+  notes: ''
+  translations:
+  - english: go to
+    tags: []
+  valence: 2
+  xref: []
+- daemonica: bur
+  key: bu0r
+  notes: ''
+  translations:
+  - english: is the name of
+    tags: []
+  valence: 2
+  xref: []
+- daemonica: dahoždu
+  key: d0a0ho0z1d0u0
+  notes: ''
+  translations:
+  - english: see
+    tags: []
+  valence: 2
+  xref: []
+- daemonica: dahu
+  key: d0a0hu0
+  notes: ''
+  translations:
+  - english: adjoin instrumental case
+    tags: []
+  valence: 2
+  xref: []
+- daemonica: dakmhu
+  key: d0a0k0mhu0
+  notes: ''
+  translations:
+  - english: thick
+    tags: []
+  valence: 2
+  xref: []
+- daemonica: dapu
+  key: d0a0pu0
+  notes: ''
+  translations:
+  - english: high
+    tags: []
+  valence: 2
+  xref: []
+- daemonica: darhur
+  key: d0a0rhu0r
+  notes: ''
+  translations:
+  - english: or (in sense of options)
+    tags: []
+  valence: 2
+  xref: []
+- daemonica: darzwtur
+  key: d0a0rz0wt0u0r
+  notes: ''
+  translations:
+  - english: falling
+    tags: []
+  valence: 2
+  xref: []
+- daemonica: datyhu
+  key: d0a0t0yhu0
+  notes: ''
+  translations:
+  - english: old
+    tags: []
+  - english: elderly
+    tags: []
+  valence: 2
+  xref: []
+- daemonica: dāfbū
+  key: d0a1fbu1
+  notes: ''
+  translations:
+  - english: give something to
+    tags: []
+  valence: 2
+  xref: []
+- daemonica: dāhur
+  key: d0a1hu0r
+  notes: ''
+  translations:
+  - english: are peers
+    tags: []
+  - english: exist at the same level of a hierarchy
+    tags: []
+  valence: 2
+  xref: []
+- daemonica: dður
+  key: d0d1u0r
+  notes: ''
+  translations:
+  - english: is the offspring of
+    tags: []
+  valence: 2
+  xref: []
+- daemonica: dģmtur
+  key: d0g1mt0u0r
+  notes: ''
+  translations:
+  - english: '28'
+    tags:
+    - number
+  valence: 2
+  xref: []
+- daemonica: dmdu
+  key: d0md0u0
+  notes: ''
+  translations:
+  - english: add argument for “X generates…”
+    tags:
+    - suffix
+  valence: 2
+  xref: []
+- daemonica: dmtu
+  key: d0mt0u0
+  notes: ''
+  translations:
+  - english: part (non-specific)
+    tags:
+    - number
+  valence: 2
+  xref: []
+- daemonica: dngzu
+  key: d0n0g0z0u0
+  notes: ''
+  translations:
+  - english: happens after
+    tags: []
+  - english: is above
+    tags: []
+  valence: 2
+  xref: []
+- daemonica: dngzū
+  key: d0n0g0z0u1
+  notes: ''
+  translations:
+  - english: approaches
+    tags: []
+  valence: 2
+  xref: []
+- daemonica: dnhu
+  key: d0n0hu0
+  notes: ''
+  translations:
+  - english: drink
+    tags: []
+  valence: 2
+  xref: []
+- daemonica: dntā
+  key: d0n0t0a1
+  notes: ''
+  translations:
+  - english: augmentative
+    tags:
+    - prefix
+  valence: 2
+  xref: []
+- daemonica: dntšu
+  key: d0n0t0s1u0
+  notes: ''
+  translations:
+  - english: new
+    tags: []
+  - english: young
+    tags: []
+  valence: 2
+  xref: []
+- daemonica: dntur
+  key: d0n0t0u0r
+  notes: ''
+  translations:
+  - english: z-dimension
+    tags:
+    - number
+  valence: 2
+  xref: []
+- daemonica: dŋdu
+  key: d0n1d0u0
+  notes: ''
+  translations:
+  - english: carry
+    tags: []
+  valence: 2
+  xref: []
+- daemonica: dŋpu
+  key: d0n1pu0
+  notes: ''
+  translations:
+  - english: '18'
+    tags:
+    - number
+  valence: 2
+  xref: []
+- daemonica: dŋtu
+  key: d0n1t0u0
+  notes: ''
+  translations:
+  - english: '20'
+    tags:
+    - number
+  valence: 2
+  xref: []
+- daemonica: drbur
+  key: d0rbu0r
+  notes: ''
+  translations:
+  - english: or (in sense of randomness)
+    tags: []
+  valence: 2
+  xref: []
+- daemonica: drbū
+  key: d0rbu1
+  notes: ''
+  translations:
+  - english: are acquaintances
+    tags: []
+  - english: are connected informally or sporadically
+    tags: []
+  valence: 2
+  xref: []
+- daemonica: du
+  key: d0u0
+  notes: As a suffix applied to valence-0 words this functions as a copula (“[A] is
+    a bear”); applied to valence-1 words, the extended meaning depends on the base
+    (“[E] is hungry for [A]”).
+  translations:
+  - english: free valence-2 variable
+    tags: []
+  - english: add argument
+    tags:
+    - suffix
+  valence: 2
+  xref: []
+- daemonica: dur
+  key: d0u0r
+  notes: ''
+  translations:
+  - english: do, make
+    tags: []
+  - english: is the cause of
+    tags: []
+  - english: is implied by
+    tags: []
+  valence: 2
+  xref: []
+- daemonica: dwtū
+  key: d0wt0u1
+  notes: ''
+  translations:
+  - english: a little bit
+    tags:
+    - number
+  valence: 2
+  xref: []
+- daemonica: dznhū
+  key: d0z0n0hu1
+  notes: ''
+  translations:
+  - english: hear
+    tags: []
+  valence: 2
+  xref: []
+- daemonica: dzu
+  key: d0z0u0
+  notes: ''
+  translations:
+  - english: and
+    tags: []
+  - english: simultaneously
+    tags: []
+  valence: 2
+  xref: []
+- daemonica: dzū
+  key: d0z0u1
+  notes: ''
+  translations:
+  - english: are friends
+    tags: []
+  - english: are corresponding parts
+    tags: []
+  valence: 2
+  xref: []
+- daemonica: džarhu
+  key: d0z1a0rhu0
+  notes: ''
+  translations:
+  - english: take
+    tags: []
+  valence: 2
+  xref: []
+- daemonica: džartfur
+  key: d0z1a0rt0fu0r
+  notes: ''
+  translations:
+  - english: empty
+    tags: []
+  valence: 2
+  xref: []
+- daemonica: džmpsu
+  key: d0z1mps0u0
+  notes: ''
+  translations:
+  - english: salted
+    tags: []
+  - english: made into salt
+    tags: []
+  valence: 2
+  xref: []
+- daemonica: džrtu
+  key: d0z1rt0u0
+  notes: ''
+  translations:
+  - english: '23'
+    tags:
+    - number
+  valence: 2
+  xref: []
+- daemonica: fa
+  key: fa0
+  notes: ''
+  translations:
+  - english: borderline [base word]
+    tags:
+    - prefix
+  valence: 2
+  xref: []
+- daemonica: fazu
+  key: fa0z0u0
+  notes: ''
+  translations:
+  - english: wh-question constructor
+    tags: []
+  valence: 2
+  xref: []
+- daemonica: fbarvdur
+  key: fba0rvd0u0r
+  notes: ''
+  translations:
+  - english: are independent of each other
+    tags: []
+  - english: are either simultaneous or not depending on one’s frame of reference
+    tags: []
+  valence: 2
+  xref: []
+- daemonica: fmfpu
+  key: fmfpu0
+  notes: ''
+  translations:
+  - english: blood
+    tags: []
+  valence: 0
+  xref: []
+- daemonica: fnha
+  key: fn0ha0
+  notes: ''
+  translations:
+  - english: opposite
+    tags:
+    - prefix
+  valence: 2
+  xref: []
+- daemonica: fr
+  key: fr
+  notes: ''
+  translations:
+  - english: '7'
+    tags:
+    - number
+  valence: 2
+  xref: []
+- daemonica: ftaržŋhur
+  key: ft0a0rz1n1hu0r
+  notes: ''
+  translations:
+  - english: wall
+    tags: []
+  - english: hull
+    tags: []
+  - english: hide (body part)
+    tags: []
+  valence: 0
+  xref: []
+- daemonica: ftu
+  key: ft0u0
+  notes: ''
+  translations:
+  - english: mouth
+    tags: []
+  valence: 0
+  xref: []
+- daemonica: fu
+  key: fu0
+  notes: ''
+  translations:
+  - english: interior of
+    tags: []
+  - english: atmosphere of
+    tags: []
+  - english: '6'
+    tags:
+    - number
+  valence: 2
+  xref: []
+- daemonica: fu
+  key: fu0
+  notes: ''
+  translations:
+  - english: hypernym
+    tags:
+    - suffix
+  valence: 2
+  xref: []
+- daemonica: fū
+  key: fu1
+  notes: ''
+  translations:
+  - english: telic marker
+    tags:
+    - suffix
+  - english: adult or finished object
+    tags:
+    - suffix
+  valence: 2
+  xref: []
+- daemonica: gahu
+  key: g0a0hu0
+  notes: ''
+  translations:
+  - english: fly to
+    tags: []
+  valence: 2
+  xref: []
+- daemonica: gģur
+  key: g0g1u0r
+  notes: ''
+  translations:
+  - english: know
+    tags: []
+  valence: 2
+  xref: []
+- daemonica: gu
+  key: g0u0
+  notes: ''
+  translations:
+  - english: apply top item to second item
+    tags: []
+  valence: 2
+  xref: []
+- daemonica: gur
+  key: g0u0r
+  notes: ''
+  translations:
+  - english: say
+    tags: []
+  valence: 2
+  xref: []
+- daemonica: gū
+  key: g0u1
+  notes: ''
+  translations:
+  - english: mean
+    tags: []
+  valence: 2
+  xref: []
+- daemonica: gvardŋdur
+  key: g0va0rd0n1d0u0r
+  notes: ''
+  translations:
+  - english: dance on
+    tags: []
+  - english: orbit around
+    tags: []
+  valence: 2
+  xref: []
+- daemonica: ģu
+  key: g1u0
+  notes: ''
+  translations:
+  - english: top side
+    tags:
+    - suffix
+  - english: incohative aspect (to start to X)
+    tags:
+    - suffix
+  valence: 2
+  xref: []
+- daemonica: kapu
+  key: k0a0pu0
+  notes: ''
+  translations:
+  - english: free valence-0 variable
+    tags: []
+  valence: 0
+  xref: []
+- daemonica: katorhu
+  key: k0a0t0o0rhu0
+  notes: ''
+  translations:
+  - english: hair (on head)
+    tags: []
+  valence: 0
+  xref: []
+- daemonica: kāhmvu
+  key: k0a1hmvu0
+  notes: ''
+  translations:
+  - english: leg
+    tags: []
+  - english: drive shaft
+    tags: []
+  - english: pillar
+    tags: []
+  valence: 0
+  xref: []
+- daemonica: kmdur
+  key: k0md0u0r
+  notes: ''
+  translations:
+  - english: '26'
+    tags:
+    - number
+  valence: 2
+  xref: []
+- daemonica: knbar
+  key: k0n0ba0r
+  notes: ''
+  translations:
+  - english: specify mechanical accessory to something organic
+    tags:
+    - prefix
+  valence: 2
+  xref: []
+- daemonica: krtu
+  key: k0rt0u0
+  notes: ''
+  translations:
+  - english: clothing
+    tags: []
+  - english: fabric
+    tags: []
+  - english: fur
+    tags: []
+  valence: 0
+  xref: []
+- daemonica: kšu
+  key: k0s1u0
+  notes: ''
+  translations:
+  - english: star
+    tags: []
+  - english: leader
+    tags: []
+  - english: ''
+    tags: []
+  - english: 1.337s
+    tags:
+    - measure
+  valence: 0
+  xref: []
+- daemonica: kur
+  key: k0u0r
+  notes: As a suffix, transforms “[A] is hungry” to “hungry person”, or “[E] chases
+    [A]” to “a person chased by [A]” Note that when applied to a valence-2 word, the
+    ergative argument becomes the absolute argument.
+  translations:
+  - english: foot
+    tags: []
+  - english: wheel
+    tags: []
+  - english: nozzle
+    tags: []
+  - english: nominalize absolute argument
+    tags:
+    - suffix
+  valence: 0
+  xref: []
+- daemonica: mdar
+  key: md0a0r
+  notes: ''
+  translations:
+  - english: drop top stack item
+    tags:
+    - prefix
+  valence: 2
+  xref: []
+- daemonica: mhar
+  key: mha0r
+  notes: ''
+  translations:
+  - english: roll third stack item to top
+    tags:
+    - prefix
+  valence: 2
+  xref: []
+- daemonica: mhu
+  key: mhu0
+  notes: ''
+  translations:
+  - english: black
+    tags: []
+  - english: calm, tranquil
+    tags: []
+  valence: 2
+  xref: []
+- daemonica: mhur
+  key: mhu0r
+  notes: ''
+  translations:
+  - english: free numeric (valence-1) variable
+    tags: []
+  valence: 2
+  xref: []
+- daemonica: mhur
+  key: mhu0r
+  notes: ''
+  translations:
+  - english: y-dimension
+    tags:
+    - number
+  valence: 2
+  xref: []
+- daemonica: mhur
+  key: mhu0r
+  notes: ''
+  translations:
+  - english: habitual or iterative aspect
+    tags:
+    - suffix
+  - english: irregularly shaped
+    tags:
+    - suffix
+  - english: stippled or irregular quality
+    tags:
+    - suffix
+  valence: 2
+  xref: []
+- daemonica: mpšu
+  key: mps1u0
+  notes: ''
+  translations:
+  - english: bird
+    tags: []
+  - english: airplane
+    tags: []
+  valence: 0
+  xref: []
+- daemonica: mta
+  key: mt0a0
+  notes: ''
+  translations:
+  - english: copy second-from-top stack item
+    tags:
+    - prefix
+  valence: 0
+  xref: []
+- daemonica: mzar
+  key: mz0a0r
+  notes: ''
+  translations:
+  - english: swap top two stack items
+    tags:
+    - prefix
+  valence: 2
+  xref: []
+- daemonica: mzā
+  key: mz0a1
+  notes: ''
+  translations:
+  - english: proper noun marker
+    tags:
+    - prefix
+  valence: 2
+  xref: []
+- daemonica: nhar
+  key: n0ha0r
+  notes: ''
+  translations:
+  - english: illness or damage
+    tags:
+    - prefix
+  valence: 2
+  xref: []
+- daemonica: nhu
+  key: n0hu0
+  notes: ''
+  translations:
+  - english: universal quantifier
+    tags: []
+  - english: '10'
+    tags:
+    - number
+  valence: 2
+  xref: []
+- daemonica: nhur
+  key: n0hu0r
+  notes: ''
+  translations:
+  - english: '15'
+    tags:
+    - number
+  valence: 2
+  xref: []
+- daemonica: nžu
+  key: n0z1u0
+  notes: ''
+  translations:
+  - english: diminutive
+    tags:
+    - suffix
+  - english: perfective aspect
+    tags:
+    - suffix
+  valence: 2
+  xref: []
+- daemonica: nžur
+  key: n0z1u0r
+  notes: ''
+  translations:
+  - english: '21'
+    tags:
+    - number
+  valence: 2
+  xref: []
+- daemonica: ŋha
+  key: n1ha0
+  notes: ''
+  translations:
+  - english: specify something mechanical as distinct from organic
+    tags:
+    - prefix
+  valence: 2
+  xref: []
+- daemonica: ŋhū
+  key: n1hu1
+  notes: ''
+  translations:
+  - english: '24'
+    tags:
+    - number
+  valence: 2
+  xref: []
+- daemonica: ŋtur
+  key: n1t0u0r
+  notes: ''
+  translations:
+  - english: nose
+    tags: []
+  - english: nub, protrusion
+    tags: []
+  - english: make ordinal number
+    tags:
+    - measure
+  valence: 0
+  xref: []
+- daemonica: ŋvu
+  key: n1vu0
+  notes: ''
+  translations:
+  - english: '13'
+    tags:
+    - number
+  valence: 2
+  xref: []
+- daemonica: ŋžu
+  key: n1z1u0
+  notes: ''
+  translations:
+  - english: existential quantifier
+    tags: []
+  - english: '14'
+    tags:
+    - number
+  valence: 2
+  xref: []
+- daemonica: padu
+  key: pa0d0u0
+  notes: ''
+  translations:
+  - english: arbitrary quality
+    tags: []
+  valence: 2
+  xref: []
+- daemonica: padur
+  key: pa0d0u0r
+  notes: ''
+  translations:
+  - english: good
+    tags: []
+  valence: 2
+  xref: []
+- daemonica: parhnpu
+  key: pa0rhn0pu0
+  notes: ''
+  translations:
+  - english: meat, flesh
+    tags: []
+  valence: 0
+  xref: []
+- daemonica: parhur
+  key: pa0rhu0r
+  notes: ''
+  translations:
+  - english: wine
+    tags: []
+  valence: 0
+  xref: []
+- daemonica: pazu
+  key: pa0z0u0
+  notes: ''
+  translations:
+  - english: arbitrary thing
+    tags: []
+  valence: 0
+  xref: []
+- daemonica: pāpmpu
+  key: pa1pmpu0
+  notes: ''
+  translations:
+  - english: bowl
+    tags: []
+  - english: pot
+    tags: []
+  valence: 0
+  xref: []
+- daemonica: pfur
+  key: pfu0r
+  notes: ''
+  translations:
+  - english: water
+    tags: []
+  - english: fear
+    tags: []
+  valence: 0
+  xref: []
+- daemonica: pmbu
+  key: pmbu0
+  notes: ''
+  translations:
+  - english: half
+    tags:
+    - number
+  valence: 2
+  xref: []
+- daemonica: pmkþu
+  key: pmk0t1u0
+  notes: ''
+  translations:
+  - english: chair, seat
+    tags: []
+  valence: 0
+  xref: []
+- daemonica: pndu
+  key: pn0d0u0
+  notes: ''
+  translations:
+  - english: '29'
+    tags:
+    - number
+  valence: 2
+  xref: []
+- daemonica: pŋtsur
+  key: pn1t0s0u0r
+  notes: ''
+  translations:
+  - english: sodium
+    tags: []
+  - english: sodium chloride
+    tags: []
+  - english: alkalai metal
+    tags: []
+  valence: 0
+  xref: []
+- daemonica: prgur
+  key: prg0u0r
+  notes: ''
+  translations:
+  - english: radial dimension
+    tags:
+    - number
+  valence: 2
+  xref: []
+- daemonica: pu
+  key: pu0
+  notes: ''
+  translations:
+  - english: I, me (singular)
+    tags: []
+  valence: 0
+  xref: []
+- daemonica: pur
+  key: pu0r
+  notes: ''
+  translations:
+  - english: oil
+    tags: []
+  - english: fat
+    tags: []
+  - english: suet
+    tags: []
+  valence: 0
+  xref: []
+- daemonica: putur
+  key: pu0t0u0r
+  notes: As a suffix, transforms “[E] chases [A]” (the verb) to “chase” (the noun).
+  translations:
+  - english: remove both arguments of valence-2 words
+    tags:
+    - suffix
+  valence: 0
+  xref: []
+- daemonica: pū
+  key: pu1
+  notes: As a suffix, transforms “[A] is hungry” to “hunger,” or “[E] chases [A]”
+    to “[A] chases someone unspecified”.
+  translations:
+  - english: remove absolute argument (in valence-2 words, demoting ergative argument
+      to absolute)
+    tags:
+    - suffix
+  valence: 0
+  xref: []
+- daemonica: pwbu
+  key: pwbu0
+  notes: ''
+  translations:
+  - english: a lot
+    tags:
+    - number
+  valence: 2
+  xref: []
+- daemonica: rdū
+  key: rd0u1
+  notes: ''
+  translations:
+  - english: bind free variable
+    tags: []
+  valence: 2
+  xref: []
+- daemonica: rta
+  key: rt0a0
+  notes: ''
+  translations:
+  - english: copy top stack item
+    tags:
+    - prefix
+  valence: 0
+  xref: []
+- daemonica: rvur
+  key: rvu0r
+  notes: ''
+  translations:
+  - english: modal of necessity
+    tags:
+    - suffix
+  valence: 2
+  xref: []
+- daemonica: sargrdu
+  key: s0a0rg0rd0u0
+  notes: ''
+  translations:
+  - english: blow on
+    tags: []
+  valence: 2
+  xref: []
+- daemonica: sarhur
+  key: s0a0rhu0r
+  notes: ''
+  translations:
+  - english: closed
+    tags: []
+  valence: 2
+  xref: []
+- daemonica: sartnhu
+  key: s0a0rt0n0hu0
+  notes: ''
+  translations:
+  - english: knee (body part)
+    tags: []
+  - english: elbow
+    tags: []
+  - english: hinge
+    tags: []
+  valence: 0
+  xref: []
+- daemonica: sā
+  key: s0a1
+  notes: ''
+  translations:
+  - english: diminutive
+    tags:
+    - prefix
+  valence: 2
+  xref: []
+- daemonica: sdarpordur
+  key: s0d0a0rpo0rd0u0r
+  notes: ''
+  translations:
+  - english: try, attempt
+    tags: []
+  valence: 2
+  xref: []
+- daemonica: sdnzu
+  key: s0d0n0z0u0
+  notes: ''
+  translations:
+  - english: bite
+    tags: []
+  valence: 2
+  xref: []
+- daemonica: sdu
+  key: s0d0u0
+  notes: ''
+  translations:
+  - english: adjoin oblique/ablative/dative case
+    tags: []
+  valence: 2
+  xref: []
+- daemonica: sdur
+  key: s0d0u0r
+  notes: ''
+  translations:
+  - english: precedes
+    tags: []
+  - english: is below
+    tags: []
+  valence: 2
+  xref: []
+- daemonica: sgartsu
+  key: s0g0a0rt0s0u0
+  notes: ''
+  translations:
+  - english: long
+    tags: []
+  valence: 2
+  xref: []
+- daemonica: skahmfu
+  key: s0k0a0hmfu0
+  notes: ''
+  translations:
+  - english: planet
+    tags: []
+  valence: 0
+  xref: []
+- daemonica: sku
+  key: s0k0u0
+  notes: ''
+  translations:
+  - english: fire
+    tags: []
+  - english: anger
+    tags: []
+  valence: 0
+  xref: []
+- daemonica: smbu
+  key: s0mbu0
+  notes: ''
+  translations:
+  - english: costs
+    tags: []
+  - english: may be exchanged for
+    tags: []
+  valence: 2
+  xref: []
+- daemonica: smbū
+  key: s0mbu1
+  notes: ''
+  translations:
+  - english: are rivals
+    tags: []
+  - english: are parts serving opposite purposes
+    tags: []
+  valence: 2
+  xref: []
+- daemonica: smda
+  key: s0md0a0
+  notes: ''
+  translations:
+  - english: drop second-from-top stack item
+    tags:
+    - prefix
+  valence: 2
+  xref: []
+- daemonica: smdur
+  key: s0md0u0r
+  notes: ''
+  translations:
+  - english: adjoin ergative or genitive case
+    tags: []
+  valence: 2
+  xref: []
+- daemonica: smhū
+  key: s0mhu1
+  notes: ''
+  translations:
+  - english: '27'
+    tags:
+    - number
+  valence: 2
+  xref: []
+- daemonica: snvu
+  key: s0n0vu0
+  notes: ''
+  translations:
+  - english: up to and including…
+    tags:
+    - number
+  valence: 2
+  xref: []
+- daemonica: sŋžu
+  key: s0n1z1u0
+  notes: ''
+  translations:
+  - english: '17'
+    tags:
+    - number
+  valence: 2
+  xref: []
+- daemonica: spahorhū
+  key: s0pa0ho0rhu1
+  notes: ''
+  translations:
+  - english: navel
+    tags: []
+  valence: 0
+  xref: []
+- daemonica: spnzur
+  key: s0pn0z0u0r
+  notes: ''
+  translations:
+  - english: door
+    tags: []
+  - english: gate
+    tags: []
+  - english: duct
+    tags: []
+  valence: 0
+  xref: []
+- daemonica: sprdū
+  key: s0prd0u1
+  notes: ''
+  translations:
+  - english: (phatic) speaker yields turn
+    tags: []
+  valence: 2
+  xref: []
+- daemonica: sr
+  key: s0r
+  notes: ''
+  translations:
+  - english: '5'
+    tags:
+    - number
+  valence: 2
+  xref: []
+- daemonica: stmtur
+  key: s0t0mt0u0r
+  notes: ''
+  translations:
+  - english: egg
+    tags: []
+  valence: 0
+  xref: []
+- daemonica: stu
+  key: s0t0u0
+  notes: ''
+  translations:
+  - english: bread
+    tags: []
+  valence: 0
+  xref: []
+- daemonica: su
+  key: s0u0
+  notes: ''
+  translations:
+  - english: '8'
+    tags:
+    - number
+  valence: 2
+  xref: []
+- daemonica: sur
+  key: s0u0r
+  notes: ''
+  translations:
+  - english: wet
+    tags: []
+  - english: bottom side
+    tags:
+    - suffix
+  - english: cessative aspect (to finish X)
+    tags:
+    - suffix
+  valence: 2
+  xref: []
+- daemonica: szū
+  key: s0z0u1
+  notes: ''
+  translations:
+  - english: very large or flat shape
+    tags:
+    - suffix
+  - english: imperfective aspect
+    tags:
+    - suffix
+  valence: 2
+  xref: []
+- daemonica: ša
+  key: s1a0
+  notes: ''
+  translations:
+  - english: associative plural
+    tags:
+    - prefix
+  valence: 2
+  xref:
+  - šu
+- daemonica: šar
+  key: s1a0r
+  notes: ''
+  translations:
+  - english: negation
+    tags:
+    - prefix
+  valence: 2
+  xref:
+  - šur
+- daemonica: šarhoštur
+  key: s1a0rho0s1t0u0r
+  notes: ''
+  translations:
+  - english: house
+    tags: []
+  valence: 0
+  xref: []
+- daemonica: šartu
+  key: s1a0rt0u0
+  notes: ''
+  translations:
+  - english: back (body part)
+    tags: []
+  - english: trailing edge
+    tags: []
+  valence: 0
+  xref: []
+- daemonica: šaþtur
+  key: s1a0t1t0u0r
+  notes: ''
+  translations:
+  - english: smoke
+    tags: []
+  valence: 0
+  xref: []
+- daemonica: šavndur
+  key: s1a0vn0d0u0r
+  notes: ''
+  translations:
+  - english: is to the left of
+    tags: []
+  valence: 2
+  xref: []
+- daemonica: šdur
+  key: s1d0u0r
+  notes: ''
+  translations:
+  - english: add argument for “X believes…”
+    tags:
+    - suffix
+  valence: 2
+  xref: []
+- daemonica: šmhar
+  key: s1mha0r
+  notes: ''
+  translations:
+  - english: vocative case marker
+    tags:
+    - prefix
+  valence: 2
+  xref: []
+- daemonica: šmhu
+  key: s1mhu0
+  notes: ''
+  translations:
+  - english: each
+    tags:
+    - number
+  valence: 2
+  xref: []
+- daemonica: šmtu
+  key: s1mt0u0
+  notes: ''
+  translations:
+  - english: breast
+    tags: []
+  valence: 0
+  xref: []
+- daemonica: šnku
+  key: s1n0k0u0
+  notes: ''
+  translations:
+  - english: bone
+    tags: []
+  valence: 0
+  xref: []
+- daemonica: šr
+  key: s1r
+  notes: ''
+  translations:
+  - english: '9'
+    tags:
+    - number
+  valence: 2
+  xref: []
+- daemonica: šrha
+  key: s1rha0
+  notes: ''
+  translations:
+  - english: y/n question
+    tags:
+    - prefix
+  valence: 2
+  xref: []
+- daemonica: štābŋtþū
+  key: s1t0a1bn1t0t1u1
+  notes: ''
+  translations:
+  - english: hydrogen
+    tags: []
+  - english: acid
+    tags: []
+  - english: 21.106 cm
+    tags:
+    - measure
+  valence: 0
+  xref: []
+- daemonica: štrdur
+  key: s1t0rd0u0r
+  notes: ''
+  translations:
+  - english: time dimension
+    tags:
+    - number
+  valence: 2
+  xref: []
+- daemonica: šu
+  key: s1u0
+  notes: ''
+  translations:
+  - english: '3'
+    tags:
+    - number
+  - english: '3'
+    tags:
+    - suffix
+  valence: 2
+  xref:
+  - ša
+- daemonica: šur
+  key: s1u0r
+  notes: ''
+  translations:
+  - english: '0'
+    tags:
+    - number
+  - english: negation
+    tags:
+    - suffix
+  valence: 2
+  xref:
+  - šar
+- daemonica: šyzū
+  key: s1yz0u1
+  notes: ''
+  translations:
+  - english: surprised
+    tags: []
+  valence: 2
+  xref: []
+- daemonica: taðorpur
+  key: t0a0d1o0rpu0r
+  notes: ''
+  translations:
+  - english: neck
+    tags: []
+  valence: 0
+  xref: []
+- daemonica: tahōhu
+  key: t0a0ho1hu0
+  notes: ''
+  translations:
+  - english: arm
+    tags: []
+  - english: limb
+    tags: []
+  - english: mechanical boom
+    tags: []
+  valence: 0
+  xref: []
+- daemonica: tahur
+  key: t0a0hu0r
+  notes: ''
+  translations:
+  - english: we (exclusive)
+    tags: []
+  valence: 0
+  xref: []
+- daemonica: tardnhur
+  key: t0a0rd0n0hu0r
+  notes: ''
+  translations:
+  - english: full
+    tags: []
+  valence: 2
+  xref: []
+- daemonica: taršpu
+  key: t0a0rs1pu0
+  notes: ''
+  translations:
+  - english: ear
+    tags: []
+  valence: 0
+  xref: []
+- daemonica: tartohur
+  key: t0a0rt0o0hu0r
+  notes: ''
+  translations:
+  - english: helium
+    tags: []
+  - english: noble gas
+    tags: []
+  valence: 0
+  xref: []
+- daemonica: tartsu
+  key: t0a0rt0s0u0
+  notes: ''
+  translations:
+  - english: mother
+    tags: []
+  - english: heart
+    tags: []
+  - english: primary star
+    tags: []
+  - english: home
+    tags: []
+  valence: 0
+  xref: []
+- daemonica: tartsū
+  key: t0a0rt0s0u1
+  notes: ''
+  translations:
+  - english: boss
+    tags: []
+  - english: headquarters
+    tags: []
+  valence: 0
+  xref: []
+- daemonica: tatŋðu
+  key: t0a0t0n1d1u0
+  notes: ''
+  translations:
+  - english: fish
+    tags: []
+  valence: 0
+  xref: []
+- daemonica: tatorhu
+  key: t0a0t0o0rhu0
+  notes: ''
+  translations:
+  - english: bear (the animal)
+    tags: []
+  valence: 0
+  xref:
+  - tātorhū
+- daemonica: tatsur
+  key: t0a0t0s0u0r
+  notes: ''
+  translations:
+  - english: wood
+    tags: []
+  - english: stick
+    tags: []
+  - english: lumber
+    tags: []
+  valence: 0
+  xref: []
+- daemonica: tažur
+  key: t0a0z1u0r
+  notes: ''
+  translations:
+  - english: eye
+    tags: []
+  - english: camera
+    tags: []
+  - english: glasses
+    tags: []
+  valence: 0
+  xref: []
+- daemonica: tāsozur
+  key: t0a1s0o0z0u0r
+  notes: ''
+  translations:
+  - english: wind
+    tags: []
+  valence: 0
+  xref: []
+- daemonica: tātorhū
+  key: t0a1t0o0rhu1
+  notes: ''
+  translations:
+  - english: panda
+    tags: []
+  valence: 0
+  xref:
+  - tatorhu
+- daemonica: tfu
+  key: t0fu0
+  notes: ''
+  translations:
+  - english: hand
+    tags: []
+  - english: terminal
+    tags: []
+  valence: 0
+  xref: []
+- daemonica: tmdu
+  key: t0md0u0
+  notes: ''
+  translations:
+  - english: '25'
+    tags:
+    - number
+  valence: 2
+  xref: []
+- daemonica: tmdur
+  key: t0md0u0r
+  notes: ''
+  translations:
+  - english: standing
+    tags: []
+  valence: 2
+  xref: []
+- daemonica: tmtu
+  key: t0mt0u0
+  notes: ''
+  translations:
+  - english: root
+    tags: []
+  valence: 0
+  xref: []
+- daemonica: tmvu
+  key: t0mvu0
+  notes: ''
+  translations:
+  - english: face
+    tags: []
+  - english: front
+    tags: []
+  - english: leading edge
+    tags: []
+  valence: 0
+  xref: []
+- daemonica: tndā
+  key: t0n0d0a1
+  notes: ''
+  translations:
+  - english: copy third-from-top stack item
+    tags:
+    - prefix
+  valence: 2
+  xref: []
+- daemonica: tndu
+  key: t0n0d0u0
+  notes: ''
+  translations:
+  - english: more than…
+    tags:
+    - number
+  valence: 2
+  xref: []
+- daemonica: tndur
+  key: t0n0d0u0r
+  notes: ''
+  translations:
+  - english: '19'
+    tags:
+    - number
+  valence: 2
+  xref: []
+- daemonica: tndū
+  key: t0n0d0u1
+  notes: ''
+  translations:
+  - english: as a mass
+    tags:
+    - number
+  valence: 2
+  xref: []
+- daemonica: tŋda
+  key: t0n1d0a0
+  notes: ''
+  translations:
+  - english: canonical [base word]
+    tags:
+    - prefix
+  valence: 2
+  xref: []
+- daemonica: tŋdu
+  key: t0n1d0u0
+  notes: ''
+  translations:
+  - english: '16'
+    tags:
+    - number
+  valence: 2
+  xref: []
+- daemonica: tŋtšu
+  key: t0n1t0s1u0
+  notes: ''
+  translations:
+  - english: nest
+    tags: []
+  - english: uterus
+    tags: []
+  - english: nursery
+    tags: []
+  valence: 0
+  xref: []
+- daemonica: trdu
+  key: t0rd0u0
+  notes: ''
+  translations:
+  - english: '22'
+    tags:
+    - number
+  valence: 2
+  xref: []
+- daemonica: tsapŋždu
+  key: t0s0a0pn1z1d0u0
+  notes: ''
+  translations:
+  - english: box
+    tags: []
+  - english: stomach
+    tags: []
+  - english: oven
+    tags: []
+  valence: 0
+  xref: []
+- daemonica: tsazur
+  key: t0s0a0z0u0r
+  notes: ''
+  translations:
+  - english: tooth
+    tags: []
+  valence: 0
+  xref: []
+- daemonica: tsāstŋhū
+  key: t0s0a1s0t0n1hu1
+  notes: ''
+  translations:
+  - english: night
+    tags: []
+  valence: 0
+  xref: []
+- daemonica: tsmdu
+  key: t0s0md0u0
+  notes: ''
+  translations:
+  - english: enough
+    tags:
+    - number
+  valence: 2
+  xref: []
+- daemonica: tsur
+  key: t0s0u0r
+  notes: ''
+  translations:
+  - english: earth, soil
+    tags: []
+  valence: 0
+  xref: []
+- daemonica: tšarhu
+  key: t0s1a0rhu0
+  notes: ''
+  translations:
+  - english: rain
+    tags: []
+  valence: 0
+  xref: []
+- daemonica: tšarvu
+  key: t0s1a0rvu0
+  notes: ''
+  translations:
+  - english: gold
+    tags: []
+  - english: material resistant to corrosion
+    tags: []
+  - english: major unit of local or arbitrary currency
+    tags:
+    - measure
+  valence: 0
+  xref: []
+- daemonica: tšarvū
+  key: t0s1a0rvu1
+  notes: ''
+  translations:
+  - english: silver
+    tags: []
+  - english: minor unit of local or arbitrary currency
+    tags:
+    - measure
+  valence: 0
+  xref: []
+- daemonica: tšur
+  key: t0s1u0r
+  notes: ''
+  translations:
+  - english: city
+    tags: []
+  - english: colony (of animals)
+    tags: []
+  - english: hive
+    tags: []
+  valence: 0
+  xref: []
+- daemonica: tþnhur
+  key: t0t1n0hu0r
+  notes: ''
+  translations:
+  - english: house
+    tags: []
+  - english: building
+    tags: []
+  - english: body
+    tags: []
+  valence: 0
+  xref: []
+- daemonica: tu
+  key: t0u0
+  notes: ''
+  translations:
+  - english: you (singular)
+    tags: []
+  valence: 0
+  xref: []
+- daemonica: tur
+  key: t0u0r
+  notes: ''
+  translations:
+  - english: you (plural)
+    tags: []
+  valence: 0
+  xref: []
+- daemonica: tū
+  key: t0u1
+  notes: As a suffix, transforms “[E] chases [A]” to “[A] is chased”
+  translations:
+  - english: tea
+    tags: []
+  - english: tisane
+    tags: []
+  - english: medication
+    tags: []
+  - english: remove ergative argument of valence-2 word
+    tags:
+    - suffix
+  valence: 0
+  xref: []
+- daemonica: twhū
+  key: t0whu1
+  notes: ''
+  translations:
+  - english: tongue
+    tags: []
+  valence: 0
+  xref: []
+- daemonica: tyhur
+  key: t0yhu0r
+  notes: ''
+  translations:
+  - english: we (corporate)
+    tags: []
+  valence: 0
+  xref: []
+- daemonica: þahodur
+  key: t1a0ho0d0u0r
+  notes: ''
+  translations:
+  - english: crush, grind
+    tags: []
+  valence: 2
+  xref: []
+- daemonica: þarzur
+  key: t1a0rz0u0r
+  notes: ''
+  translations:
+  - english: dry
+    tags: []
+  valence: 2
+  xref: []
+- daemonica: þatšur
+  key: t1a0t0s1u0r
+  notes: ''
+  translations:
+  - english: louse
+    tags: []
+  valence: 0
+  xref: []
+- daemonica: þā
+  key: t1a1
+  notes: ''
+  translations:
+  - english: plural
+    tags:
+    - prefix
+  valence: 2
+  xref:
+  - þū
+- daemonica: þpardū
+  key: t1pa0rd0u1
+  notes: ''
+  translations:
+  - english: white
+    tags: []
+  - english: blue-white
+    tags: []
+  - english: happy, joyous
+    tags: []
+  valence: 2
+  xref: []
+- daemonica: þr
+  key: t1r
+  notes: ''
+  translations:
+  - english: member of taxon
+    tags:
+    - prefix
+  valence: 2
+  xref: []
+- daemonica: þu
+  key: t1u0
+  notes: ''
+  translations:
+  - english: '4'
+    tags:
+    - number
+  valence: 2
+  xref: []
+- daemonica: þu
+  key: t1u0
+  notes: ''
+  translations:
+  - english: abstraction
+    tags:
+    - suffix
+  - english: with valence-2 base, reciprocal action
+    tags:
+    - suffix
+  valence: 2
+  xref: []
+- daemonica: þū
+  key: t1u1
+  notes: ''
+  translations:
+  - english: '2'
+    tags:
+    - number
+  - english: '2'
+    tags:
+    - suffix
+  valence: 2
+  xref:
+  - þā
+- daemonica: u
+  key: u0
+  notes: ''
+  translations:
+  - english: '1'
+    tags:
+    - number
+  - english: '1'
+    tags:
+    - suffix
+  valence: 2
+  xref:
+  - a
+- daemonica: ur
+  key: u0r
+  notes: ''
+  translations:
+  - english: that
+    tags: []
+  - english: the
+    tags: []
+  - english: modal of possibility
+    tags:
+    - suffix
+  - english: irrealis mood
+    tags:
+    - suffix
+  - english: (informal) command form
+    tags:
+    - suffix
+  valence: 2
+  xref: []
+- daemonica: ū
+  key: u1
+  notes: ''
+  translations:
+  - english: this
+    tags: []
+  valence: 2
+  xref: []
+- daemonica: wðu
+  key: wd1u0
+  notes: ''
+  translations:
+  - english: '12'
+    tags:
+    - number
+  valence: 2
+  xref: []
+- daemonica: whur
+  key: whu0r
+  notes: ''
+  translations:
+  - english: yesterday
+    tags: []
+  - english: recently
+    tags: []
+  - english: in the heights
+    tags: []
+  valence: 2
+  xref: []
+- daemonica: wzur
+  key: wz0u0r
+  notes: ''
+  translations:
+  - english: per-time dimension
+    tags:
+    - number
+  valence: 2
+  xref: []
+- daemonica: yhū
+  key: yhu1
+  notes: ''
+  translations:
+  - english: gnomic aspect
+    tags:
+    - suffix
+  valence: 2
+  xref: []
+
