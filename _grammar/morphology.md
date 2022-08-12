@@ -183,10 +183,10 @@ being on the stack.
 
 >- *Abū.
 >- chase
->- ??? chased ???.[^1]
+>- ??? chased ???.[^2]
 
 
-[^1]:
+[^2]:
     This kind of formally ungrammatical
     construction might be used for poetic effect:
     at the opening of a horror
