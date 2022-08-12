@@ -156,3 +156,8 @@ is pronounced [tˈɑtoɹhoθpˌoɹduː].
 A vowel followed by ‹r› in a non-accented syllable may be realized
 as the r-colored variant of the vowel instead of as two phones:
 thus, _tatorhu_ may also be [tˈɑto˞hu].
+
+Unvoiced plosives between two other voiced phonemes may
+be realized as voiced, geminated plosives, imitating
+the fricative allophones while preserving the distinctions
+among the plosive phonemes: thus, [tˈɑdːoɹhu].

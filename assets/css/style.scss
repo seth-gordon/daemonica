@@ -94,6 +94,11 @@ section p + p { text-indent: 2em; margin-top: 0; }
 
 section p + * { margin-top: 0.5ex; }
 
+section.footnotes { padding-top: 0.5ex; border-top: 2px solid #ffe8c6; }
+
+.lexitem-0 { font-weight: bold !important; }
+.lexitem-1 { font-weight: inherit; }
+.lexitem-2 { font-style: italic !important; }
 .lexicon .valence-tag { font-size: smaller; }
 .lexicon dt { font-weight: inherit; color: #956720; }
 .lexicon dd { margin-left: 2em; }

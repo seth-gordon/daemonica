@@ -27,56 +27,49 @@ Daemonica morphemes may be divided into the following classes:
   - valence-increasing
 
 The valence of a morpheme or a word must correspond with its
-balance of voiced and unvoiced plosives.
-Valence-0 words and valence-reducing affixes must have more
-unvoiced than voiced plosives; valence-2 words and
-valence-increasing affixes must have more voiced than unvoiced
-plosives; all other words must either have no plosives at
-all, or an equal balance of voiced and unvoiced. If prefixes
+balance of /b/, /d/, /g/ and /p/, /t/, /k/ phonemes.
+Valence-0 words (such as _tatorhu_, “bear”)
+and valence-reducing affixes (such as _mta_, a stack-copying prefix)
+must have more
+in the latter group; valence-2 words (such as _abū_, “chase”) and
+valence-increasing affixes must have more in the former group;
+all other words must either have none at all (such as _vi_, a denominalization suffix)
+or have them in equal balance (such as _dntšu_, “young”). If prefixes
 and/or suffixes change the valence of their root, the combined
 word must have a balance of voiced and unvoiced plosives
 appropriate to the new valence; if necessary, an affix may be
 repeated to create this balance. Repetition of an affix does
 not change its meaning.
 
->- Tu kšu-du.
->- 2SG star-APPL
->- You are a star.
-
->- Tu tatorhu-dudu.
->- 2SG bear-APPL
->- You are a bear.
-
->- Tu tatorho-þpordū-dudu.
->- 2SG bear-white-APPL
->- You are a polar bear.
+|word |translation | valence
+|-|-|-|
+| _kšu_ | star | 0 |
+| _kšu-du_ | being a star | 1 |
+| _tatorhu_ | bear | 0 |
+| _tatorhu-dudu_ | being a bear | 1 |
+| _tatorho:þpordū-dudu_ | being a polar bear | 1 |
 
 Two words may be
 conjoined to create a new word stem. The valence of the combined
 word is determined by the
 balance of all the plosives put together. Vowel patterns can be
 used to distinguish a stem formed in this way from a stem plus an
-affix, or two distinct words.
+affix,[^1] or two distinct words.
 
->- tatorhu þpardū
->- bear white
->- a white bear
+[^1]:
+    In this grammar, for clarity, we use colons to separate the
+    roots of a word within a stem, and hyphens to separate affixes
+    from each other and from the stem they are attached to.
+    However, no form of written Daemonica makes such a distinction.
 
->- tatorhoþpordū
->- bear:white
->- a polar bear
 
->- skahmvu-ðū
->- planet-two
->- two planets
-
->- skahmvoðū
->- planet:two
->- a double-planet system
-
->- mzā-skahmvoðū
->- PN-planet:two
->- Earth
+| | |
+|-|-|
+| _tatorhu þpardū_ | white bear |
+| _tatorho:þpordū_ | polar bear |
+| _skahmvu-ðū_ | two planets |
+| _skahmvo:ðū_ | double-planet system |
+| _mzā-skahmvo:ðū_ | Earth |
 
 
 The cumulative effect of all the affixes on a

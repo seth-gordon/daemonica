@@ -3,11 +3,14 @@ layout: default
 ---
 <h2>Preliminary lexicon</h2>
 
+Entry words in <span class="lexitem-0">bold face</span> are valence-0;
+entry words in <span class="lexitem-2">italics</span> are valence-2.
+
 {% assign lexicon = site.data.lexicon | sort: "key" %}
 <dl class="lexicon">
     {% for lexitem in site.data.lexicon %}
-    <dt data-collate="{{ lexitem.key }}" class="lexitem-{{ lexitem-valence }}">
-        {{ lexitem.daemonica }} <span class="valence-tag">{{ lexitem.valence }}</span>
+    <dt id="{{ lexitem.daemonica }}" data-collate="{{ lexitem.key }}" class="lexitem-{{ lexitem.valence }}">
+        {{ lexitem.daemonica }}
     </dt>
     <dd>
         <ol class="translations">
@@ -23,7 +26,7 @@ layout: default
         {% if lexitem.xref.size > 0 %}
         <ul class="xref" role="list" title="See also">
             {% for ref in lexitem.xref %}
-            <li>{{ ref }}</li>
+            <li><a href="#{{ ref }}">{{ ref }}</a></li>
             {% endfor %}
         </ul>
         {% endif %}
