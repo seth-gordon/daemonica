@@ -39,12 +39,29 @@
        url('../fonts/GentiumPlus/GentiumPlus-BoldItalic.ttf') format('truetype');
 }
 // paletton base rgb #eeca92, 50 degree hue, complementary
+// https://paletton.com/#uid=20N0u0kcntS2TP37cCHi-opp8iK
 
-header img { border: 2px solid #956720; }
+// color names chosen based on the heraldry principle
+// "do not put a metal on a metal or a color on a color":
+// so most text is $dark-blue or $brown on a $brass background
+
+$electrum: #EECA92;	// winter hazel
+$brass: #FFF6E8;  // old lace
+$bronze: #FFE8C6;  // tequila
+$copper: #C29652;  // camel
+$brown: #956720;  // sandy taupe
+
+$silver: #647E9B;	// greyish blue
+$steel: #CCD4DE;   // iron
+$pale-blue: #95A7BC;   // gull grey
+$light-blue: #3B5B7F;   // cerulean blue
+$dark-blue: #1B3C61;   // nile blue
+
+header img { border: 2px solid $brown; }
 
 body {
-  background-color: #fff6e8;
-  color: #1b3c62;
+  background-color: $brass;
+  color: $dark-blue;
   font: 1rem/1.5 'Gentium Plus', serif;
 }
 
@@ -53,11 +70,11 @@ h3 { font-size: 1.618rem; } // phi
 h4, h5, h6 { font-size: 1.272rem; } // square root of phi
 
 section h2 {
-    background: linear-gradient(to right, #ffe8c6, transparent);
+    background: linear-gradient(to right, $bronze, transparent);
 }
 
-h1, h2, h3, h4 { color: #956720; }
-h5, h6 { color: #000 }
+h1, h2, h3, h4 { color: $brown; }
+h5, h6 { color: black; }
 
 h4, h5, h6 { font-weight: inherit; }
 h4, h5 { font-style: italic;}
@@ -67,9 +84,9 @@ h1, h2 { margin: 0 0 1ex; }
 h3, h4 { margin: 1ex 0 0.5ex; }
 h5, h6 { margin: 0.5ex 0 0; }
 
-a { color: #3b57bf; }
+a { color: $light-blue; }
 
-a:hover, a:focus { color: #95a7bc; font-weight: inherit; }
+a:hover, a:focus { color: $pale-blue; font-weight: inherit; }
 
 // prevent footnote markers from affecting the line spacing
 // https://leancrew.com/all-this/2011/12/beating-the-spread/
@@ -77,16 +94,20 @@ sup, sub { vertical-align: 0; position: relative; }
 sup { bottom: 1ex; }
 sub { top: 0.8ex; }
 
-blockquote { border-left: 0.5ex solid #ffe8c6; padding-left: 0.5ex; }
+td[align~="right"] { text-align: right; }
+td[align~="center"] { text-align: center; }
+
+blockquote { border-left: 2px solid $pale-blue; padding-left: 1em; }
 
 blockquote ul { list-style-type: none; font-style: normal; font-stretch: normal; }
+blockquote + blockquote ul { padding-top: 1ex; }
 
 blockquote ul li:nth-of-type(1) { font-style: italic; }
 blockquote ul li:nth-of-type(2) { font-size: smaller; word-spacing: 0.75ch; }
 blockquote ul li:nth-of-type(3)::before { content: open-quote; }
 blockquote ul li:nth-of-type(3)::after { content: close-quote; }
 
-ul ul { padding-left: 1ex; margin: 0; }
+ul { padding-left: 0.75ch; margin: 0 1em 0; }
 
 section p { margin: 0; }
 
@@ -94,13 +115,18 @@ section p + p { text-indent: 2em; margin-top: 0; }
 
 section p + * { margin-top: 0.5ex; }
 
-section.footnotes { padding-top: 0.5ex; border-top: 2px solid #ffe8c6; }
+section.footnotes {
+    padding: 0.5ex 0;
+    background: linear-gradient(135deg, $bronze, transparent 20%)
+}
+
+// section.footnotes::before { content: '⸻'; font-weight: bold; color: $electrum; }
 
 .lexitem-0 { font-weight: bold !important; }
 .lexitem-1 { font-weight: inherit; }
 .lexitem-2 { font-style: italic !important; }
 .lexicon .valence-tag { font-size: smaller; }
-.lexicon dt { font-weight: inherit; color: #956720; }
+.lexicon dt { font-weight: inherit; color: $brown; }
 .lexicon dd { margin-left: 2em; }
 .lexicon dd ol, .lexicon dd ul { padding-left: 0; margin-bottom: 0.5ex; }
 .lexicon dd blockquote { font-style: normal; }

@@ -6,101 +6,120 @@ order: 4
 
 ### Digits and their combination
 
-Daemonica uses a mixed-radix number system. A number is
-represented as a series of conjoined numeric morphemes. In a
-number with more than one numeral, the first is
-limited to the range from zero to four, and the
-value of the second numeral is multiplied by five. In a number
-with more than two numerals, the second is limited to
-the range from zero to five, the value of the
-third is multiplied by thirty, the value of the fourth
-syllable is multiplied by nine hundred (thirty-squared), and so
-on.
+#### Table of digit morphemes
 
-See **LINK TK** for a complete list of the numeric
-morphemes.
+|       |         |     |         |     |          |
+|------:|---------|----:|---------|----:|----------|
+| **0** | **šur** |  10 | _nhu_   |  20 | _dŋtu_   |
+| **1** | **u**   |  11 | _bmpu_  |  21 | _nžur_   |
+| **2** | **þū**  |  12 | _wðu_   |  22 | _trdu_   |
+| **3** | **šu**  |  13 | _ŋvu_   |  23 | _džrtu_  |
+|   _4_ | _þu_    |  14 | _ŋžu_   |  24 | _ŋhū_    |
+|   _5_ | _sr_    |  15 | _nhur_  |  25 | _tmdu_   |
+|     6 | _fu_    |  16 | _tŋdu_  |  26 | _kmdur_  |
+|     7 | _fr_    |  17 | _sŋžu_  |  27 | _smhū_   |
+|     8 | _su_    |  18 | _dŋpu_  |  28 | _dģmtur_ |
+|     9 | _šr_    |  19 | _tndur_ |  29 | _pndu_   |
+
+
+#### Bases
+
+Daemonica uses a mixed-radix number system. A simple numeral
+is a series of digit morphemes, arranged in order, with the
+least significant digit first. All digits from the third onward
+are in base-thirty (that is, _šaržorhu,_ zero:zero:one,
+equals thirty). The value of the lower two digits goes
+according to the following table:
+
+|     |          |     |          |     |          |
+|----:|----------|----:|----------|----:|----------|
+|   0 | _šur_    |  10 | _šar:ðū_ |  20 | _šar:ðu_ |
+|   1 | _u_      |  11 | _a:ðū_   |  21 | _a:ðu_   |
+|   2 | _þū_     |  12 | _þā:ðū_  |  22 | _þā:ðu_  |
+|   3 | _šu_     |  13 | _ša:ðū_  |  23 | _ša:ðu_  |
+|   4 | _þu_     |  14 | _þu:ðū_  |  24 | _þu:ðu_  |
+|   5 | _šar:hu_ |  15 | _šar:žu_ |  25 | _šur:zr_ |
+|   6 | _a:hu_   |  16 | _a:žu_   |  26 | _u:zr_   |
+|   7 | _þā:hu_  |  17 | _þā:žu_  |  27 | _þū:zr_  |
+|   8 | _šu:hu_  |  18 | _šu:žu_  |  28 | _šu:zr_  |
+|   9 | _þu:hu_  |  19 | _þu:žu_  |  29 | _þu:zr_  |
+
+Thus, for instance:
 
 >- Tatorhu šu.
 >- bear three
 >- There are three bears.
 
->- *Tatorhu fu.
->- bear ???
->- ???
-
->- Tatorhu ažorfu.
->- bear one:zero:six
->- There are one hundred and eighty-one bears.
-
->- Tatorhu þusr.
+>- Tatorhu þuzr.
 >- bear four:five
->- There are twenty-nine bears.
+>- There are twenty-nine (4 + 4×5) bears.
 
->- Tatorhu šaržorðū.
->- bear zero:zero:two
->- There are sixty bears.
+>- Tatorhu ažorvu.
+>- bear one:zero:six
+>- There are one hundred and eighty-one (1 + 0×5 + 6×30) bears.
 
->- Tatorhu hažodŋtu.
+>- Tatorhu ažodŋtu.
 >- bear one:three:twenty
->- There are six hundred and sixteen bears.
+>- There are six hundred and sixteen (1 + 3×5 + 20×30) bears.
 
 >- Tatorhu šaržoržoržorhu.
 >- bear zero:zero:zero:zero:one
->- There are 27,000 bears.
+>- There are 27,000 (30³) bears.
 
-**TODO** come up with non-numeric meanings for the numerals for 6–29,
-and for the pseudo-digits
-(the whole point of the mixed radix system was that when these morphemes
-don’t follow a numeric morpheme, they can be used to mean something non-numeric)
+A word that does _not_ begin with the morphemes
+_šur, u, þū,_ or _šu_ cannot be a number. Therefore,
+the morphemes for the other twenty-six digits, when
+appearing by themselves, as prefixes, or as suffixes,
+may have non-numeric meanings (if they are not simply
+nonsense syllables). “One bear” can be translated as
+_tatorhu u,_ _tahorhuhu,_ or _atatorhu_: contrast with:
 
-### Derived forms
+|                      |                      |
+|----------------------|----------------------|
+| _tatorhu šar:žor:vu_ | 180 (6×30) bears     |
+| _tatorhu fu_         | the inside of a bear |
+| _tatorhu-vu_         | carnivore            |
+| _fa-tatorhu_         | something bear-ish   |
 
-An unmarked number is a cardinal number, and is valence-1.
 
-As with any valence-1 word, the suffix _pū_ reduces it to
-valence-0.
+### Derived forms; addition; multiplication
 
->- hu-pū
->- one-NMLZ
->- one
 
-With the suffix creating a valence-2 word, a number is converted
-to a unit of measure. Certain valence-0 words are understood to
-have special meanings when used as units of measure, but any
-predicate can be placed in this position.
+An unmarked number is valence-1.
+Its absolutive argument is the number of things counted;
+if that argument is another number, it denotes multiplication.
 
->- Pu ŋtir hu-du.
->- 1SG D2\nose one-APPL
->- I am first.
+|                 |                       |
+|-----------------|-----------------------|
+| _šu-kur_        | three                 |
+| _tatorhu šu_    | three bears           |
+| _šu-kur þū_     | two times three       |
+| _tatorhu šu þū_ | two-times-three bears |
 
->- Tatorhu ū artrhir ahu-du.
->- bear PROX D2\rock one:one-APPL
->- This bear weighs 280 kilograms.
+The ergative argument of a number has two idiomatic usages.
+If it is another number, it denotes addition. If the
+absolutive argument is a
+unit of measure, then the ergative argument is the thing
+being measured and the number itself denotes the number of units.
 
->- Tu taterhi šu-du.
->- 1SG D2\bear three-APPL
->- You are worth three bears.
+|                           |                                      |
+|---------------------------|--------------------------------------|
+| _ahntur taterhi šu-du_    | a person made a pair of bears        |
+| _þu-kur taterhi šu-du_    | two-plus-three bears                 |
+| _u-kur þi-kir šu-du_      | two times three, plus one            | 
+| _tatorhu artrhir a:hu-du_ | a bear weighing 280 kg (six “rocks”) |
 
-The diminutive prefix _sā_ divides its numeric argument by
-thirty; the “opposite of” prefix _fnha_ negates; while the
-augmentative prefix dntā, ironically,
-creates a reciprocal.
 
->- Tatorhu ū sā-žaržu.
->- bear this DIM-zero:three
->- This is half a bear.
+The diminutive prefix _sā_ creates a reciprocal, except
+in the ergative position, where it negates.
 
->- Tatorhu ū fnha-ðu.
->- bear this ANTI-two
->- These are minus-two bears.
+|                          |                     |
+|--------------------------|---------------------|
+| _šu-kur sā-ðu_           | two thirds          |
+| _šu-kur sā-ði-kir smdur  | two minus three     |
+| _šur-kur sā-ði-kir smdur | negative three      |
+| _tatorhu sā-žur_         | too damn many bears | 
 
->- Tatorhu ū dntā-ðū.
->- bear this MAX-two
->- This is half a bear.
-
->- Tatorhu ū dntā-žur.
->- bear this MAX-zero
->- These are too goddamn many bears.
 
 ### Numeric prefixes and suffixes
 
@@ -129,7 +148,7 @@ prefixes are applied to a stem before suffixes.
 
 ### Pseudo-digits
 
-Certain morphemes function as \textit{pseudo-digits}: they must
+Certain morphemes function as _pseudo-digits_: they must
 follow at least one actual digit, and they either qualify the
 number they are attached to (by changing its dimensionality, or
 by converting it from a point into a range), or they express an
@@ -138,41 +157,33 @@ informal quantity.
 A digit that may be used as a suffix may also be followed by a
 pseudo-digit, as another suffix.
 
->- Tatorhu tatŋði šaržorðō-tndu gu.
->- bear D2\fish D2\zero:zero:two-more.than DNMLZ
+>- Tatorhu tatŋði šar:žor:ðō:tndu gu.
+>- bear D2\fish D2\zero:zero:two:more.than ABS
 >- A bear has over sixty fish.
 
->- Tatorhu tatŋði-hi-tsmdi gu.
->- bear D2\fish-one-enough DNMLZ
+>- Tatorhu tatŋði-hi:tsmdi gu.
+>- bear D2\fish-one:enough ABS
 >- A bear has enough fish.
 
->- Tatorhu tatŋði-ðī-tsmdi gu.
->- bear D2\fish-two-enough DNMLZ
+>- Tatorhu tatŋði-ðī:tsmdi gu.
+>- bear D2\fish-two:enough ABS
 >- A bear has too much fish.
 
-### Arithmetic
+The pseudo-digits _mhur_ and _dntur_
+change the dimension of a number.
 
-**TODO** this needs to be reworked
-
-When the object of a valence-2 number, its “unit of measure,”
-is a numeric predicate, such as a valence-0 number, the two
-values are either added or multiplied, depending on their
-dimensions. The pseudo-digits _mhur_ and _dntur_
-change the dimension of a number, allowing for the expression of
-multiplication in the arithmetic sense, or for describing the
-extent of objects in two and three dimensions.
-
->- Tatorhu þī-pī šu-du pi abū.
+>- Tatorhu þī-kur šu-du pi abū.
 >- bear D2\two-NMLZ three-APPL D2\1SG chase
->- Five bears chased me.
+>- Six bears chased me.
 
->- Tatorhu ðī-mhir-pī šu-du pi abū.
->- bear D2\two-xy.rotate-NMLZ three-APPL D2\1SG
-  chase
+>- Tatorhu þā:mhur šu pi abū.
+>- bear two:y.dimension three D2\1SG chase
 >- A two-by-three phalanx of bears chased me.
 
->- Mpšu ðī-mhir-pī šü-dnter-pē þi-di gu pi abū.
->- bird D2\two-xy.rotate-NMLZ
-  D3\three-xz.rotate-NMLZ D2\four-APPL DNMLZ
-  D2\1SG chase
+>- Mpšu þā:mhur šā:dntur þu pi abū.
+>- bird two:y.dimension three:z.dimension four D2\1SG chase
 >- A two-by-three-by-four phalanx of birds chased me.
+
+>- Tatorhu þā:tmdo:wzur pi abū.
+>- bear two:enough:per.time.dimension D2\1SG chase
+>- The number of bears chasing me were increasing too quickly.

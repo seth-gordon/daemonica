@@ -3,6 +3,9 @@ layout: grammar
 title: Variables and bindings
 order: 6
 ---
+
+### *** STOPPED HERE
+
 Consider this question and this ungrammatical fragment:
 
 >- Tatorhu kapi abū fazu?

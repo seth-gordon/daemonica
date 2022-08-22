@@ -15,18 +15,18 @@ deserves to be called metaphorical. When there is a risk of
 confusion, there are prefixes to help disambiguate the possible
 meanings.
 
->- Kāhmvu pi smdur.
->- leg D2\1SG SUBJ
+>- Kāhmvu pi gu.
+>- leg D2\1SG ABS
 >- I have legs.
 
->- Ŋha-kāhmvu pi smdur.
->- MECH-leg D2\1SG SUBJ
+>- Ŋha-kāhmvu pi gu.
+>- MECH-leg D2\1SG ABS
 >- I have a drive shaft.
 
->- Bntar-kāhmvu pi šar-smdur knbar-kāhmvi pe smdir
+>- Bntar-kāhmvu pi šar-gu knbar-kāhmvi pe gi
   dzu.
->- ORG-leg D2\1SG NEG-SUBJ D2\PROS-leg
-  D3\1SG D2\SUBJ and
+>- ORG-leg D2\1SG NEG-ABS D2\PROS-leg
+  D3\1SG D2\ABS and
 >- I don’t have legs, but I have a wheelchair.
 
 The person saying _Ŋha-kāhmvu pi smdur_ might be an auto mechanic,
@@ -103,7 +103,7 @@ phrase her ex-employer’s motivation in any of the following ways:
 >- 1SG D2\DUP-LIKE-eye-APPL
   D3\SWAP-boss D2\SWAP-ANTI-tie-PFV make
 >- I was fired because I am a woman (lit., because I belong to
-  the class of people who are primarily judged by their
+  the class of people who are judged by their
   appearance).
 
 >- Pu rta-žar-ðr-bnhir-di[^3] mzür-türtsē
@@ -120,7 +120,7 @@ phrase her ex-employer’s motivation in any of the following ways:
 >- I was fired because I belong to a landless ethnic
    group.
 
->- Pu þaðēhi-di mta-dzī[^5] mzür-türtsē
+>- Pu þaðēhi-di mta-dzī mzür-türtsē
   mzar-fnha-batŋdi-hnži dur.
 >- 1SG D2\four:two:one-NMLZ D2\OVER-friend
   D3\SWAP-boss D2\SWAP-ANTI-tie-PFV make
@@ -154,5 +154,3 @@ right.
 [^4]:
     Depending on the local culture, a _þržartsir_ could be Jewish, Roma, an Irish
     Traveller, or a member of an overseas Chinese community.
-
-[^5]: Figure it out.

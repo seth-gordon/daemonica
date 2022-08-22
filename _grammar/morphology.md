@@ -27,7 +27,7 @@ Daemonica morphemes may be divided into the following classes:
   - valence-increasing
 
 The valence of a morpheme or a word must correspond with its
-balance of /b/, /d/, /g/ and /p/, /t/, /k/ phonemes.
+balance of {/b/, /d/, /g/} and {/p/, /t/, /k/} phonemes.
 Valence-0 words (such as _tatorhu_, “bear”)
 and valence-reducing affixes (such as _mta_, a stack-copying prefix)
 must have more
@@ -58,7 +58,8 @@ affix,[^1] or two distinct words.
 
 [^1]:
     In this grammar, for clarity, we use colons to separate the
-    roots of a word within a stem, and hyphens to separate affixes
+    morphemes within a stem (these will usually not be glossed separately),
+    and hyphens to separate affixes
     from each other and from the stem they are attached to.
     However, no form of written Daemonica makes such a distinction.
 
@@ -92,31 +93,42 @@ can never be more than one step removed from its predecessor.
 
 ### Affix mini-grammar
 
-A Daemonica word stem is either a single free morpheme, or a
-sequence of conjoined morphemes that begin and end with free
-morphemes. If an affix is in the middle of this latter sequence,
-it is treated as an irreducible part of the stem, not a particle
-with grammatical
-effect.
+We might describe the internal structure of a Daemonica word
+using the following rules, in which _inflect()_ is a function
+transforming the vowels of a word according to the stack depth,
+and _stackPrefix,_ _semanticPrefix,_ _suffix,_ _pseudoDigit,_
+and _largeDigit_ are terminals listed in the lexicon:
 
->- þahodor-vō-porhnpu
->- grind-TEL-meat
+* _DepthInflectedWord_ → _inflect(Word)_
+* _Word_ → _stackPrefix_* _semanticPrefix_* _Stem_ _suffix_*
+* _Stem_ → _freeMorpheme_ | _Number_
+           _Stem_ _suffix_* _semanticPrefix_* _Stem_
+* _Number_ → _FirstDigit_ (_SecondDigit_ _AnyDigit_*)
+* _FirstDigit_ → “šur” (0) | “u” (1) | “þū” (2) | “šu” (3) | “þu” (4)
+* _SecondDigit_ → _FirstDigit_ | “sr” (5) | _pseudoDigit_
+* _AnyDigit_ → _SecondDigit_ | _largeDigit_ (digits for 6 through 29)
+
+An affix in the middle of the stem loses its
+grammatical function, and simply becomes a
+lexicalized part of the stem.
+
+>- þahodor:vō:porhnpu
+>- grind:telic:meat
 >- hamburger
 
->- þahodor-vō-porhnpu-vū
->- grind-TEL-meat-TEL
+>- þahodor:vō:porhnpu-vū
+>- grind:telic:meat-telic
 >- a finished hamburger
 
->- *þahodor-porhnpu
->- grind-meat
+>- *þahodor:porhnpu
+>- grind:meat
 >- ???
 
 When a word has multiple prefixes and/or suffixes, the cumulative
 meaning is determined, first by applying the semantics-changing
 prefixes, from right to left; then by applying the suffixes, from
 left to right; then by applying the stack-changing prefixes, from
-left to right. Stack-changing prefixes appear first in the word,
-even though they are applied last. As we have seen, the vowel
+left to right. As we have seen, the vowel
 inflection indicating stack depth is based on the valence of the
 entire word, and is applied to all morphemes of the word,
 including constituents which, themselves, have a different valence.
@@ -127,20 +139,20 @@ including constituents which, themselves, have a different valence.
 >- A bear chased me, twice.
 
 >- Tatorhu pi abū-ðū-vū.
->- bear D2\1SG chase-two-TEL
+>- bear D2\1SG chase-two-telic
 >- A bear chased me twice, culminating in my capture.
 
 >- Tatorhu pi abū-vū-ðū.
->- bear D2\1SG chase-TEL-two
+>- bear D2\1SG chase-telic-two
 >- A bear caught me twice.
 
 >- Tatorhu pi abū-vū þū.
->- bear D2\1SG chase-TEL two
+>- bear D2\1SG chase-telic two
 >- I was caught by a bear, twice (not necessarily the same
       bear both times).
 
 >- Tatorhu pi mzar-habū-vū-ðū.
->- bear D2\1SG SWAP-chase-TEL-two
+>- bear D2\1SG SWAP-chase-telic-two
 >- I caught a bear twice.
 
 >- Tatorhu pi mzar-šar-habū-ðū.
@@ -148,12 +160,12 @@ including constituents which, themselves, have a different valence.
 >- In two instances, I did not chase a bear.
 
 >- Tatorhu pi mzar-šar-tŋda-habū-vū-ðū.
->- bear D2\1SG SWAP-NEG-CANON-chase-two
+>- bear D2\1SG SWAP-NEG-canonical-chase-two
 >- In two instances, I did not, _strictly speaking_, chase
   a bear.
 
 >- *Tatorhu pi šar-mzar-tŋda-habū-vū-ðū.
->- bear D2\1SG NEG-SWAP-CANON-chase-TEL-two
+>- bear D2\1SG NEG-SWAP-canonical-chase-telic-two
 >- ???
 
 ### Valence
@@ -207,8 +219,8 @@ expressions can be translated as valence-1 words.
 >- bear D2\1SG chase yesterday
 >- A bear chased me yesterday.
 
->- Tatorhu pi abū, fmfpu-du!
->- bear D2\1SG chase blood-APPL
+>- Tatorhu pi abū, ŋģu-du!
+>- bear D2\1SG chase chaos-APPL
 >- A bear is chasing me, dammit!
 
 Valence-2 words, aside from serving the same function as
@@ -216,22 +228,43 @@ transitive verbs, can also be used to add additional arguments to
 a predicate. Some words in the valence-2 class also serve the
 function of conjunctions.
 
-TODO these have subject and object swapped?
-
->- Tatorhu pi dāfbū.
->- bear D2\1SG give
+>- Pu taterhi dāfbū.
+>- 1SG D2\bear give
 >- I gave something to a bear.
 
->- Tatorhu dāfbū dzu pi dāfbū.
->- bear D2\fish and D2\1SG give
+>- Pu taterhi tütŋðe dzi dāfbū.
+>- 1SG D2\bear D3\fish D2\and D2\1SG give
 >- I gave things to a bear and a fish.
 
->- Tatorhu pi dāfbū tatŋði sdu tahēhi dahu.
->- bear D2\1SG give D2\fish OBL
-  D2\hand INS
+>- Pu taterhi dāfbū tatŋði sdu tahēhi dahu.
+>- 1SG D2\bear give D2\fish OBL D2\hand INS
 >- I handed a fish to a bear.
 
 We will see further examples of these phenomena later.
+
+### Ergativity
+
+Compare the following two sentences:
+
+>- Tatorhu pi abū.
+>- bear D2\1SG chase
+>- A bear chased me.
+
+>- Tatorhu þpardū.
+>- bear white
+>- A bear is white.
+
+In the case of the valence-2 word _abū_, the predicate at the top of the stack
+is taken as the _object_ of “chase,” but in the case of the valence-1 word _þpardū_,
+the predicate at the top of the stack is taken as the _subject._ This is similar
+to the pattern in languages with ergative-absolutive alignment, such as Basque,
+in which the agent of a transitive verb is marked in one way (the ergative case),
+and the argument of an intransitive verb and patient of an intransitive verb are
+marked in a common, different way (the absolutive case). Therefore, we will
+sometimes refer to the top of the stack as the “absolutive” position, and the
+second-from-top as the “ergative” position; or refer to the “ergative” and “absolutive”
+arguments of a word, especially if affixes have modified its arguments; or, in
+defining a word, use “[A]” and “[E]” as placeholders for its arguments.
 
 ### Quotation
 

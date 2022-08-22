@@ -13,7 +13,7 @@ accomplished lexically in Daemonica.
 
 The valence-1 words _ū, ur, ahu_ are the proximal, medial,
 and distal demonstratives. In highly casual speech, _ur_, or
-_urkur_, its the valence-0 form, can be
+_urkur_, its valence-0 form, can be
 used to refer to a predicate that used to be on the stack; this is
 the closest Daemonica comes to having a third-person pronoun or
 a specific determiner.
@@ -28,96 +28,272 @@ a specific determiner.
 
 >- Tatorhu pi abū; ir-kir dntši dzu.
 >- bear D2\1SG chase D2\MED-NMLZ big and
->- A bear chased me; it was young.
+>- A bear chased me; it was young. (casual)
 
 >- Tatorhu pi abū; taterhi ir dntši dzu.
 >- bear D2\1SG chase D2\bear D2\MED
   D2\young and
->- A bear chased me; the bear was young.
+>- A bear chased me; the bear was young. (casual)
+
+>- Tatorhu rta-hī pe abī; mzar-dntši dzu.
+>- bear D2\COPY-PROX D3\1SG D2\CHASE D2\SWAP-young and
+>- A bear chased me; it was young.
+
+In the last example, _rta-hī_ copies the top word on the stack
+and points to it (“this bear”), so that it can be the subject
+of the next phrase, _…pe abī_. Copying the stack item to create
+the subject and going directly to the object, _tatorhu rtü-pe abī,_
+would be ungrammatical, because it would have a depth-3 word
+immediately follow a depth-1 word.
+
+### Valence-changing suffixes
+
+**TODO** update the lexicon to conform to the below
+
+#### kur (nominalizer)
+
+This is the generic nominalizer: it reduces
+the valence of the word it is attached to by one.
+When a valence-0 word is nominalized, it becomes an
+abstraction. Thus:
+
+
+|                |                                    |
+|----------------|------------------------------------|
+| _tatorhu_      | bear                               |
+| _tatorhu-kur_  | bear-ness                          |
+| _dntšu_        | [A] is young                       |
+| _dntšu-kur_    | youth                              |
+| _þū_           | two of [A]; [A], twice             |
+| _þū-kur_       | two (the number)                   |
+| _abū_          | [E] chases [A]                     |
+| _abū-kur_      | [A] either chases or is chased     |
+| _dāfbū_        | [E] gives something to [A]         |
+| _dāfbū-kurkur_ | [A] is either a donor or recipient |
+
+Note the ambiguity of _abūkur_ and _dāfbūkurkur_.
+This is true whenever a valence-2 word is modified with _kur_:
+the absolutive and ergative arguments are collapsed into the
+absolutive argument.
+
+#### tū (passive)
+
+This nominalizer is similar to the passive voice in a more
+conventional language. Applied to a valence-2 word, it drops the
+ergative argument (the subject), so the modified word only takes
+the absolutive argument. Applied to a valence-1 word, it refers to
+another word’s absolutive argument. It is also used to
+metaphorically extend valence-0 words.
+
+|              |                               |
+|--------------|-------------------------------|
+| _tatorhu_    | bear                          |
+| _tatorhu-tū_ | prey for bears                |
+| _dntšu_      | [A] is young                  |
+| _dntšu-tū_   | young person                  |
+| _þū_         | two of [A]; [A], twice        |
+| _þū-tū_      | something that comes in pairs |
+| _abū_        | [E] chases [A]                |
+| _abū-tū_     | [A] is chased                 |
+| _dāfbū_      | [E] gives something to [A]    |
+| _dāfbū-tūtū_ | [A] receives a gift           |
+
+#### pū (antipassive)
+
+This is the anti-passive: instead of dropping the ergative
+argument of a valence-2 word, it drops the absolutive argument
+and promotes the ergative argument to its place. With other words,
+it means “agent related to…”
+
+|              |                                                               |
+|--------------|---------------------------------------------------------------|
+| _tatorhu_    | bear                                                          |
+| _tatorhu-pū_ | bear expert                                                   |
+| _dntšu_      | [A] is young                                                  |
+| _dntšu-pū_   | elixir of youth; stimulant                                    |
+| _þū_         | two of [A]; [A], twice                                        |
+| _þū-pū_      | binary relationship; something that creates pairs; adding two |
+| _abū_        | [E] chases [A]                                                |
+| _abū-pū_     | [A] chases                                                    |
+| _dāfbū_      | [E] gives something to [A]                                    |
+| _dāfbū-pūpū_ | [A] gives                                                     |
+
+#### putur (infinitive)
+
+This removes _both_ arguments of a valence-2 word, simultaneously,
+or creates a higher-level abstraction for other words.
+It should be contrasted with the use of _pū_ and _tū_ in succession.
+
+|                 |                                   |
+|-----------------|-----------------------------------|
+| _tatorhu_       | bear                              |
+| _tatorhu-putur_ | the Platonic essence of bear-ness |
+| _dntšu_         | [A] is young                      |
+| _dntšu-putur_   | pediatrics; pedagogy              |
+| _þū_            | two of [A]; [A], twice            |
+| _þū-putur_      | duality                           |
+| _abū_           | [E] chases [A]                    |
+| _abū-putur_     | chase (noun)                      |
+| _abū-pū-tū_     | someone who chases                |
+| _abū-tū-pū_     | someone who is chased             |
+| _dāfbū_         | [E] gives something to [A]        |
+| _dāfbū-putur_   | giving                            |
+| _dāfbū-pū-tū_   | donor                             |
+| _dāfbū-tū-pū_   | recipient                         |
+
+#### du (applicative suffix)
+
+This adds an argument. For valence-0 words, it functions as
+a copula. For valence-1 words, it adds an agent. Since
+valence-3 words are not allowed in Daemonica, then a valence-2
+word with a _du_ suffix has an oblique argument in its
+absolutive position, substituting for the usual absolutive
+argument.
+
+|                |                                      |
+|----------------|--------------------------------------|
+| _tatorhu_      | bear                                 |
+| _tatorhu-dudu_ | [A] is a bear                        |
+| _dntšu_        | [A] is young                         |
+| _dntšu-du_     | [E] makes [A] young                  |
+| _þū_           | two of [A]; [A], twice               |
+| _þū-du_        | [E] doubles [A]; [E] plus two of [A] |
+| _abū_          | [E] chases [A]                       |
+| _abū-du_       | [E] chases someone towards [A]       |
+| _dāfbū_        | [E] gives something to [A]           |
+| _dāfbū-du_     | [E] gives [A] to someone             |
+
+#### dmdu (oblique applicative suffix)
+
+To valence-0 words, this adds an agent argument.
+To valence-1 words, this adds an oblique argument.
+To valence-2 words, this places an oblique argument in
+the ergative position.
+
+|                |                                                       |
+|----------------|-------------------------------------------------------|
+| _tatorhu_      | bear                                                  |
+| _tatorhu-dmdu_ | [A] studies bears; [A] manages bear populations       |
+| _dntšu_        | [A] is young                                          |
+| _dntšu-dmdu_   | by [E]’s standard, [A] is young                       |
+| _þū_           | two of [A]; [A], twice                                |
+| _þū-dmdu_      | [E] plus [A] times two; [A] is measured as two of [E] |
+| _abū_          | [E] chases [A]                                        |
+| _abū-dmdu_     | [A] is chased towards [E]                             |
+| _dāfbū_        | [E] gives something to [A]                            |
+| _dāfbū-dmdu_   | [A] receives the gift [E] from someone                |
+
 
 ### Case
 
-**TODO** Since the topmost stack position is used for the
-analogs of both the subject of an intransitive verb and the
-object of a transitive verb, Daemonica behaves like a language
-with ergative-absolutive alignment: the top predicate is in absolutive
-case and the second-from-top is in ergative case. The glosses and markers
-should reflect this.
+There are valence-2 words that function much like adpositions
+or case markers: they add the predicate in the absolutive
+position as an argument to the predicate in the ergative
+position. We will now consider each of these in turn.
 
-The suffixes _pū_ and _putur_ reduce a valence-1 and
-valence-2 word, respectively, to valence-0. The valence-2 word
-_gu_, which we first saw in **LINK TK**,
-treats the top predicate on the stack as if it were a valence-1
-word and applies it to the next predicate down.
+#### gu (absolutive)
 
->- Pu dntši-pī gu.
->- 1SG D2\young-NMLZ DNMLZ
+This may be thought of as reversing the _kur_ suffix:
+the predicate in the absolutive position is treated as
+the absolutive argument of whatever predicate is in the
+ergative position.
+
+>- Dntšu-kur pi gu.
+>- young-NMLZ D2\1SG ABS
 >- I am young.
 
->- Pu abi-bnhur gu.
->- 1SG D2\chase-NMLZ.2 DNMLZ
->- I chase.
+>- Abū-putur pi gu.
+>- chase-NMLZ.2 D2\1SG ABS
+>- I am chased.
 
->- Pu taterhi te abī gu.
->- 1SG D2\bear D3\1SG D2\chase DNMLZ
->- I am the cause of you being chased by a bear.
+>- Tatorhu abū-pū pi gu.
+>- bear D2\chase-ANTIP D2\1SG ABS
+>- A bear chases me.
 
-The word _smdur_, used above,
-may be thought of as the reverse of
-_gu_; the top predicate of the stack is treated as a
-subject, to be attached to the next item.
+>- Tatorhu pi abū ti gu.
+>- bear D2\1SG chase D2\2SG ABS
+>- A bear chasing me has you as its object.
 
->- Dntšu-du pi smdur.
->- young-NMLZ D2\1SG SBJ
->- I am young.
+The last example above is rather forced, but it illustrates how the
+ergative argument of _gu_ can be any predicate, not just one with a
+conveniently unoccupied slot. This can lead to grammatical but
+nonsensical phrases of the “colorless green ideas sleep furiously”
+variety, or poetry, or idiomatic construction.
 
->- Abu-putur pi smdur.
->- chase-NMLZ.2 D2\1SG SBJ
->- I chase.
+The most important idiomatic construction involving _gu_ is the genitive:
 
->- Tatorhu ti abū pi smdur.
->- bear D2\1SG chase D2\1SG SBJ
->- I am the cause of you being chased by a bear.
+>- Tatorhu ti gu pi abū.
+>- bear D2\2SG ABS D2\1SG chase
+>- Your bear chases me.
 
-When the second argument of _smdur_ or the first argument
-of _gu_ is a thing, rather than an action, it creates a
-genitive.
+#### smdur (ergative)
 
->- Tatorhu ū pi smdur.
->- bear PROX D2\1SG SBJ
->- I own this bear.
+This adds an ergative argument to a predicate (equivalent
+to the nominative or ablative case in an Indo-European language),
+or adjoins information about an agent, experiencer, or source.
 
->- Tatorhu tatēhi gu pi abu.
->- bear D2\arm NMLZ D2\1SG chase
->- A bear’s arm chases me.
+>- Abū-putur taterhi smdur.
+>- chase-NMLZ.2 D2\bear ERG
+>- A bear chases.
 
-Other valence-2 words may be used to attach additional arguments
-to a predicate. They play a role similar to prepositions or case
-markers in a more conventional language.
+>- Tu dntšu pi smdur.
+>- 2SG young D2\1SG ERG
+>- You make me young.
 
->- Abu-putur pi smdur taterhi adu pfir sdu tatsir dahu.
->- chase-NMLZ.2 D2\1SG SBJ D2\bear
-  OBJ D2\water OBL D2\wood INS
->- I chased a bear into the water with a stick.
+>- Tatorhu pi abū ti smdur.
+>- bear D2\1SG chase D2\2SG ERG
+>- It’s your fault that a bear is chasing me.
 
->- Tatorhu tatsir ī dahu.
->- bear D2\wood D2\PROX INS
->- This stick is a tool for bears.
+>- Tatorhu dmti-tī-pī smdur pi abū.
+>- bear D2\north-PASS-ANTIP ERG D2\1SG chase
+>- A bear from the South is chasing me.
 
->- Tatorhu tatsir ī adu.
->- bear D2\wood D2\PROX OBJ
->- A bear did something to this stick.
+#### sdu (oblique)
 
->- Tatsur ū taterhi adu.
->- wood PROX D2\bear OBJ
->- This stick did something to a bear.
+This word adds an oblique argument, such as an indirect object.
 
->- Tatorhu tatsir ī sdu.
->- bear D2\wood D2\PROX OBL
->- A bear has some kind of indirect relationship with this stick.
+>- Tatorhu pi abū ti sdu.
+>- bear D2\1SG chase D2\2SG OBL
+>- A bear is chasing me in your direction.
 
+>- Tu dntšu pi sdu.
+>- 2SG young D2\1SG OBL
+>- You seem young to me.
 
-### Aspect and shape
+>- Pu taterhi dāfbū tatŋði smdur.
+>- 1SG D2\bear give D2\fish OBL
+>- I give a bear a fish.
+
+#### Other case adpositions
+
+Absolutive, ergative, and oblique cases may be marked by either
+suffixes or adpositions, but other cases (or equivalents thereof)
+can only be marked by adpositions.
+
+>- Pu taterhi abū tatsir dahu.
+>- 1SG D2\bear chase wood INS
+>- I chased a bear with a stick.
+
+>- Tatorhu pi abū tšarhu bahur.
+>- bear D2\1SG chase rain LOC
+>- A bear chased me in the rain.
+
+>- Tatorhu pi abū fmfpi bmhu.
+>- bear D2\1SG chase current ADE
+>- A bear chased me near the river.
+
+>- Šmhar-tatorhu ŋģu-du pi abū!
+>- VOC-bear base-APPL D2\1SG chase
+>- Woe unto you, bear, that you chase me!
+
+>- Tatorhu ti gu-nžu pi abū šarheštir bahur-ģu.
+>- Bear D2\2SG ABS-PFV D2\1SG chase D2\house LOC-INCH
+>- The bear that used to be yours chased me into the house.
+
+The last example combines case markers with aspect markers,
+which we shall discuss next.
+
+### Mood, aspect and shape
 
 The same suffix, depending on the sort of word it is attached to,
 can either denote the shape of an object or be equivalent to the
@@ -125,17 +301,35 @@ aspect or modal marker on a verb. The “shape” referred to may be
 relative to space, or to time; context is required to determine
 which.
 
+#### sū (imperfective)
+
 >- Tatorhu pi abū-zū.
 >- bear D2\1SG chase-IPFV
 >- A bear used to be chasing me.
 
 >- Tatorhu tatsir-zī bahur.
 >- bear D2\wood-IPFV LOC
->- A bear is on a piece of plywood.
+>- A bear is on a chunk of wood.
 
 >- Tatorhu mhu-zū.
 >- bear black-IPFV
 >- A bear is black in some places.
+
+#### mhur (habitual)
+
+>- Tatorhu pi abū-mhur.
+>- bear D2\1SG chase-HAB
+>- A bear keeps chasing me.
+
+>- Tatorhu tatsir-mhir bahur.
+>- bear D2\wood-HAB LOC
+>- A bear is on a surface of wooden slats.
+
+>- Tatorhu mhu-mhur.
+>- bear black-HAB
+>- A bear has black spots.
+
+#### hnžu (perfective)
 
 >- Tatorhu pi abū-hnžu.
 >- bear D2\1SG chase-PRF
@@ -201,8 +395,8 @@ all the lesser components revolve, literally or figuratively.
   place we are accelerating away from.
 
 >- Tatorhu pi abū, ti tütŋði abī, dngzu.
->- bear D2\1SG chase D2\1SG D3\fish chase
-  after **TODO rephrase with stack operators?**
+>- bear D2\1SG chase D2\2SG D3\fish chase
+  after
 >- A bear chased me after you chased the fish, _or_  
    A bear chased me below where you chased the fish.
 
@@ -250,6 +444,18 @@ Logical connectives are valence-2 words.
 >- 1SG D2\bear flee D2\arm cost
 >- I escaped the bear, but it bit my arm off.
 
+>- Tatorhu tatŋði sudur pi abu.
+>- bear \D2fish except \D21SG chase
+>- A bear, not a fish, chased me.
+
+>- Tatorhu pi mta-hahnbzi mzür-te abī dur.
+>- bear D2\1SG D2\OVER-flee D3\SWAP-2SG D2\chase make
+>- A bear is chasing you because I escaped it.
+
+>- Tatorhu pi mta-hahnbzi mzür-te abī šdur.
+>- bear D2\1SG D2\OVER-flee D3\SWAP-2SG D2\chase uphill
+>- My escaping the bear might be the cause of it chasing you.
+
 The words _drbur_ and _darhur_ both mean “or,” but
 with different connotations. If a condemned prisoner is to be
 shot _or_ hanged at dawn, according to the warden’s
@@ -264,6 +470,48 @@ that one thing is gained _and_ another thing is lost.
 
 Even phatic expressions must conform to the stack-based
 grammatical structure.
+
+#### Cussing
+
+The word _ātsur_ has the force of the English f-word. It literally
+means “vacuum,” but it is almost never used in its literal sense
+(unless someone is at risk of being exposed to a literal vacuum,
+in which case, an English speaker would be using the
+f-word, anyway).
+
+>- Ātsur!
+>- vacuum
+>- Fuck!
+
+>- Ātsur pi abū.
+>- vacuum D2\1SG chase
+>- Some fucker is chasing me.
+
+>- Tatorhu pi ātsir-du abū.
+>- bear D2\1SG D2\vacuum-APPL chase
+>- A bear is chasing me, and I am fucked.
+
+>- Tatorhu ātsur-dmdu pi abū.
+>- bear vacuum-OBL.APPL D2\1SG chase
+>- A fucking bear is chasing me.
+
+>- Tatorhu ātsur-dmdu pi gu.
+>- bear vacuum-OBL.APPL D2\1SG APPL
+>- A bear is fucking with me.
+
+To refer politely to a literal vacuum, one can employ a euphemism.
+
+>- Tatorhu džartfir-kir gahu.
+>- bear D2\empty-NMLZ fly
+>- The bear flew into space.
+
+A milder curse, _ŋģu,_ literally means “base matter.”
+
+>- Ŋģu pi abū.
+>- junk D2\1SG chase
+>- Some piece of crap is chasing me.
+
+#### Regulatory expressions
 
 The valence-0 word _artū_ is the conventional Daemonica
 greeting. It may be

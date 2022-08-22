@@ -36,13 +36,13 @@ their turn.
 [^2]:
     Daemonica is inspired by Jeffrey
     Henning’s award-winning conlang, [Fith](https://www.frathwiki.com/Fith).
-    _Kšu admpū pi ürherpē gahi dur._
+    _Kšu admpū mtisr gahupūdmdu._
 
 For very simple sentences, this makes Daemonica resemble an SOV
 language:
 
 >- Tatorhu artir-ðī abū.
->- bear D2\1PL-two chase
+>- bear D2\1PL.INCL-two chase
 >- A bear chased[^3] both of us.
 
 [^3]:
