@@ -4,8 +4,6 @@ title: Variables and bindings
 order: 6
 ---
 
-### *** STOPPED HERE
-
 Consider this question and this ungrammatical fragment:
 
 >- Tatorhu kapi abū fazu?
@@ -22,45 +20,6 @@ on the stack, and the word _fazu_
 _binds_ it to create a wh-question. If there are unbound
 variables on the stack, as in the second example above, the
 sentence is not complete.
-
-**TODO** make forall/exists pseudo-numerals instead?
-
-The word _fazu_ binds a variable by associating it with
-“the thing the speaker is asking about.” It can also be bound
-with a universal quantifier using _nhu_, or an existential
-quantifier with _ŋžu_.
-
->- Kapu pi abū nhu.
->- WHAT D2\1SG chase FORALL
->- Everything chases me.
-
->- Kapu azu pi abū ŋžu.
->- WHAT big D2\1SG chase EXISTS
->- Something big chases me.
-
->- Kapu kapi ŋži abū nhu.
->- WHAT D2\WHAT D2\EXISTS chase FORALL
->- Everything chases something.
-
->- Tatorhu padur.
->- bear good
->- A bear is good.
-
->- Kapu tatorhu-du padur ŋži.
->- WHAT bear-APPL good EXISTS
->- Some bear is good.
-
->- Kapu tatorhu-du ŋži padur.
->- WHAT bear-APPL EXISTS good
->- The existence of at least one bear is good.
-
->- Kapu tatorhu-du padur nhu.
->- WHAT bear-APPL good FORALL
->- All bears are good.
-
->- Kapu tatorhu-du nhu padur.
->- WHAT bear-APPL FORALL good
->- The existence of all bears is good.
 
 A variable can also be bound to a particular predicate.
 
@@ -94,8 +53,8 @@ items on this other stack.
 
 >- Kapu kapi mta-gi ürter-ðē mhar-gi
     abū taterhi rdū fazu?
->- WHAT D2\WHAT D2\OVER-DNMLZ
-      D3\1PL-two D2\ROLL-DNMLZ chase
+>- WHAT D2\WHAT D2\OVER-ABS
+      D3\1PL-two D2\ROLL-ABS chase
     D2\bear WHAT Q
 >- What quality do we both share with the one who chased us,
         namely, the bear?
@@ -104,21 +63,24 @@ Free-variable markers exist for all three valences; there is
 also a special marker for (valence-1) quantities.
 
 >- Tatorhu ahur ti abū fazu?
->- bear HOW D2\1SG chase Q
+>- bear HOW D2\2SG chase Q
 >- What kind of bear chased you?
 
 >- Tatorhu ti du fazu?
->- bear D2\1SG DO Q
+>- bear D2\2SG DO Q
 >- What did a bear do to you?
 
 >- Tatorhu mhur ti abū fazu?
->- bear HOW.MUCH D2\1SG chase Q
+>- bear HOW.MUCH D2\2SG chase Q
 >- How many bears chased you?
+
+>- Tatorhu mhur pi abū a:ģi-kir rdū.
+>- bear HOW.MUCH D2\1SG chase one:some-NMLZ BIND
+>- Some number of bears chased me.
 
 If one simply wants to use a placeholder word to indicate some
 arbitrary thing, quality, or action, there is no need to
-combine free variables with _ŋžu_; there are special
-words for this purpose.
+use variables; there are special words for this purpose.
 
 >- Pazu azu pi abū.
 >- something big D2\1SG chase
@@ -143,8 +105,8 @@ depending on the nature of that “stuff.”
 
 While free variables may be used for words of all three valences,
 the word binding them,
-_rdū_, is always valence-2. Therefore, the single
-predicate at the top of the stack must be interpreted as the one
+_rdū_, is always valence-2. Its absolutive argument
+must be interpreted as the one
 binding the nearest free variable, regardless of the variable’s
 valence.
 
@@ -156,7 +118,7 @@ valence.
 >- bear HOW D2\1SG chase D2\black DUP-BIND
 >- The event of a bear chasing me was as black as the bear itself.
 
->- Tatorhu ahur pi abū mhi-pī rdū.
+>- Tatorhu ahur pi abū mhi-kir rdū.
 >- bear HOW D2\1SG chase D2\black-NMLZ BIND
 >- The bear that chased me was black.
 
@@ -195,18 +157,18 @@ reference: this construction is marked, but grammatical.
 
 >- Tatorhu fazu ti du?
 >- bear Q D2\1SG DO
->- What the hell did a bear do to you?
+>- What the heck did a bear do to you?
 
 >- Kapu pi tütærhe rdī abū.
 >- WHAT D2\1SG D3\bear D2\BIND chase
 >- Something chased—it was a bear, it chased me.
 
->- Kapu kapi fazi mta-gi dntše-pē
+>- Kapu kapi fazi mta-gi dntše-ker
     rdī ürter-ðē mhar-gi abū.
 >- WHAT D2\WHAT D2\Q
-    D2\OVER-DNMLZ D3\young-NMLZ
+    D2\OVER-ABS D3\young-NMLZ
     D2\BIND D3\1PL-two
-    D2\ROLL-DNMLZ chase
+    D2\ROLL-ABS chase
 >- Something (what was that thing?) fitting a certain
     description, that description being <q>young,</q> which
     also applies to us, chased us.
@@ -218,24 +180,24 @@ word. In the translations below, X and Y are the free variables.
 <dt>Kapu</dt> <dd>X</dd>
 <dt>Kapu kapi</dt> <dd>X / Y</dd>
 <dt>Kapu kapi fazi</dt> <dd>X / What thing?</dd>
-<dt>Kapu kapi fazi mta-vi</dt> <dd>X / What is (described by the
+<dt>Kapu kapi fazi mta-gi</dt> <dd>X / What is (described by the
 attribute) X?</dd>
-<dt>Kapu kapi fazi mta-vi dntše-pē</dt>
+<dt>Kapu kapi fazi mta-gi dntše-ker</dt>
 <dd>X / What is X? / youth</dd>
-<dt>Kapu kapi fazi mta-vi dntše-pē rdī</dt>
+<dt>Kapu kapi fazi mta-gi dntše-ker rdī</dt>
 <dd>youth / What is a young creature?</dd>
-<dt>Kapu kapi fazi mta-vi dntše-pē rdī ürter-ðē</dt>
+<dt>Kapu kapi fazi mta-gi dntše-ker rdī ürter-ðē</dt>
 <dd>youth / What is a young creature? / we two</dd>
-<dt>Kapu kapi fazi mta-vi dntše-pē rdī ürter-ðē
-mhar-vi</dt>
+<dt>Kapu kapi fazi mta-gi dntše-ker rdī ürter-ðē
+mhar-gi</dt>
 <dd>What is a young creature? / we two youths</dd>
-<dt>Kapu kapi mzar-fazi mta-vi dntše-pē
-rdī ürter-ðē mhar-vi abū.</dt>
+<dt>Kapu kapi mzar-fazi mta-gi dntše-ker
+rdī ürter-ðē mhar-gi abū.</dt>
 <dd>What young creature chased us two youths?</dd>
 </dl>
 
-Note, in particular, the line _Kapu kapi fazi mta-vi
-dntše-pē rdī._ Even though _rdū_ (_rdī_, as
+Note, in particular, the line _Kapu kapi fazi mta-gi
+dntše-ker rdī._ Even though _rdū_ (_rdī_, as
 inflected) is a valence-2 word, the replacement of “X” happened
 throughout the stack, not simply on the items that a valence-2
 word normally is restricted to affecting.

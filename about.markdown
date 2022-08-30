@@ -10,3 +10,6 @@ Such work includes:
 - [Minimal theme](https://github.com/orderedlist/minimal)
 - [Jekyll static Web framework](https://github.com/jekyll/jekyll)
 - [Gentium font family](https://software.sil.org/gentium/)
+
+Bear logo 
+courtesy [Medieval Bestiary](https://bestiary.ca/beasts/beastgallery171.htm).

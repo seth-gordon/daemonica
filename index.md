@@ -96,5 +96,5 @@ NKVD, might fancy a stiff drink.
 
 ### Other
 
-- [Lexicon]({{ site.baseurl }}/lexicon)  (very much WIP, may be out of sync with the grammar)
+- [Lexicon]({{ site.baseurl }}/lexicon)
 - [Colophon]({{ site.baseurl }}/about)

@@ -141,16 +141,16 @@ prefix _rta_ is inserted before _abū_, “chase,” it
 becomes _rtahabū_, “chasing oneself.”
 
 Note that, for example, _mpšu,_ “bird, airplane,”
-is pronounced [m̩pʃˈu], not [m͡pʃˈu]: the /m/ is treated
-as a syllable unto itself.
+is pronounced [m̩pʃu], not [m͡pʃu] or [məpʃu]:
+the /m/ is treated as a syllable unto itself.
 
-Stress falls on the first vowel of the root word, so
+Stress falls on the first vowel of the stem, so
 _tatorhu_ is pronounced [tˈɑtoɹhu], but _rtahabū_
-is pronounced [ɹ̩tɑhˈɑbuː]. In a longer word formed as a compound
+is pronounced [ɹ̩tɑhˈɑbuː]. In a longer stem formed as a compound
 of multiple roots, there may be secondary stress on the first
 vowel of the other roots, so _tatorhoþpordū_
 is pronounced [tˈɑtoɹhoθpˌoɹduː].
 
-A vowel followed by ‹r› in a non-accented syllable may be realized
+A vowel followed by /ɹ/ in a non-accented syllable may be realized
 as the r-colored variant of the vowel instead of as two phones:
 thus, _tatorhu_ may also be [tˈɑto˞hu].

@@ -30,8 +30,9 @@
   key: a0d0u0
   notes: '[A] is treated as a valence-1 word and [E] is treated as its absolute argument.'
   translations:
-  - english: adjoin absolutive case
-    tags: []
+  - english: absolutive
+    tags:
+    - case
   valence: 2
   xref:
   - gu
@@ -101,7 +102,8 @@
   notes: ''
   translations:
   - english: yonder
-    tags: []
+    tags:
+    - demonstrative
   valence: 1
   xref: []
 - daemonica: ahur
@@ -109,7 +111,8 @@
   notes: ''
   translations:
   - english: free valence-1 variable
-    tags: []
+    tags:
+    - binding
   valence: 1
   xref:
   - du
@@ -224,7 +227,8 @@
   notes: ''
   translations:
   - english: we (inclusive)
-    tags: []
+    tags:
+    - pronoun
   valence: 0
   xref:
   - pu
@@ -247,7 +251,8 @@
   notes: ''
   translations:
   - english: is to the right of
-    tags: []
+    tags:
+    - tense
   valence: 2
   xref: []
 - daemonica: arzu
@@ -292,10 +297,11 @@
   xref: []
 - daemonica: ātsur
   key: a1t0s0u0r
-  notes: Considered vulgar; usually only used as a phatic or intensifier.
+  notes: ''
   translations:
   - english: vacuum
-    tags: []
+    tags:
+    - expletive
   valence: 0
   xref:
   - džartfur
@@ -303,8 +309,9 @@
   key: ba0hu0r
   notes: ''
   translations:
-  - english: adjoin locative case
-    tags: []
+  - english: locative
+    tags:
+    - case
   - english: is simultaneous with
     tags: []
   valence: 2
@@ -330,6 +337,7 @@
   - english: emit top stack item and drop it
     tags:
     - prefix
+    - stack op
   valence: 2
   xref:
   - dzu
@@ -363,7 +371,8 @@
   notes: “A long time ago, in a galaxy far, far away…”
   translations:
   - english: very distant in time and/or space
-    tags: []
+    tags:
+    - tense
   - english: according to legend
     tags: []
   valence: 1
@@ -403,8 +412,9 @@
   key: bmhu0
   notes: ''
   translations:
-  - english: adjoin adessive (near…) case
-    tags: []
+  - english: adessive (near…)
+    tags:
+    - case
   - english: add argument for “X wants…”
     tags:
     - suffix
@@ -488,8 +498,9 @@
   key: d0a0hu0
   notes: ''
   translations:
-  - english: adjoin instrumental case
-    tags: []
+  - english: instrumental
+    tags:
+    - case
   valence: 2
   xref:
   - adu
@@ -519,7 +530,8 @@
   notes: ''
   translations:
   - english: or (in sense of options)
-    tags: []
+    tags:
+    - logic
   valence: 2
   xref:
   - bar
@@ -575,7 +587,7 @@
   xref: []
 - daemonica: dģmtur
   key: d0g1mt0u0r
-  notes: ''
+  notes: <em>not</em> considered an expletive
   translations:
   - english: waste
     tags: []
@@ -590,13 +602,21 @@
   xref: []
 - daemonica: dmdu
   key: d0md0u0
-  notes: ''
+  notes: As a suffix, transforms “[A] is a bear” to “[A] is involved with bears”;
+    transforms “[E] chases [A]” to “[A] is chased towards [E]”
   translations:
   - english: is to the north of
-    tags: []
+    tags:
+    - tense
   - english: is magnetically attracted to
     tags: []
-  - english: add argument for “X generates…”
+  - english: add agent argument to valence-0 word
+    tags:
+    - suffix
+  - english: add oblique argument to valence-1 word
+    tags:
+    - suffix
+  - english: put oblique argument in ergative position of valence-2 word
     tags:
     - suffix
   valence: 2
@@ -621,7 +641,8 @@
   notes: ''
   translations:
   - english: happens after
-    tags: []
+    tags:
+    - tense
   - english: is below
     tags: []
   valence: 2
@@ -747,7 +768,8 @@
   notes: ''
   translations:
   - english: or (in sense of randomness)
-    tags: []
+    tags:
+    - logic
   valence: 2
   xref:
   - bar
@@ -770,13 +792,16 @@
   xref: []
 - daemonica: du
   key: d0u0
-  notes: As a suffix applied to valence-0 words this functions as a copula (“[A] is
-    a bear”); applied to valence-1 words, the extended meaning depends on the base
-    (“[E] is hungry for [A]”).
+  notes: As a suffix, transforms “bear” to “[A] is a bear,” and “[E] chases [A]” to
+    “[E] chases someone towards [A].”
   translations:
   - english: free valence-2 variable
-    tags: []
-  - english: add argument
+    tags:
+    - binding
+  - english: add argument to valence-0 and valence-1 word
+    tags:
+    - suffix
+  - english: put oblique argument in absolutive position of valence-2 word
     tags:
     - suffix
   valence: 2
@@ -792,9 +817,11 @@
   - english: do, make
     tags: []
   - english: is the cause of
-    tags: []
+    tags:
+    - tense
   - english: is implied by
-    tags: []
+    tags:
+    - logic
   valence: 2
   xref: []
 - daemonica: dwtū
@@ -823,9 +850,11 @@
   notes: ''
   translations:
   - english: and
-    tags: []
+    tags:
+    - logic
   - english: simultaneously
-    tags: []
+    tags:
+    - tense
   valence: 2
   xref:
   - bar
@@ -917,7 +946,8 @@
   - english: are independent of each other
     tags: []
   - english: are either simultaneous or not depending on one’s frame of reference
-    tags: []
+    tags:
+    - tense
   valence: 2
   xref: []
 - daemonica: fmfpu
@@ -1039,10 +1069,13 @@
   xref: []
 - daemonica: gu
   key: g0u0
-  notes: '[A] is treated as a valence-1 word and [E] is treated as its absolute argument.'
+  notes: '[E] is treated as a valence-1 word and [A] is treated as its absolute argument;
+    alternatively, if [E] can be interpreted as something capable of possession, [A]
+    is treated as the possessed object.'
   translations:
-  - english: apply top item to second item
-    tags: []
+  - english: absolutive or genitive
+    tags:
+    - case
   valence: 2
   xref:
   - adu
@@ -1079,10 +1112,15 @@
   xref: []
 - daemonica: ģu
   key: g1u0
-  notes: ''
+  notes: '<i>šurģu</i>: none; <i>uģu</i>: some; <i>þūģu</i>: a significant number;
+    <i>šuģu</i>: all'
   translations:
   - english: performative speech act
-    tags: []
+    tags:
+    - phatic
+  - english: universal or existential quantifier
+    tags:
+    - number
   - english: top side
     tags:
     - suffix
@@ -1096,7 +1134,7 @@
   - mhur
   - nžu
   - sur
-  - sū
+  - szū
 - daemonica: kapu
   key: k0a0pu0
   notes: ''
@@ -1180,9 +1218,8 @@
   xref: []
 - daemonica: kur
   key: k0u0r
-  notes: As a suffix, transforms “[A] is hungry” to “hungry person”, or “[E] chases
-    [A]” to “a person chased by [A]” Note that when applied to a valence-2 word, the
-    ergative argument becomes the absolute argument.
+  notes: As a suffix, transforms “[A] is hungry” to “hunger”, or “[E] chases [A]”
+    to “[A] is involved in a chase.”
   translations:
   - english: foot
     tags: []
@@ -1193,7 +1230,10 @@
   - english: traditional foot (approx. 30 cm)
     tags:
     - measure
-  - english: nominalize absolute argument
+  - english: reduce valence
+    tags:
+    - suffix
+  - english: derive abstraction from valence-0 word
     tags:
     - suffix
   valence: 0
@@ -1208,6 +1248,7 @@
   - english: drop top stack item
     tags:
     - prefix
+    - stack op
   valence: 2
   xref:
   - bar
@@ -1230,6 +1271,7 @@
   - english: roll third stack item to top
     tags:
     - prefix
+    - stack op
   valence: 1
   xref:
   - tndā
@@ -1266,17 +1308,16 @@
   notes: ''
   translations:
   - english: free numeric (valence-1) variable
-    tags: []
+    tags:
+    - binding
   - english: y-dimension
     tags:
     - number
-  - english: habitual or iterative aspect
+  - english: habitual
     tags:
     - suffix
-  - english: irregularly shaped
-    tags:
-    - suffix
-  - english: stippled or irregular quality
+    - aspect
+  - english: striped, tessellated, or otherwise patterned shape or quality
     tags:
     - suffix
   valence: 1
@@ -1293,7 +1334,7 @@
   - ģu
   - nžu
   - sur
-  - sū
+  - szū
 - daemonica: mpšu
   key: mps1u0
   notes: ''
@@ -1311,6 +1352,7 @@
   - english: copy second-from-top stack item
     tags:
     - prefix
+    - stack op
   valence: 0
   xref:
   - tndā
@@ -1344,6 +1386,7 @@
   - english: swap top two stack items
     tags:
     - prefix
+    - stack op
   valence: 1
   xref:
   - tndā
@@ -1367,7 +1410,8 @@
   notes: ''
   translations:
   - english: a circular path around [E] which contains [A]
-    tags: []
+    tags:
+    - geometry
   - english: a circular path around [E} with radius [A]
     tags: []
   valence: 2
@@ -1386,8 +1430,6 @@
   key: n0hu0
   notes: ''
   translations:
-  - english: universal quantifier
-    tags: []
   - english: '10'
     tags:
     - number
@@ -1411,9 +1453,10 @@
   - english: diminutive
     tags:
     - suffix
-  - english: perfective aspect
+  - english: perfective
     tags:
     - suffix
+    - aspect
   valence: 1
   xref:
   - wža
@@ -1421,7 +1464,7 @@
   - ģu
   - mhur
   - sur
-  - sū
+  - szū
 - daemonica: nžur
   key: n0z1u0r
   notes: ''
@@ -1435,12 +1478,11 @@
   xref: []
 - daemonica: ŋģu
   key: n1g1u0
-  notes: considered vulgar
+  notes: ''
   translations:
-  - english: base matter
-    tags: []
-  - english: form without substance
-    tags: []
+  - english: base matter, form without substance
+    tags:
+    - expletive
   valence: 1
   xref: []
 - daemonica: ŋha
@@ -1493,8 +1535,6 @@
   key: n1z1u0
   notes: ''
   translations:
-  - english: existential quantifier
-    tags: []
   - english: '14'
     tags:
     - number
@@ -1654,7 +1694,8 @@
   notes: ''
   translations:
   - english: I, me (singular)
-    tags: []
+    tags:
+    - pronoun
   valence: 0
   xref:
   - tu
@@ -1676,7 +1717,7 @@
   xref: []
 - daemonica: putur
   key: pu0t0u0r
-  notes: As a suffix, transforms “[E] chases [A]” (the verb) to “chase” (the noun).
+  notes: As a suffix, transforms “chase” (the transitive verb) to “chase” (the noun).
   translations:
   - english: iron
     tags: []
@@ -1690,8 +1731,7 @@
   - tū
 - daemonica: pū
   key: pu1
-  notes: As a suffix, transforms “[A] is hungry” to “hunger,” or “[E] chases [A]”
-    to “[A] chases someone unspecified”.
+  notes: As a suffix, transforms “[E] chases [A]” to “[A] chases”
   translations:
   - english: metal
     tags: []
@@ -1699,8 +1739,7 @@
     tags: []
   - english: lead
     tags: []
-  - english: remove absolute argument (in valence-2 words, demoting ergative argument
-      to absolute)
+  - english: antipassivizer
     tags:
     - suffix
   valence: 0
@@ -1726,7 +1765,8 @@
   notes: ''
   translations:
   - english: bind free variable
-    tags: []
+    tags:
+    - binding
   valence: 2
   xref:
   - ahur
@@ -1740,6 +1780,7 @@
   - english: copy top stack item
     tags:
     - prefix
+    - stack op
   valence: 0
   xref:
   - tndā
@@ -1751,7 +1792,7 @@
   - smda
 - daemonica: rtu
   key: rt0u0
-  notes: ''
+  notes: <em>not</em> considered an expletive
   translations:
   - english: genitals (male or female)
     tags: []
@@ -1766,7 +1807,7 @@
   xref: []
 - daemonica: rvur
   key: rvu0r
-  notes: In numeric form, usually appears with ordinal modifier to mean “last.”
+  notes: In numeric form, usually appears with ordinal unit of measure to mean “last.”
   translations:
   - english: finality
     tags:
@@ -1774,6 +1815,7 @@
   - english: modal of necessity
     tags:
     - suffix
+    - mood
   valence: 1
   xref: []
 - daemonica: sa
@@ -1866,8 +1908,9 @@
   key: s0d0u0
   notes: ''
   translations:
-  - english: adjoin oblique/ablative/dative case
-    tags: []
+  - english: oblique or dative
+    tags:
+    - case
   valence: 2
   xref:
   - adu
@@ -1880,10 +1923,9 @@
   key: s0d0u0r
   notes: ''
   translations:
-  - english: precedes
-    tags: []
-  - english: is above
-    tags: []
+  - english: precedes, is above
+    tags:
+    - tense
   valence: 2
   xref:
   - whur
@@ -1932,10 +1974,11 @@
   key: s0mbu0
   notes: ''
   translations:
-  - english: costs
+  - english: costs, may be exchanged for
     tags: []
-  - english: may be exchanged for
-    tags: []
+  - english: linear implication
+    tags:
+    - logic
   valence: 2
   xref:
   - bar
@@ -1962,6 +2005,7 @@
   - english: drop second-from-top stack item
     tags:
     - prefix
+    - stack op
   valence: 2
   xref:
   - tndā
@@ -1975,8 +2019,9 @@
   key: s0md0u0r
   notes: ''
   translations:
-  - english: adjoin ergative or genitive case
-    tags: []
+  - english: ergative or ablative
+    tags:
+    - case
   valence: 2
   xref:
   - adu
@@ -2049,8 +2094,9 @@
   key: s0prd0u1
   notes: ''
   translations:
-  - english: (phatic) speaker yields turn
-    tags: []
+  - english: speaker yields turn
+    tags:
+    - phatic
   valence: 1
   xref: []
 - daemonica: sr
@@ -2060,15 +2106,10 @@
   - english: '5'
     tags:
     - number
-  - english: very brief
+  - english: very brief, very small, infinitesimal
     tags:
     - suffix
-  - english: very small
-    tags:
-    - suffix
-  - english: infinitesimal
-    tags:
-    - suffix
+    - aspect
   valence: 1
   xref: []
 - daemonica: stmtur
@@ -2128,9 +2169,10 @@
   - english: bottom side
     tags:
     - suffix
-  - english: cessative aspect (to finish X)
+  - english: cessative (finishing [A])
     tags:
     - suffix
+    - aspect
   valence: 1
   xref:
   - wža
@@ -2138,7 +2180,7 @@
   - ģu
   - mhur
   - nžu
-  - sū
+  - szū
 - daemonica: sū
   key: s0u1
   notes: ''
@@ -2146,17 +2188,15 @@
   - english: very large or flat shape
     tags:
     - suffix
-  - english: imperfective aspect
+  - english: stippled or irregular quality
     tags:
     - suffix
+  - english: imperfective
+    tags:
+    - suffix
+    - aspect
   valence: 1
-  xref:
-  - wža
-  - yhū
-  - ģu
-  - mhur
-  - nžu
-  - sur
+  xref: []
 - daemonica: ša
   key: s1a0
   notes: ''
@@ -2208,7 +2248,8 @@
   notes: ''
   translations:
   - english: is to the left of
-    tags: []
+    tags:
+    - tense
   valence: 2
   xref: []
 - daemonica: šdur
@@ -2216,13 +2257,17 @@
   notes: ''
   translations:
   - english: is uphill from
-    tags: []
+    tags:
+    - tense
   - english: is upstream from
-    tags: []
+    tags:
+    - tense
   - english: is upstairs from
-    tags: []
+    tags:
+    - tense
   - english: is a possible but not definite cause of
-    tags: []
+    tags:
+    - tense
   - english: add argument for “X believes…”
     tags:
     - suffix
@@ -2241,9 +2286,10 @@
   key: s1mha0r
   notes: ''
   translations:
-  - english: vocative case marker
+  - english: vocative
     tags:
     - prefix
+    - case
   valence: 1
   xref: []
 - daemonica: šmhu
@@ -2304,6 +2350,7 @@
   - english: y/n question
     tags:
     - prefix
+    - mood
   valence: 1
   xref: []
 - daemonica: štābŋtþū
@@ -2345,10 +2392,9 @@
   key: s1u0d0u0r
   notes: '[E] is true, [A] is false'
   translations:
-  - english: and not
-    tags: []
-  - english: except
-    tags: []
+  - english: and not, except for
+    tags:
+    - logic
   valence: 2
   xref:
   - bar
@@ -2383,7 +2429,8 @@
   notes: ''
   translations:
   - english: a road, path, or line with source [E] and destination [A]
-    tags: []
+    tags:
+    - geometry
   - english: a location at distance [A] from [E]
     tags: []
   valence: 2
@@ -2425,7 +2472,8 @@
   notes: ''
   translations:
   - english: we (exclusive)
-    tags: []
+    tags:
+    - pronoun
   valence: 0
   xref:
   - pu
@@ -2600,6 +2648,7 @@
   - english: copy third-from-top stack item
     tags:
     - prefix
+    - stack op
   valence: 1
   xref:
   - bar
@@ -2696,6 +2745,7 @@
   - english: with intention
     tags:
     - suffix
+    - mood
   valence: 1
   xref: []
 - daemonica: trha
@@ -2836,7 +2886,8 @@
   notes: ''
   translations:
   - english: you (plural)
-    tags: []
+    tags:
+    - pronoun
   valence: 0
   xref:
   - pu
@@ -2846,7 +2897,8 @@
   - artur
 - daemonica: tū
   key: t0u1
-  notes: As a suffix, transforms “[E] chases [A]” to “[A] is chased”
+  notes: As a suffix, transforms “[A] is young” to “someone young,” and “[E] chases
+    [A]” to “[A] is chased”
   translations:
   - english: tea
     tags: []
@@ -2854,7 +2906,7 @@
     tags: []
   - english: medication
     tags: []
-  - english: remove ergative argument of valence-2 word
+  - english: passivizer
     tags:
     - suffix
   valence: 0
@@ -2875,7 +2927,8 @@
   notes: ''
   translations:
   - english: we (corporate)
-    tags: []
+    tags:
+    - pronoun
   valence: 0
   xref:
   - pu
@@ -2951,12 +3004,6 @@
   - english: '4'
     tags:
     - number
-  - english: abstraction
-    tags:
-    - suffix
-  - english: with valence-2 base, reciprocal action
-    tags:
-    - suffix
   valence: 1
   xref: []
 - daemonica: þū
@@ -2990,18 +3037,12 @@
   notes: ''
   translations:
   - english: that
-    tags: []
-  - english: the
-    tags: []
-  - english: modal of possibility
+    tags:
+    - demonstrative
+  - english: possibility, irrealis, (informal) command form
     tags:
     - suffix
-  - english: irrealis mood
-    tags:
-    - suffix
-  - english: (informal) command form
-    tags:
-    - suffix
+    - mood
   valence: 1
   xref:
   - ū
@@ -3011,7 +3052,8 @@
   notes: ''
   translations:
   - english: this
-    tags: []
+    tags:
+    - demonstrative
   valence: 1
   xref:
   - ur
@@ -3043,11 +3085,14 @@
   notes: ''
   translations:
   - english: yesterday
-    tags: []
+    tags:
+    - tense
   - english: recently
-    tags: []
+    tags:
+    - tense
   - english: in the heights
-    tags: []
+    tags:
+    - tense
   valence: 1
   xref:
   - arhur
@@ -3093,6 +3138,7 @@
   - english: again
     tags:
     - prefix
+    - aspect
   valence: 1
   xref:
   - yhū
@@ -3100,14 +3146,15 @@
   - mhur
   - nžu
   - sur
-  - sū
+  - szū
 - daemonica: yhū
   key: yhu1
   notes: ''
   translations:
-  - english: gnomic aspect
+  - english: gnomic
     tags:
     - suffix
+    - aspect
   valence: 1
   xref:
   - wža
@@ -3115,5 +3162,5 @@
   - mhur
   - nžu
   - sur
-  - sū
+  - szū
 

@@ -82,8 +82,9 @@ _tatorhu u,_ _tahorhuhu,_ or _atatorhu_: contrast with:
 | _fa-tatorhu_         | something bear-ish   |
 
 
-### Derived forms; addition; multiplication
+### Derived forms
 
+#### Arithmetic operations; measurements; ordinals
 
 An unmarked number is valence-1.
 Its absolutive argument is the number of things counted;
@@ -108,22 +109,23 @@ being measured and the number itself denotes the number of units.
 | _þu-kur taterhi šu-du_    | two-plus-three bears                 |
 | _u-kur þi-kir šu-du_      | two times three, plus one            | 
 | _tatorhu artrhir a:hu-du_ | a bear weighing 280 kg (six “rocks”) |
+| _tatorhu ŋtir a:hu-du_    | the sixth bear                       |
 
 
 The diminutive prefix _sā_ creates a reciprocal, except
 in the ergative position, where it negates.
 
-|                          |                     |
-|--------------------------|---------------------|
-| _šu-kur sā-ðu_           | two thirds          |
-| _šu-kur sā-ði-kir smdur  | two minus three     |
-| _šur-kur sā-ði-kir smdur | negative three      |
-| _tatorhu sā-žur_         | too damn many bears | 
+|                           |                     |
+|---------------------------|---------------------|
+| _šu-kur sā-ðu_            | two thirds          |
+| _šu-kur sā-ði-kir smdur_  | two minus three     |
+| _šur-kur sā-ði-kir smdur_ | negative three      |
+| _tatorhu sā-žur_          | too damn many bears | 
 
 
-### Numeric prefixes and suffixes
+#### Numeric prefixes and suffixes
 
-The numeric morphemes _šur, hu, þū, šu_ can also appear as
+The numeric morphemes _šur, u, þū, šu_ can also appear as
 prefixes or suffixes (with appropriate morphophonemic
 modification). As suffixes, they denote their exact value. As
 prefixes, they denote, respectively, negation, singular, plural,
@@ -151,8 +153,8 @@ prefixes are applied to a stem before suffixes.
 Certain morphemes function as _pseudo-digits_: they must
 follow at least one actual digit, and they either qualify the
 number they are attached to (by changing its dimensionality, or
-by converting it from a point into a range), or they express an
-informal quantity.
+by converting it from a point into a range), or they express a
+non-arithmetic quantity.
 
 A digit that may be used as a suffix may also be followed by a
 pseudo-digit, as another suffix.
@@ -168,6 +170,22 @@ pseudo-digit, as another suffix.
 >- Tatorhu tatŋði-ðī:tsmdi gu.
 >- bear D2\fish-two:enough ABS
 >- A bear has too much fish.
+
+The pseudo-digit _ģu_ is used for logical quantification.
+
+|                     |                               |
+|---------------------|-------------------------------|
+| _tatorhu šar:ģu_    | no bears (¬∃ bear)            |
+| _tatorhu a:ģu_      | some bear (∃ bear)            |
+| _tatorhu þa:ģu_     | a significant number of bears |
+| _tatorhu ša:ģu_     | all bears (∀ bear)            |
+| _tatorhu šar-ža:ģu_ | not all bears (¬∀ bear)       |
+
+Note that in the first line of the above table, _šar_ is being used as
+a digit (zero), whereas in the last line, it is being used as a prefix
+(negation). If it were a digit in the last line, then the word would
+be _šar:žo:ģu_ (fifteen _ģu_—morphologically correct, albeit lexically
+nonsense), and the accent would be on the first syllable.
 
 The pseudo-digits _mhur_ and _dntur_
 change the dimension of a number.
