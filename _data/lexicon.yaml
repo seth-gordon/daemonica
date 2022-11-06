@@ -121,15 +121,6 @@
   - rdū
   - ū
   - ur
-- daemonica: ar
-  key: a0r
-  notes: ''
-  translations:
-  - english: color/shape/sound/smell of a…
-    tags:
-    - prefix
-  valence: 1
-  xref: []
 - daemonica: ardortur
   key: a0rd0o0rt0u0r
   notes: ''
@@ -480,10 +471,13 @@
   xref: []
 - daemonica: bur
   key: bu0r
-  notes: ''
+  notes: As a suffix, transforms “bear” to “[A] is brown.”
   translations:
   - english: is the name of
     tags: []
+  - english: color/shape/sound of base word
+    tags:
+    - suffix
   valence: 2
   xref: []
 - daemonica: dahoždu
@@ -824,6 +818,14 @@
     - logic
   valence: 2
   xref: []
+- daemonica: dwpfu
+  key: d0wpfu0
+  notes: ''
+  translations:
+  - english: hot
+    tags: []
+  valence: 1
+  eref: []
 - daemonica: dwtū
   key: d0wt0u1
   notes: ''
@@ -1057,6 +1059,14 @@
     tags: []
   valence: 2
   xref: []
+- daemonica: gapu
+  key: g0a0pu0
+  notes: ''
+  translations:
+  - english: cold
+    tags: []
+  valence: 1
+  xref: []
 - daemonica: gģur
   key: g0g1u0r
   notes: ''
@@ -1189,6 +1199,14 @@
   xref:
   - ŋha
   - bntar
+- daemonica: krbur
+  key: krbu0r
+  notes: Transforms “[A] is cloudy” to “[A] is the color of clouds.”
+  translations:
+  - english: color/shape/sound of base word
+    tags:
+    - suffix
+  valence: 1
 - daemonica: krtu
   key: k0rt0u0
   notes: ''
@@ -1688,6 +1706,14 @@
   - english: electrically charged
     tags: []
   valence: 1
+  xref: []
+- daemonica: pþavur
+  key: pt1a0vu0r
+  notes: ''
+  translations:
+  - english: copper
+    tags: []
+  valence: 0
   xref: []
 - daemonica: pu
   key: pu0
@@ -2558,6 +2584,15 @@
   - english: stick
     tags: []
   - english: lumber
+    tags: []
+  valence: 0
+  xref: []
+- daemonica: tatožur
+  key: t0a0t0o0z1u0r
+  translations:
+  - english: leaf
+    tags: []
+  - english: canopy
     tags: []
   valence: 0
   xref: []

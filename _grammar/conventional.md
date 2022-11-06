@@ -48,8 +48,6 @@ immediately follow a depth-1 word.
 
 ### Valence-changing suffixes
 
-**TODO** update the lexicon to conform to the below
-
 #### kur (nominalizer)
 
 This is the generic nominalizer: it reduces
@@ -163,6 +161,30 @@ argument.
 | _dāfbū_        | [E] gives something to [A]           |
 | _dāfbū-du_     | [E] gives [A] to someone             |
 
+#### bur, krbur (descriptive applicative suffixes)
+
+These derive
+words for colors, sounds, and other sensory descriptions: _bur_ increases the
+valence of the base word, while _krbur_ leaves it constant. These suffixes are
+almost always used to produce valence-1 words; if the result is valence-2, the
+ergative argument of the derived word is the experiencer who is sensing
+the color or sound or other attribute.
+
+|                   |                                                         |
+|-------------------|---------------------------------------------------------|
+| _tatorhu_         | bear                                                    |
+| _tatorhu-burbur_  | [A] is brown                                            |
+| _dntšu_           | [A] is young                                            |
+| _dntšu-krbur_     | [A] looks cute                                          |
+| _þū_              | two of [A]; [A], twice                                  |
+| _þū-bur_          | from [E]’s perspective, [A] has a twin structure        |
+| _þū-krbur_        | [A] has a twin structure                                |
+| _abū_             | [E] chases [A]                                          |
+| _abū-putur-bur_   | [A] is out of breath (like someone involved in a chase) |
+| _dāfbū_           | [E] gives something to [A]                              |
+| _dāfbū-tūtū-kbur_ | [A] wears expensive clothes (like a wealthy person)     |
+| _dāfbū-pūpū-kbur_ | [A] has a sanguine attitude (like a generous person)    |
+
 #### dmdu (oblique applicative suffix)
 
 To valence-0 words, this adds an agent argument.
@@ -244,8 +266,8 @@ or adjoins information about an agent, experiencer, or source.
 >- bear D2\1SG chase D2\2SG ERG
 >- It’s your fault that a bear is chasing me.
 
->- Tatorhu dmti-tī-pī smdur pi abū.
->- bear D2\north-PASS-ANTIP ERG D2\1SG chase
+>- Tatorhu dmti-pī-tī smdur pi abū.
+>- bear D2\north-ANTIP-PASS ERG D2\1SG chase
 >- A bear from the South is chasing me.
 
 #### sdu (oblique)

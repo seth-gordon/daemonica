@@ -11,3 +11,9 @@ collections:
       - conventional.md
       - morphology.md
       - numbers.md
+  texts:
+    output: true
+    permalink: /:collection/:name
+    order:
+      - udhr.md
+      - babel.md

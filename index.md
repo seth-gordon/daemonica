@@ -56,7 +56,7 @@ same word is used as an argument more than once, prefixes can be
 used to change the word’s valence, invert the argument order, or
 manipulate the stack:
 
->- Dntšu-pū taterhi mta-vi ürter-ðē mhar-vi abū.
+>- Dntšu-pū taterhi mta-gi ürter-ðē mhar-gi abū.
 >- young-NMLZ D2\bear D2\OVER-DNMLZ D3\2PL-TWO D2\ROLL-DNMLZ chase
 >- A bear, who is young like we are, chased both of us.
 
@@ -68,11 +68,9 @@ Every word is inflected, by changing its vowels, to indicate the
 current depth of the stack: hence _tatorhu_
 vs. _taterhi_.
 
-In normal conversation, the stack may only reach a depth of three
-or four levels. Even this places a burden on a normal human’s
-short-term memory. (Consider the technically-grammatical English
-noun phrase _a man that a woman that a child that a bird
-that I heard saw knows loves._) True adepts can speak fluently to
+Daemonica casual conversation heard by a person for whom recursive linguistic
+structures cause the short-term memory to balk at four stack levels
+induce frustration even when typical for it. True adepts can speak fluently to
 a depth of over twenty levels. The community of Daemonica
 speakers is partly a secret society, in which proficiency in this
 language is the coin of admission, and partly an ethnic group,
@@ -85,14 +83,17 @@ NKVD, might fancy a stiff drink.
 
 ### Reference grammar
 
-{% assign pages = site.grammar | sort: "order" %}
-{% for page in pages %}
+{% assign gpages = site.grammar | sort: "order" %}
+{% for page in gpages %}
 - [{{ page.title }}]({{ site.baseurl }}{{ page.url }})
 {% endfor %}
 
 ### Sample texts
 
-> **TODO**
+{% assign tpages = site.texts | sort: "order" %}
+{% for page in tpages %}
+- [{{ page.title}}]({{ site.baseurl }}{{ page.url }})
+{% endfor %}
 
 ### Other
 

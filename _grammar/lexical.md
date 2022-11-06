@@ -79,6 +79,34 @@ related one, a co-hyponym.
 >- panda D2\1SG chase
 >- A panda chased me.
 
+### Colors
+
+Daemonica has three basic color words: _mhu_ (black),
+_þpardū_ (white, gray, bright yellow, or pale blue), and
+_barhŋtu_ (orange or any shade of red). All other color terms
+must be derived.
+
+|                                                         |                   |                 |
+|---------------------------------------------------------|-------------------|-----------------|
+| <span title="purple" style="color: purple">█</span>     | _barhŋtu-vr_      | noble red       |
+| <span title="maroon" style="color: maroon">█</span>     | _barhŋto:gopu_    | cold red        |
+| <span title="red" style="color: red">█</span>           | _tŋda-barhŋtu_    | exactly red     |
+| <span title="orange" style="color: orange">█</span>     | _barhŋto:dwpfu_   | hot red         |
+| <span title="yellow" style="color: yellow">█</span>     | _þpardō:gopu_     | cold white      |
+| <span title="white" style="color: white">█</span>       | _tŋda-þpardū_     | exactly white   |
+| <span title="cyan" style="color: aqua">█</span>         | _þpardō:dwpfu_    | hot white       |
+| <span title="magenta" style="color: fuchsia">█</span>   | _fnha-þpardū_     | anti-white      |
+| <span title="black" style="color: black">█</span>       | _mhu_             | black           |
+| <span title="gray" style="color: gray">█</span>         | _mhu:þpordū_      | black-white     |
+| <span title="silver" style="color: silver">█</span>     | _tšarvu-bur_      | silver-like     |
+| <span title="green" style="color: green">█</span>       | _tatožur-burbur_  | leaf-like       |
+| <span title="lime green" style="color: lime">█</span>   | _pþavur-bur_      | copper-like     |
+| <span title="olive green" style="color: olive">█</span> | _tsur-bur_        | dirt-like       |
+| <span title="navy blue" style="color: navy">█</span>    | _tsāstŋhū-burbur_ | night-like      |
+| <span title="blue" style="color: blue">█</span>         | _pfur-bur_        | water-like      |
+| <span title="teal" style="color: teal">█</span>         | _tsarvobor:dwpfu_ | hot silver-like |
+
+
 ### Ethnic and sexual language
 
 Daemonica has no simple and direct terms for categories of
@@ -145,11 +173,11 @@ right.
     <dd>I was fired because I am a woman.</dd>
 </dl>
 
-[^1]: A male day-care worker or a male seahorse could be called _þrtŋtšu_.
+[^1]: A male day-care worker or a male seahorse could also be called _þrtŋtšu_.
 
-[^2]: A male model or a male songbird could be called _þrtažur_.
+[^2]: A male model or a male songbird could also be called _þrtažur_.
 
-[^3]: A female soldier or a lioness could be called _þrbnhur_.
+[^3]: A female soldier or a lioness could also be called _þrbnhur_.
 
 [^4]:
     Depending on the local culture, a _þržartsir_ could be Jewish, Roma, an Irish
