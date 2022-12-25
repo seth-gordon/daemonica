@@ -125,12 +125,29 @@ section.footnotes {
 .lexitem-0 { font-weight: bold !important; }
 .lexitem-1 { font-weight: inherit; }
 .lexitem-2 { font-style: italic !important; }
-.lexicon .valence-tag { font-size: smaller; }
-.lexicon dt { font-weight: inherit; color: $brown; }
-.lexicon dd { margin-left: 2em; }
+.lexicon dt .valence-tag {
+    position: absolute;
+    left: 0rem;
+    top: 0.75rem;
+    font-size: smaller;
+}
+.lexicon dt .word { position: absolute; left: 1.5rem; font-weight: bolder; }
+.lexicon dt {
+    font-weight: inherit;
+    color: $brown;
+    position: relative;
+    padding-top: 0.5rem;
+}
+.lexicon dd { margin-left: 2rem; padding-top: 1.5rem; }
 .lexicon dd ol, .lexicon dd ul { padding-left: 0; margin-bottom: 0.5ex; }
 .lexicon dd blockquote { font-style: normal; }
 .lexicon .semantic-tag { font-size: smaller; font-variant: small-caps; }
+.lexicon .derivations table { margin: 0; }
+.lexicon .deriv-header { text-align: left; font-size: smaller; font-variant: small-caps; }
+.lexicon .derivations td { padding: 0; border: none; vertical-align: baseline; }
+.lexicon .derivations .deriv-d { font-style: italic; width: 7em; }
+.lexicon .derivations .deriv-en { text-indent: -0.5rem; }
+.lexicon .derivations li { list-style-type: circle; }
 .lexicon .translations li:only-child { list-style-type: none; }
 .lexicon .translations li::marker { font-size: smaller; }
 .lexicon .xref { list-style: none; }
