@@ -1,34 +1,53 @@
 ---
 layout: default
+title: Lexicon
 ---
 <h2>Preliminary lexicon</h2>
 
-Entry words in <span class="lexitem-0">bold face</span> are valence-0;
-entry words in <span class="lexitem-2">italics</span> are valence-2.
+Within a definition, “[E]” refers to the ergative argument of
+a binary word, “[A]” refers to the absolutive argument of a
+binary or unary word, and “[B]” refers to the base word to which
+a prefix or suffix is attached.
 
 {% assign lexicon = site.data.lexicon | sort: "key" %}
 <dl class="lexicon">
-    {% for lexitem in site.data.lexicon %}
-    <dt id="{{ lexitem.daemonica }}" data-collate="{{ lexitem.key }}" class="lexitem-{{ lexitem.valence }}">
-        {{ lexitem.daemonica }}
+    {% for lexitem in lexicon %}
+    <dt id="entry-{{ lexitem.d }}">
+        <span class="valence-tag">{{ lexitem.valence }}</span>
+        <span class="word">{{ lexitem.d }}</span>
     </dt>
     <dd>
         <ol class="translations">
-            {% for tr in lexitem.translations %}
+            {% for tr in lexitem.en %}
             <li>
-                {% for tag in tr.tags %}
-                <span class="semantic-tag">{{ tag }}</span>
-                {% endfor %}
-                {{ tr.english }}
+                {% if tr.first %}
+                <span class="semantic-tag">{{ tr.first }}</span>
+                {{ tr.last }}
+                {% else %}
+                {{ tr }}
+                {% endif %}
             </li>
             {% endfor %}
         </ol>
         {% if lexitem.xref.size > 0 %}
         <ul class="xref" role="list" title="See also">
             {% for ref in lexitem.xref %}
-            <li><a href="#{{ ref }}">{{ ref }}</a></li>
+            <li><a href="#entry-{{ ref }}">{{ ref }}</a></li>
             {% endfor %}
         </ul>
+        {% endif %}
+        {% if lexitem.plus.size > 0 %}
+        <div class="derivations">
+            <table>
+                <caption class="deriv-header">derived forms</caption>
+            {% for item in lexitem.plus %}
+                <tr>
+                    <td class="deriv-d">{{ item[0] }}</td>
+                    <td class="deriv-en">{{ item[1] }}</td>
+                </tr>
+            {% endfor %}
+            </table>
+        </div>
         {% endif %}
         {% if lexitem.notes.size > 0 %}
         <blockquote>

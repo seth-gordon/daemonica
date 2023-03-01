@@ -4,6 +4,34 @@
 @import "{{ site.theme }}";
 
 @font-face {
+  font-family: 'Junicode';
+  font-weight: 400;
+  font-style: normal;
+  src: url('../fonts/Junicode/Junicode.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Junicode';
+  font-weight: 700;
+  font-style: normal;
+  src: url('../fonts/Junicode/Junicode-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Junicode';
+  font-weight: 700;
+  font-style: italic;
+  src: url('../fonts/Junicode/Junicode-BoldItalic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Junicode';
+  font-weight: 400;
+  font-style: italic;
+  src: url('../fonts/Junicode/Junicode-Italic.ttf') format('truetype');
+}
+
+@font-face {
   font-family: 'Gentium Plus';
   font-weight: 400;
   font-style: normal;
@@ -62,7 +90,8 @@ header img { border: 2px solid $brown; }
 body {
   background-color: $brass;
   color: $dark-blue;
-  font: 1rem/1.5 'Gentium Plus', serif;
+  font: 1rem/1.4 'Junicode', serif;
+  font-variant-numeric: oldstyle-nums;
 }
 
 h1, h2 { font-size: 2.618rem; } // phi squared
@@ -71,6 +100,10 @@ h4, h5, h6 { font-size: 1.272rem; } // square root of phi
 
 section h2 {
     background: linear-gradient(to right, $bronze, transparent);
+}
+
+.highlight {
+    background: linear-gradient(to right, $bronze, transparent 20%)
 }
 
 h1, h2, h3, h4 { color: $brown; }
@@ -84,26 +117,30 @@ h1, h2 { margin: 0 0 1ex; }
 h3, h4 { margin: 1ex 0 0.5ex; }
 h5, h6 { margin: 0.5ex 0 0; }
 
-a { color: $light-blue; }
+a { color: $light-blue; font-weight: bold; }
 
-a:hover, a:focus { color: $pale-blue; font-weight: inherit; }
+a:hover, a:focus { color: $pale-blue; font-weight: bold; }
 
 // prevent footnote markers from affecting the line spacing
 // https://leancrew.com/all-this/2011/12/beating-the-spread/
-sup, sub { vertical-align: 0; position: relative; }
+sup, sub { vertical-align: 0; position: relative; font-variant-numeric: normal; }
 sup { bottom: 1ex; }
 sub { top: 0.8ex; }
 
-td[align~="right"] { text-align: right; }
-td[align~="center"] { text-align: center; }
+td[align~="right"], th[align~="right"] { text-align: right; }
+td[align~="center"], th[align~="center"] { text-align: center; }
 
-blockquote { border-left: 2px solid $pale-blue; padding-left: 1em; }
+blockquote { border-left: 2px solid $steel; padding-left: 1em; }
 
 blockquote ul { list-style-type: none; font-style: normal; font-stretch: normal; }
 blockquote + blockquote ul { padding-top: 1ex; }
 
 blockquote ul li:nth-of-type(1) { font-style: italic; }
-blockquote ul li:nth-of-type(2) { font-size: smaller; word-spacing: 0.75ch; }
+blockquote ul li:nth-of-type(2) {
+    font-size: smaller;
+    font-feature-settings: "c2sc";
+}
+blockquote ul li:nth-of-type(2) u { text-decoration-style: dotted; }
 blockquote ul li:nth-of-type(3)::before { content: open-quote; }
 blockquote ul li:nth-of-type(3)::after { content: close-quote; }
 
@@ -125,12 +162,29 @@ section.footnotes {
 .lexitem-0 { font-weight: bold !important; }
 .lexitem-1 { font-weight: inherit; }
 .lexitem-2 { font-style: italic !important; }
-.lexicon .valence-tag { font-size: smaller; }
-.lexicon dt { font-weight: inherit; color: $brown; }
-.lexicon dd { margin-left: 2em; }
+.lexicon dt .valence-tag {
+    position: absolute;
+    left: 0rem;
+    top: 0.75rem;
+    font-size: smaller;
+}
+.lexicon dt .word { position: absolute; left: 1.5rem; font-weight: bolder; }
+.lexicon dt {
+    font-weight: inherit;
+    color: $brown;
+    position: relative;
+    padding-top: 0.5rem;
+}
+.lexicon dd { margin-left: 2rem; padding-top: 1.5rem; }
 .lexicon dd ol, .lexicon dd ul { padding-left: 0; margin-bottom: 0.5ex; }
 .lexicon dd blockquote { font-style: normal; }
 .lexicon .semantic-tag { font-size: smaller; font-variant: small-caps; }
+.lexicon .derivations table { margin: 0; }
+.lexicon .deriv-header { text-align: left; font-size: smaller; font-variant: small-caps; }
+.lexicon .derivations td { padding: 0; border: none; vertical-align: baseline; }
+.lexicon .derivations .deriv-d { font-style: italic; width: 7em; }
+.lexicon .derivations .deriv-en { text-indent: -0.5rem; }
+.lexicon .derivations li { list-style-type: circle; }
 .lexicon .translations li:only-child { list-style-type: none; }
 .lexicon .translations li::marker { font-size: smaller; }
 .lexicon .xref { list-style: none; }

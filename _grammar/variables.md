@@ -1,39 +1,38 @@
 ---
 layout: grammar
 title: Variables and bindings
-order: 6
+order: 5
 ---
 
 Consider this question and this ungrammatical fragment:
 
->- Tatorhu kapi abū fazu?
->- bear D2\WHAT chase Q
->- Who did a bear chase?
+>- Tatorhu šku fābur pu?
+>- bear D2\what chase WH.Q
+>- Who did the bear chase?
 
->- *Tatorhu kapi abū?
->- bear D2\WHAT chase
+>- *Tatorhu šku fābur?
+>- bear D2\what chase
 >- A bear chased —?
 
 The word
-_kapi_ puts a _free variable_
-on the stack, and the word _fazu_
+_šku_ puts a _free variable_
+on the stack, and the word _pu_
 _binds_ it to create a wh-question. If there are unbound
 variables on the stack, as in the second example above, the
 sentence is not complete.
 
 A variable can also be bound to a particular predicate.
 
->- Tatorhu kapi abū pi rdū.
->- bear D2\WHAT chase D2\1SG BIND
+>- Tatorhu šku fābur þi gū.
+>- bear D2\what chase D2\1.EXCL bind
 >- A bear chased someone, who was me.
 
 When a variable is placed on the stack, all copies of it refer to
 the same thing.
 
->- Kapu-pū taterhi mta-gi ürter-ðē mhar-gi abū fazu?
->- WHAT-NMLZ D2\bear D2\OVER-DNMLZ
-  D3\1PL-two D2\ROLL-DNMLZ chase Q
->- What quality do we both share with the bear who chased us?
+>- Šku   tn     tütærhe pir    fi      þe-be          pir    fābur pu?
+>- what  D2\DUP D3\bear D2\ABS D2\SWAP D3\1.EXCL-DU   D2\ABS chase WH.Q
+>- What do we have in common with the bear that chased us?
 
 When there are multiple free variables and multiple binding
 words in the same utterance, the variables are bound in the
@@ -47,90 +46,54 @@ items on this other stack.
     Those who have learned the Forth programming language may recall its
     distinction between the “data stack” and the “return stack.”
 
->- Kapu kapi abū fazu fazu?
->- WHAT D2\WHAT chase Q Q
+>- Šku ški fābur pu pu?
+>- what D2\what chase Q Q
 >- Who chased whom?
 
->- Kapu kapi mta-gi ürter-ðē mhar-gi
-    abū taterhi rdū fazu?
->- WHAT D2\WHAT D2\OVER-ABS
-      D3\1PL-two D2\ROLL-ABS chase
-    D2\bear WHAT Q
->- What quality do we both share with the one who chased us,
-        namely, the bear?
+>- Šku   tn     bve     pir    fi      þe-be          pir    fābur taterhi gū   pu?
+>- what  D2\DUP D3\what D2\ABS D2\SWAP D3\1.EXCL-DU   D2\ABS chase D2\bear bind WH.Q
+>- What do we have in common with the one who chased us, namely, the bear?
 
-Free-variable markers exist for all three valences; there is
-also a special marker for (valence-1) quantities.
+Free-variable markers exist for all three valences. To make a variable
+for a quantity, put a numeric prefix in front of _šku._
 
->- Tatorhu ahur ti abū fazu?
->- bear HOW D2\2SG chase Q
+>- Tatorhu bvu si fābur pu?
+>- bear how D2\2 chase WH.Q
 >- What kind of bear chased you?
 
->- Tatorhu ti du fazu?
->- bear D2\2SG DO Q
+>- Tatorhu si ķgū pu?
+>- bear D2\2 do.what Q
 >- What did a bear do to you?
 
->- Tatorhu mhur ti abū fazu?
->- bear HOW.MUCH D2\2SG chase Q
+>- Tatorhu pa-žku si fābur pu?
+>- bear D2\numeric.1-what D2\2 chase Q
 >- How many bears chased you?
 
->- Tatorhu mhur pi abū a:ģi-kir rdū.
->- bear HOW.MUCH D2\1SG chase one:some-NMLZ BIND
->- Some number of bears chased me.
+>- Tatorhu pa-žku þi fābur tr-habī gū
+>- bear D2\numeric.1-what D2\1.EXCL chase D2\numeric.0-long bind
+>- I was chased by some number of bears, a large number.
 
-If one simply wants to use a placeholder word to indicate some
-arbitrary thing, quality, or action, there is no need to
-use variables; there are special words for this purpose.
+Note that the free variable _pa-žku_ is unary, but the word
+used to bind it, _tr-habū,_ is nullary. The absolutive argument of _gū,_ the binding
+particle, must be a single predicate. Preceding _gū_ with a unary
+or binary word may lead to unexpected results, if not outright bad grammar.
 
->- Pazu azu pi abū.
->- something big D2\1SG chase
->- Something big chases me.
+>- Tatorhu bvu þi fabūr þdiy gū.
+>- bear how D2\1.EXCL chase black bind
+>- A bear chased me; it was a black–(…-bear-chasing-me) bear.
 
->- Tatorhu padu pi abū.
->- bear somehow D2\1SG chase
->- Some kind of bear chased me.
+In the above example, _tatorhu bvi þi fabūr_ is an almost-complete
+sentence: “a — bear chased me.” Because _þdiy_ is unary, it modifies
+the entire sentence: “the event of a — bear chasing me was black.”
+The final _gū_ binds that sentence to the free variable within it:
+“the event of a (the event of a (the event of a (…)-type bear was
+black)-type bear was black)-type bear was black.”
 
->- Tatorhu azu pi bazu.
->- bear big D2\1SG some.action
->- A big bear did something to me.
+The speaker of that sentence probably meant to say this:
 
->- Pazu padu pazi bazu.
->- something somehow D2\something some.action
->- Some kind of something did something to something else.
-
-_Pazu padu pazi bazu_ is a Daemonica catchphrase which might
-be translated, more idiomatically, as “Stuff’s going on.” It may
-be said in a casual, anticipatory, or dejected tone of voice,
-depending on the nature of that “stuff.”
-
-While free variables may be used for words of all three valences,
-the word binding them,
-_rdū_, is always valence-2. Its absolutive argument
-must be interpreted as the one
-binding the nearest free variable, regardless of the variable’s
-valence.
-
->- *Tatorhu ahur pi abū mhu rdū.
->- bear HOW D2\1SG chase black BIND
->- ???
-
->- Tatorhu ahur pi abū mhi rta-rdū.
->- bear HOW D2\1SG chase D2\black DUP-BIND
->- The event of a bear chasing me was as black as the bear itself.
-
->- Tatorhu ahur pi abū mhi-kir rdū.
->- bear HOW D2\1SG chase D2\black-NMLZ BIND
+>- Tatorhu bvu þi fabūr sba-ðdiy gū.
+>- bear how D2\1.EXCL chase D2\NMLZ-black bind
 >- The bear that chased me was black.
-
-In the first example above, _tatorhu ahur pi abū mhu_
-creates a single stack item, meaning, roughly, “The event of a
-— bear chasing me was black.” Since _rdū_ is a valence-2
-word, it cannot be used when the stack contains a single item:
-that would be just as ungrammatical as _pi abū_, “— chased
-me.” If one really wants to bind a
-variable recursively, the second example shows how to do
-it, but the third is more likely to be what the
-speaker intended.
 
 If word denoting a free variable has suffixes and/or
 semantics-changing prefixes, they
@@ -138,16 +101,20 @@ are applied to give its meaning when the variable is bound. This
 also provides a way to apply grammatical operations that normally
 operate on a single word to an entire phrase.
 
->- Šar-kapu ti abū fazu?
->- NEG-WHAT D2\1SG chase Q
+>- Šku-žu si fabūr pu?
+>- what-NEG D2\2 chase WH.Q
 >- What _didn’t_ chase you?
 
->- Fa-kapu taterhi mhi rdū pi abū.
->- approx-WHAT D2\bear D2\black
-  BIND D2\1SG chase
->- A sort-of-black-bear chased me. (Not a bear that was
-  sort-of-black, but a borderline instance of the class 
-  <q>black bear.</q>)
+>- Šku-bur fāðir þu taterhi se fabīr gū.
+>- what-MED D2\sadden 1.EXCL D2\bear D3\2 D2\chase bind
+>- I was depressed by that event of a bear chasing you.
+
+>- Sardður bvu ķū taterhi þe fabīr gū.
+>- dirt how wet D2\bear D3\1.EXCL D2\chase bind
+>- The dirt is wet; it is bear-chasing-me dirt.
+
+(The last of these examples could be rephrased as
+_sardður taterhi þe fabīr fi pur ķū._)
 
 When a variable is bound, every instance of that variable in
 the stack is bound, not just instances that appear at the top
@@ -155,51 +122,58 @@ of the stack. Because binding does not work like regular stack
 operations, binding words can even precede the variables they
 reference: this construction is marked, but grammatical.
 
->- Tatorhu fazu ti du?
->- bear Q D2\1SG DO
->- What the heck did a bear do to you?
+>- Tatorhu pu si ķgū?
+>- bear WH.Q D2\2 do.what
+>- What the heck did a bear to do you?
 
->- Kapu pi tütærhe rdī abū.
->- WHAT D2\1SG D3\bear D2\BIND chase
->- Something chased—it was a bear, it chased me.
+>- Šku þi tütærhe gī fabūr.
+>- what D2\1.EXCL D3\bear D2\bind chase
+>- Something did to me—it was a bear, it chased me.
 
->- Kapu kapi fazi mta-gi dntše-ker
-    rdī ürter-ðē mhar-gi abū.
->- WHAT D2\WHAT D2\Q
-    D2\OVER-ABS D3\young-NMLZ
-    D2\BIND D3\1PL-two
-    D2\ROLL-ABS chase
+>- Šku ški ķgī ške tn psu per fe pse spü-dþuy gē
+   pir tē gī fabūr.
+>- what D2\what D2\WH.Q D3\how D4\COPY D4\PICK D3\ABS D3\SWAP D3\ROLL D4\NMLZ-young D3\bind 
+   D2\ABS D3\1.INCL D2\bind chase
 >- Something (what was that thing?) fitting a certain
     description, that description being <q>young,</q> which
     also applies to us, chased us.
 
 The last example above might best be explained word by
-word. In the translations below, X and Y are the free variables.
+word. In the translations below, X, Y, and Z are the free variables,
+and the slashes divide the items on the stack.
 
 <dl>
-<dt>Kapu</dt> <dd>X</dd>
-<dt>Kapu kapi</dt> <dd>X / Y</dd>
-<dt>Kapu kapi fazi</dt> <dd>X / What thing?</dd>
-<dt>Kapu kapi fazi mta-gi</dt> <dd>X / What is (described by the
-attribute) X?</dd>
-<dt>Kapu kapi fazi mta-gi dntše-ker</dt>
-<dd>X / What is X? / youth</dd>
-<dt>Kapu kapi fazi mta-gi dntše-ker rdī</dt>
-<dd>youth / What is a young creature?</dd>
-<dt>Kapu kapi fazi mta-gi dntše-ker rdī ürter-ðē</dt>
-<dd>youth / What is a young creature? / we two</dd>
-<dt>Kapu kapi fazi mta-gi dntše-ker rdī ürter-ðē
-mhar-gi</dt>
-<dd>What is a young creature? / we two youths</dd>
-<dt>Kapu kapi mzar-fazi mta-gi dntše-ker
-rdī ürter-ðē mhar-gi abū.</dt>
-<dd>What young creature chased us two youths?</dd>
+<dt>Šku</dt> <dd>X</dd>
+<dt>Šku ški</dt> <dd>X / Y</dd>
+<dt>Šku ški ķgi</dt> <dd>X / What thing?</dd>
+<dt>Šku ški ķgī ške</dt> <dd>X / What thing? / Z</dd>
+<dt>Šku ški ķgī ške tn</dt>
+<dd>X / What thing? / Z / Z</dd>
+<dt>Šku ški ķgī ške tn psu</dt>
+<dd>X / Z / Z / What thing?</dd>
+<dt>Šku ški ķgī ške tn psu per</dt>
+<dd>X / Z / What Z-ish thing?</dd>
+<dt>Šku ški ķgī ške tn psu per fe</dt>
+<dd>X / What Z-ish thing? / Z</dd>
+<dt>Šku ški ķgī ške tn psu per fe pse</dt>
+<dd>What Z-ish thing? / Z / X</dd>
+<dt>Šku ški ķgī ške tn psu per fe pse spü-dþuy</dt>
+<dd>What Z-ish thing? / Z / X / youth</dd>
+<dt class="highlight">Šku ški ķgī ške tn psu per fe pse spü-dþuy gē</dt>
+<dd>What young thing? / youth / X</dd>
+<dt>Šku ški ķgī ške tn psu per fe pse spü-dþuy gē pir</dt>
+<dd>What young thing? / young X</dd>
+<dt>Šku ški ķgī ške tn psu per fe pse spü-dþuy gē pir tē</dt>
+<dd>What young thing? / young X / us</dd>
+<dt>Šku ški ķgī ške tn psu per fe pse spü-dþuy gē pir tē gī</dt>
+<dd>What young thing? / we, who are young</dd>
+<dt>Šku ški ķgī ške tn psu per fe pse spü-dþuy gē pir tē gī fabūr.</dt>
+<dd>Some young thing (what?) chased us, who are young.</dd>
 </dl>
 
-Note, in particular, the line _Kapu kapi fazi mta-gi
-dntše-ker rdī._ Even though _rdū_ (_rdī_, as
-inflected) is a valence-2 word, the replacement of “X” happened
-throughout the stack, not simply on the items that a valence-2
-word normally is restricted to affecting.
+Note, in particular, the effect of the word _gē_ in the highlighted line.
+It binds Z, the most-recently-created free variable,
+even though X was above Z in the stack, and it binds both instances
+of Z at once.
 
 Perhaps, at this point, you would like another drink.

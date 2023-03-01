@@ -1,3201 +1,2446 @@
-- daemonica: a
-  key: a0
-  notes: ''
-  translations:
-  - english: singular
-    tags:
-    - prefix
+- d: abū
+  en:
+  - long
+  - high
+  key: a0.b0.u1
   valence: 1
-  xref:
-  - u
-- daemonica: abū
-  key: a0bu1
-  notes: ''
-  translations:
-  - english: chase
-    tags: []
+- d: agur
+  en:
+  - is trustworthy
+  key: a0.g0.u0.r0
+  valence: 1
+- d: aģur
+  en:
+  - a well-made [A]
+  - a proper [A]
+  - a canonical example of [A]
+  - - with numeric prefix
+    - '&phi; (the golden ratio)'
+  key: a0.g1.u0.r0
+  plus:
+  - - aģorģur
+    - virtuous; righteous
+  valence: 1
+- d: akķu
+  en:
+  - yesterday
+  - recently
+  - in a house/office “uphill” from ours
+  - [with numeric prefix, days ago]
+  key: a0.k0.k1.u0
+  notes: >
+    “Uphill” can be meant literally, or it can refer to the direction away
+    from the city center, significant route, or seat of power.
+  plus:
+    - [akķokķu, last year; in a community / region / biome “uphill” from here]
+  valence: 1
+- d: apfu
+  en:
+  - - numeric constant
+    - everyone; every [A]; every [E] that is [A]
+  key: a0.p0.f0.u0
+  valence: n
+- d: apuy
+  en:
+  - possesses (inalienably)
+  key: a0.p0.u0.y0
+  valence: 1
+- d: arbū
+  en:
+  - attempts; tries
+  key: a0.r0.b0.u1
   valence: 2
-  xref: []
-- daemonica: admpū
-  key: a0d0mpu1
-  notes: ''
-  translations:
-  - english: heavy
-    tags: []
-  - english: massive
-    tags: []
-  valence: 1
-  xref: []
-- daemonica: adu
-  key: a0d0u0
-  notes: '[A] is treated as a valence-1 word and [E] is treated as its absolute argument.'
-  translations:
-  - english: absolutive
-    tags:
-    - case
+- d: arðoybsuy
+  en:
+  - bites
+  key: a0.r0.d1.o0.y0.b0.s0.u0.y0
   valence: 2
-  xref:
-  - gu
-  - bahur
-  - bmhu
-  - dahu
-  - sdu
-  - smdur
-- daemonica: adur
-  key: a0d0u0r
-  notes: ''
-  translations:
-  - english: come from
-    tags: []
+- d: arðū
+  en:
+  - or (in the sense of randomness)
+  key: a0.r0.d1.u1
+  notes: As in, “tomorrow it will rain <em>or</em> snow.”
   valence: 2
-  xref: []
-- daemonica: aðnbu
-  key: a0d1n0bu0
-  notes: ''
-  translations:
-  - english: suck
-    tags: []
+- d: arhu
+  en:
+  - '[E], and additionally, [A]'
+  key: a0.r0.h0.u0
   valence: 2
-  xref: []
-- daemonica: ahmhū
-  key: a0hmhu1
-  notes: ''
-  translations:
-  - english: crying
-    tags: []
-  valence: 1
-  xref: []
-- daemonica: ahnbzu
-  key: a0hn0bz0u0
-  notes: ''
-  translations:
-  - english: flee
-    tags: []
-  - english: escape
-    tags: []
+- d: arkuy
+  en:
+  - defend
+  key: a0.r0.k0.u0.y0
   valence: 2
-  xref: []
-- daemonica: ahntur
-  key: a0hn0t0u0r
-  notes: ''
-  translations:
-  - english: person (of any gender)
-    tags: []
-  - english: computer
-    tags: []
-  - english: corporation
-    tags: []
-  - english: sentient being
-    tags: []
-  valence: 0
-  xref: []
-- daemonica: ahodur
-  key: a0ho0d0u0r
-  notes: ''
-  translations:
-  - english: hide, conceal
-    tags: []
+- d: arpfu
+  en:
+  - '[E] receives some necessity from [A]'
+  key: a0.r0.p0.f0.u0
+  notes: '[A] may be a person, a tool, or a vital nutrient.'
+  plus:
+  - - faharpfu
+    - is necessary; modal of necessity
   valence: 2
-  xref: []
-- daemonica: ahu
-  key: a0hu0
-  notes: ''
-  translations:
-  - english: yonder
-    tags:
-    - demonstrative
-  valence: 1
-  xref: []
-- daemonica: ahur
-  key: a0hu0r
-  notes: ''
-  translations:
-  - english: free valence-1 variable
-    tags:
-    - binding
-  valence: 1
-  xref:
-  - du
-  - kapu
-  - mhur
-  - rdū
-  - ū
-  - ur
-- daemonica: ardortur
-  key: a0rd0o0rt0u0r
-  notes: ''
-  translations:
-  - english: running
-    tags: []
-  valence: 1
-  xref: []
-- daemonica: ardu
-  key: a0rd0u0
-  notes: ''
-  translations:
-  - english: eat
-    tags: []
-  - english: drink
-    tags: []
+- d: arpu
+  en:
+  - angers; [A] is angry at [E]
+  key: a0.r0.p0.u0
+  plus:
+  - - baharpu
+    - is enraging
+  - - faharpu
+    - is angry
+  - - sbaharpu
+    - anger
   valence: 2
-  xref: []
-- daemonica: arhmbur
-  key: a0rhmbu0r
-  notes: ''
-  translations:
-  - english: wear
-    tags: []
-  - english: carry
-    tags: []
-  - english: use
-    tags: []
+- d: arpū
+  en:
+  - '[E] provokes the curiosity of [A]'
+  key: a0.r0.p0.u1
+  plus:
+  - - baharpū
+    - '[A] is strange/curious'
+  - - faharpū
+    - '[A] feels curious'
+  - - sbaharpu
+    - curiosity
+  - - šaharpu
+    - oddity; object of research
   valence: 2
-  xref: []
-- daemonica: arhmvur
-  key: a0rhmvu0r
-  notes: ''
-  translations:
-  - english: laughing
-    tags: []
+- d: arvu
+  en:
+  - precedes
+  - is above
+  key: a0.r0.v0.u0
+  valence: 2
+- d: arždorpfu
+  en:
+  - '[E] is uphill / upstream / upstairs from [A]'
+  - '[E] is a possible but not definite cause of [A]'
+  key: a0.r0.z1.d0.o0.r0.p0.f0.u0
+  valence: 2
+- d: avu
+  en:
+  - another [A]
+  - '[A] happened again'
+  key: a0.v0.u0
   valence: 1
-  xref: []
-- daemonica: arhŋtur
-  key: a0rhn1t0u0r
-  notes: ''
-  translations:
-  - english: wing
-    tags: []
-  valence: 0
-  xref: []
-- daemonica: arhu
-  key: a0rhu0
-  notes: ''
-  translations:
-  - english: bitter
-    tags: []
-  - english: disgusted
-    tags: []
+- d: avū
+  en:
+  - occurs by chance
+  key: a0.v0.u1
+  plus:
+    - [bahavū, probability; luck]
+    - [dahavū, accident]
+    - [gģahavū, suffered an accident]
+    - [sāhavū, casino]
+    - [tarhavū, gambler]
   valence: 1
-  xref: []
-- daemonica: arhur
-  key: a0rhu0r
-  notes: ''
-  translations:
-  - english: far away
-    tags: []
-  - english: long ago or far in the future
-    tags: []
-  valence: 1
-  xref:
-  - whur
-  - bahur
-  - barvmķtu
-  - dngzu
-  - dzu
-  - sdur
-  - šdur
-- daemonica: arhū
-  key: a0rhu1
-  notes: ''
-  translations:
-  - english: open
-    tags: []
-  valence: 1
-  xref: []
-- daemonica: artrhur
-  key: a0rt0rhu0r
-  notes: ''
-  translations:
-  - english: stone, rock
-    tags: []
-  - english: 47 kg
-    tags:
+- d: aybur
+  en:
+  - or (in the sense of choice)
+  key: a0.y0.b0.u0.r0
+  notes: As in, “would you like coffee <em>or</em> tea?”
+  plus:
+    - [sbahaybur, choice]
+    - [dahaybur, optionally]
+  valence: 2
+- d: ayhu
+  en:
+  - meat/flesh of [A]
+  - normally covered parts of [A]
+  key: a0.y0.h0.u0
+  plus:
+  - - dahayhu
+    - animal farmed or hunted for its meat
+  - - sbahayhu
+    - meat (generically)
+  - - šahayhu
+    - butcher
+  valence: 2
+- d: aytu
+  en:
+  - the distance from [E] to [A]
+  - - with numeric prefix
+    - length
+  key: a0.y0.t0.u0
+  plus:
+  - - karhatu
+    - a line from [E] to [A]
+  - - ķayhatu
+    - a circle with center [E] and radius [A]
+  valence: 2
+- d: ayžū
+  en:
+  - cut
+  - decide
+  - curse
+  key: a0.y0.z1.u1
+  plus:
+  - - ažōžū
+    - wound; mark
+  - - ažōhnžū
     - measure
-  valence: 0
-  xref: []
-- daemonica: artur
-  key: a0rt0u0r
-  notes: ''
-  translations:
-  - english: we (inclusive)
-    tags:
-    - pronoun
-  valence: 0
-  xref:
-  - pu
-  - tu
-  - tur
-  - tyhur
-  - tahur
-- daemonica: artū
-  key: a0rt0u1
-  notes: ''
-  translations:
-  - english: hello
-    tags: []
-  - english: greetings
-    tags: []
-  valence: 0
-  xref: []
-- daemonica: arzdyhu
-  key: a0rz0d0yhu0
-  notes: ''
-  translations:
-  - english: is to the right of
-    tags:
-    - tense
+  - - ažōkŋžū
+    - break; rip; tear
+  - - ažōgyžū
+    - hit; strike
   valence: 2
-  xref: []
-- daemonica: arzu
-  key: a0rz0u0
-  notes: ''
-  translations:
-  - english: hungry
-    tags: []
+- d: šdahoyžū
+  en: [wincing or grimacing facial expression]
+  key: s1.d0.a0.h0.o0.y0.z1.u1
+  plus:
+    - [bašdahoyžū, is wincing]
+    - [gāšdahoyžū, '[E] winces at [A]; [E] is in pain from [A]']
+  valence: 0
+  xref: [šdu, ayžū]
+- d: ažu
+  en:
+  - possesses (alienably)
+  key: a0.z1.u0
   valence: 1
-  xref: []
-- daemonica: azu
-  key: a0z0u0
-  notes: ''
-  translations:
-  - english: big
-    tags: []
-  valence: 1
-  xref: []
-- daemonica: āhnbzū
-  key: a1hn0bz0u1
-  notes: ''
-  translations:
-  - english: becomes more distant from
-    tags: []
+- d: ādžū
+  en:
+  - are rivals
+  - are parts serving opposite purposes
+  key: a1.d0.z1.u1
   valence: 2
-  xref: []
-- daemonica: āhntur
-  key: a1hn0t0u0r
+- d: ākū
+  en:
+  - '[E] costs [A]'
+  - '[E] may be exchanged for [A]'
+  key: a1.k0.u1
+  plus:
+  - - šahākōkū
+    - cheap
+  - - šahākū
+    - expensive
+  - - šahākūžu
+    - free (as in “free beer”)
+  valence: 2
+- d: āpu
+  en:
+  - '[E] is a physical object assembled / built / sewn from [A]'
+  key: a1.p0.u0
+  plus:
+    - [šapfāhāpu, construction worker; builder]
+  valence: 2
+- d: āpū
+  en:
+  - wants to
+  - is willing to
+  key: a1.p0.u1
+  plus:
+    - [āpūbmpū, agrees with; approves]
+    - [favmhāpū, yes; indeed]
+  valence: 2
+- d: ba-
+  en:
+  - unergative; drop absolutive argument (or substitute an implied ergative argument)
+  key: b0.a0.-0
+  notes: For example, <i>bagžur</i> means “[A] gives” (to unspecified recipients).
+  valence: 1p
+- d: bar-
+  en:
+  - with binary base, [E] believes ([E] [A] [B])
+  - with unary base, [E] believes ([A] [B])
+  - with nullary base, [E] believes that [A] is [B]
+  key: b0.a0.r0.-0
+  valence: 2p
+- d: baybu
+  en:
+  - is to the left of; is counter-clockwise from
+  key: b0.a0.y0.b0.u0
+  plus:
+    - - baybudvbū
+      - is north of (see <i>davbū</i>; at the north pole, the planet is rotating counter-clockwise)
+  valence: 2
+- d: baypuy
+  en:
+  - '[E] is a corporate entity composed of [A]'
+  key: b0.a0.y0.p0.u0.y0
+  valence: 2
+- d: bā-
+  en:
+  - with binary base, [E] wants ([E] [A] [B])
+  - with unary base, [E] wants ([A] [B])
+  - with nullary base, [E] wants [A] to be [B]
+  key: b0.a1.-0
+  valence: 2p
+- d: bāpu
+  en:
+  - is the offspring of
+  - is a descendant of
+  - is inspired by
+  - - with numeric prefix
+    - generation
+  key: b0.a1.p0.u0
+  valence: 2
+- d: bður
+  en:
+  - knows
+  key: b0.d1.u0.r0
+  plus:
+  - - bðarbður
+    - studies
+  - - bðarznbður
+    - is an expert in
+  - - bðuržuy
+    - is confused by
+  valence: 2
+- d: babðuržoyždu
+  en: [has a confused facial expression]
+  key: b0.a0.b0.d1.u0.r0.z1.o0.y0.z1.d0.u0
+  valence: 1
+  xref: [bður, šdu]
+- d: bm
+  en:
+  - '[E] and [A]'
+  key: b0.m0
+  valence: 2
+- d: bu
+  en:
+  - not [A]
+  key: b0.u0
+  notes: 'This means “not [A]” in the conventional sense of negation, as contrasted
+    wtih <i>pašu</i>, which is more formal or mathematical: “zero of [A]” or “it is
+    not the case that [A].”
+
+    '
+  valence: 1
+- d: bu
+  en:
+  - - digit
+    - two (2)
+  key: b0.u0
+  plus:
+  - - dapabu
+    - belongs to a couple; married (in the binary-relationship sense)
+  - - bazmbu
+    - eighty-nine (89)
+  valence: n
+- d: -bu
+  en:
+  - - quantifier
+    - dual
+  key: b0.u0.-1
+  valence: s
+- d: -bur
+  en:
+  - that [B]
+  - the aforementioned [B]
+  - a [B] which was recently popped off from, or consumed from, the stack
+  key: b0.u0.r0.-1
+  valence: s
+- d: -buy
+  en:
+  - - evidential
+    - indirect witness
+  key: b0.u0.y0.-1
+  valence: s
+- d: -bū
+  en:
+  - - aspect
+    - cessative (end of action)
+  - - locative
+    - top of object
+  key: b0.u1.-1
+  valence: s
+- d: bva-
+  en:
+  - reflexive (if [B] is binary)
+  - '[A] seems (but might not actually be) [B] (if [B] is unary)'
+  - '[A] is a [B] (if [B] is nullary)'
+  key: b0.v0.a0.-0
+  valence: 1p
+- d: bvu
+  en:
+  - - binding
+    - free unary variable
+  key: b0.v0.u0
+  valence: 1
+- d: bvur
+  en:
+  - balanced
+  - '[E] is a peer to [A]'
+  - '[E] and [A] are married (in the partnership sense)'
+  - - with numeric prefix
+    - enough; enough of [A]; enough [E] for [A]
+  key: b0.v0.u0.r0
+  notes: An oblique argument may be added to indicate the sense in which they are
+    equal.
+  valence: 2
+- d: bvū
+  en:
+  - hide; conceal
+  key: b0.v0.u1
+  plus:
+  - - sābvū
+    - safe (storage location for valuables); treasury
+  valence: 2
+- d: bzarkuy
+  en:
+  - '[E] considers [A] to be aesthetically pleasing'
+  key: b0.z0.a0.r0.k0.u0.y0
+  notes: '[A] may be an attractive person, work of art, etc.'
+  plus:
+  - - fabzarkuy
+    - is beautiful
+  valence: 2
+- d: bzu
+  en:
+  - your (singular or plural) [A]
+  key: b0.z0.u0
+  valence: 1
+- d: bzur
+  en:
+  - come from
+  key: b0.z0.u0.r0
+  valence: 2
+  plus:
+    - [šaznbzur, alien; foreigner]
+- d: bzū
+  en:
+  - says
+  key: b0.z0.u1
+  plus:
+  - - bzābzū
+    - means; evaluates to; equals (mathematically)
+  - - dabzū
+    - statement
+  - - dabzābzū
+    - word
+  - - sbabzū
+    - language
+  - - tāzbabzū
+    - the Daemonica language
+  valence: 2
+- d: da-
+  en:
+  - raise absolutive argument of [B]
+  key: d0.a0.-0
+  notes: For example, <i>dagžur</i> means “recipient of a gift.”
+  valence: 0p
+- d: dahu
+  en:
+  - hill
+  key: d0.a0.h0.u0
+  valence: 0
+- d: dakovbu
+  en:
+  - beard; mustache
+  - tuft
+  - ornament
+  key: d0.a0.k0.o0.v0.b0.u0
+  valence: 0
+- d: dapur
+  en:
+  - gold
+  key: d0.a0.p0.u0.r0
+  plus:
+  - - bvabayporpur
+    - is golden/yellow/incorruptible
+  valence: 0
+- d: darfpu
+  en:
+  - waste
+  - refuse
+  - fecal matter
+  key: d0.a0.r0.f0.p0.u0
+  notes: This is not considered an expletive.
+  valence: 0
+- d: darpoždu
+  en: [vomiting]
+  key: d0.a0.r0.p0.o0.z1.d0.u0
+  plus:
+    - [dadapoždu, is vomiting]
+    - [gādapoždu, '[E] vomits due to [A]']
+  valence: 0
+  xref: [darfpu, šdu]
+- d: dargu
+  en:
+  - breast
+  - gland
+  - well (of water or oil); mine (place to extract minerals)
+  - benefactor
+  key: d0.a0.r0.g0.u0
+  plus:
+  - - dargogu
+    - person denigrated by being treated as a consumable resource
+  valence: 0
+- d: darku
+  en:
+  - tooth
+  key: d0.a0.r0.k0.u0
+  plus:
+  - - darkoku
+    - stinger; fang
+  valence: 0
+- d: dayvuy
+  en:
+  - good
+  key: d0.a0.y0.v0.u0.y0
+  plus:
+  - - gābayvuy
+    - provides some benefit for; is enjoyed by
+  valence: 1
+- d: dāfpōdu
+  en:
+  - sodium
+  key: d0.a1.f0.p0.o1.d0.u0
+  notes: Used in compound words for alkalai metals and basic compounds.
+  valence: 0
+- d: dðatþur
+  en:
+  - human being
+  - primate
+  key: d0.d1.a0.t0.t1.u0.r0
+  plus:
+  - - dðatþordur
+    - primate recognized as sentient
+  valence: 0
+- d: dðatþur
+  en:
+  - bird
+  - airplane
+  key: d0.d1.a0.t0.t1.u0.r0
+  valence: 0
+- d: dðuy
+  en:
+  - new
+  - young
+  - small
+  key: d0.d1.u0.y0
+  plus:
+  - - dadðuy
+    - child; infant
+  - - dðaydðuy
+    - raw materials; fetus; interior of a seed
+  - - sādðuy
+    - nursery; nest; uterus
+  - - šadðuy
+    - woman (in the “one who incubates and cares for infants” sense)
+  valence: 1
+- d: du
+  en:
+  - - digit
+    - one-half (½)
+  key: d0.u0
+  valence: n
+- d: -du
+  en:
+  - - quantifier
+    - part of
+  key: d0.u0.-1
+  valence: s
+- d: dur
+  en:
+  - person (of any gender)
+  - corporation; institution; government
+  - computer
+  - sentient being
+  key: d0.u0.r0
+  valence: 0
+- d: duy
+  en:
+  - old
+  - elderly
+  key: d0.u0.y0
+  plus:
+  - - dafbu
+    - old person
+  valence: 1
+- d: -dū
+  en:
+  - - evidential
+    - direct witness
+  key: d0.u1.-1
+  valence: s
+- d: dvuy
+  en:
+  - is dry
+  - is healthy
+  key: d0.v0.u0.y0
+  plus:
+  - - sādvuy
+    - hospital
+  valence: 1
+- d: džaboģu
+  en:
+  - plastic
+  - enamel
+  - oilcloth
+  key: d0.z1.a0.b0.o0.g1.u0
+  valence: 0
+- d: džu
+  en:
+  - heat
+  key: d0.z1.u0
+  plus:
+  - - bvadžu
+    - is hot
+  - - gģadžu
+    - is burned
+  valence: 0
+- d: džur
+  en:
+  - pot
+  - - with numeric prefix
+    - pot as unit of measure
+  key: d0.z1.u0.r0
+  plus:
+  - - džardrdžur
+    - oven
+  - - džardžur
+    - bowl
+  - - džarhŋdžur
+    - pit; cistern
+  - - džurpsu
+    - stomach
+  - - džurtþu
+    - box
+  - - purdžur
+    - stew; casserole
+  valence: 0
+- d: džuy
+  en:
+  - is flying; is swimming underwater
+  key: d0.z1.u0.y0
+  valence: 1
+- d: -džū
+  en:
+  - - mechanism adverbial
+    - mechanical
+  key: d0.z1.u1.-1
+  notes: For example, <i>pfurdžu</i> means “take a picture with a camera.”
+  valence: s
+- d: fa-
+  en:
+  - unaccusative; drop ergative argument (for nullary words, create an implied absolutive argument)
+  key: f0.a0.-0
+  notes: For example, <i>fagžur</i> means “[A] receives gift(s)” (from unspecified
+    donors).
+  valence: 1p
+- d: fabu
+  en:
+  - hypernym of [A]; “etc.”
+  key: f0.a0.b0.u0
+  valence: 1
+- d: faku
+  en:
+  - very distant in time and/or space
+  - according to legend
+  key: f0.a0.k0.u0
+  notes: “A long time ago, in a galaxy far, far away…”
+  valence: 1
+- d: farhu
+  en:
+  - is taken from
+  - is exiled from
+  key: f0.a0.r0.h0.u0
+  notes: An oblique argument may specify who took the thing.
+  plus:
+  - - farhohu
+    - is owed by
+  - - farvmvorhu
+    - is rescued/redeemed from
+  - - šavarvmvorhu
+    - freedman; ex-convict
+  valence: 2
+- d: farzu
+  en:
+  - '[E] considers [A] to be a close partner'
+  key: f0.a0.r0.z0.u0
+  notes: '[A] may be a lover, friend, or exceptionally valued tool.'
+  valence: 2
+- d: faydū
+  en:
+  - contract with
+  - make an arrangement with
+  key: f0.a0.y0.d0.u1
+  notes: An oblique argument an indicate the object of the contract.
+  valence: 2
+- d: fayhu
+  en:
+  - sticks to
+  key: f0.a0.y0.h0.u0
+  valence: 2
+- d: faypu
+  en:
+  - '[E] is a guest/visitor/alien in/among [A]'
+  key: f0.a0.y0.p0.u0
+  valence: 2
+- d: fābur
+  en:
+  - chase
+  key: f0.a1.b0.u0.r0
+  plus:
+  - - fāborbur
+    - chase away; scatter
+  valence: 2
+- d: fāður
+  en:
+  - saddens; [A] is sad because of [E]
+  key: f0.a1.d1.u0.r0
+  plus:
+  - - bavāður
+    - is depressing
+  - - favāður
+    - feels sad
+  - - favāðorzrður
+    - is crying
+  - - favāðorznður
+    - is severely depressed
+  - - sbavāður
+    - sadness
+  valence: 2
+- d: fāhū
+  en:
+  - gather
+  - forage
+  key: f0.a1.h0.u1
+  plus:
+  - - faðāhū
+    - are gathered together
+  - - daðāhū
+    - pile; assembly
+  - - šavāhū
+    - woman (in the “gatherer class” sense)
+  valence: 2
+- d: fbur
+  en:
+  - is on a quest for
+  - is destined to
+  key: f0.b0.u0.r0
+  plus:
+  - - davbur
+    - destiny
+  - - šavbur
+    - scientist; researcher
+  valence: 2
+- d: fbū
+  en:
+  - leads; commands; is the boss of
+  - is the primary star of
+  - '[E] is the planet for which [A] is the satellite'
+  - is the capital of
+  - - with numeric prefix
+    - 1.337s
+  key: f0.b0.u1
+  plus:
+  - - davbū
+    - planet
+  - - davbūpfur
+    - east (the “front side” of a planet, i.e., its direction of rotation)
+  - - davbūžur
+    - west
+  - - davbōbū
+    - woman (in the “excluded from patriarchal authority” sense)
+  - - fbōvbū
+    - '[E] belongs to the ruling class relative to [A]'
+  - - šavbū
+    - leader; star; capital
+  - - šavbōbū
+    - man (in the “patriarchal authority” sense)
+  valence: 2
+- d: fm
+  en:
+  - '[E] has [A]'
+  key: f0.m0
+  notes: This is for either alienable or inalienable possession.
+  valence: 2
+- d: fpahu
+  en:
+  - is energetic
+  key: f0.p0.a0.h0.u0
+  valence: 1
+- d: fparpuy
+  en:
+  - is independent from
+  - '[E] and [A] are either simultaneous or not depending on one’s frame of reference'
+  key: f0.p0.a0.r0.p0.u0.y0
+  valence: 2
+- d: fpā-
+  en:
+  - 'a shape (usually 2-D) or geographic feature of type [B] whose boundaries include
+    [E] and [A]
+
+    '
+  key: f0.p0.a1.-0
+  valence: 2p
+- d: fpu
+  en:
+  - is empty
+  key: f0.p0.u0
+  plus:
+  - - sbavpužū
+    - outer space
+  - - gģavpu
+    - is depressed
+  valence: 1
+- d: fpur
+  en:
+  - go to
+  key: f0.p0.u0.r0
+  plus:
+  - - fparfpur
+    - approach
+  valence: 2
+- d: fpū
+  en:
+  - '[E] gives a gift [A]'
+  key: f0.p0.u1
+  plus:
+  - - gģavpū
+    - stingy
+  valence: 2
+- d: ftarbū
+  en:
+  - '[E] chooses [A]'
+  key: f0.t0.a0.r0.b0.u1
+  notes: An oblique argument can indicate the options among which the choice was made.
+  valence: 2
+- d: ftarður
+  en:
+  - '[E] receives sensual pleasure from [A]'
+  key: f0.t0.a0.r0.d1.u0.r0
+  notes: '[A] may be a romantic partner or a tasty food, comfortable piece of clothing,
+    etc.'
+  plus:
+  - - faftarður
+    - is sexy; is delicious; is pleasurable
+  valence: 2
+- d: šdaftorður
+  en: [smile]
+  key: s1.d0.a0.f0.t0.o0.r0.d1.u0.r0
+  plus:
+    - [bašdaftorður, is smiling]
+    - [gāšdaftorður, '[E] smiles at [A]']
+  valence: 0
+  xref: [šdu, ftarður]
+- d: ftāpu
+  en:
+  - asks
+  - consults
+  key: f0.t0.a1.p0.u0
+  valence: 2
+- d: ftū
+  en:
+  - is called; is named
+  - has the true nature of
+  key: f0.t0.u1
+  plus:
+  - - daðtū
+    - name; label
+  - - gģaðtū
+    - aphasia
+  valence: 2
+- d: fu
+  en:
+  - - stack operation
+    - SWAP (exchange top two items)
+  key: f0.u0
+  valence: 1
+- d: fu
+  en:
+  - - digit
+    - one (1)
+  key: f0.u0
+  plus:
+  - - fazmfu
+    - fifty-five (55)
+  valence: n
+- d: -fu
+  en:
+  - - quantifier
+    - singular
+  key: f0.u0.-1
+  valence: s
+- d: fur
+  en:
+  - - case marker
+    - locative/adessive
+  - is simultaneous with
+  key: f0.u0.r0
+  valence: 2
+- d: -fur
+  en:
+  - - shape
+    - octahedral; triangular; sturdy
+  key: f0.u0.r0.-1
+  valence: s
+- d: -fuy
+  en:
+  - yonder [B]
+  - a certain [B]
+  key: f0.u0.y0.-1
+  valence: s
+- d: -fuyvuy
+  en:
+  - superlative
+  key: f0.u0.y0.v0.u0.y0.-1
+  valence: s
+- d: fū
+  en:
+  - - case marker
+    - ergative
+  key: f0.u1
+  valence: 2
+- d: -fū
+  en:
+  - - aspect
+    - perfective
+  - - locative
+    - near location
+  - - locative
+    - on surface of container
+    - or on boundary
+  key: f0.u1.-1
+  valence: s
+- d: gakur
+  en:
+  - y/n question constructor
+  key: g0.a0.k0.u0.r0
+  valence: 1
+- d: garbzū
+  en:
+  - frightens; [A] is afraid of [E]
+  key: g0.a0.r0.b0.z0.u1
+  plus:
+  - - bagarbzū
+    - is scary
+  - - fagarbzū
+    - is afraid
+  - - sbagarbzū
+    - fear
+  valence: 2
+- d: garkuy
+  en:
+  - trusts
+  key: g0.a0.r0.k0.u0.y0
+  valence: 2
+- d: gā-
+  en:
+  - turn [B] into a binary word
+  key: g0.a1.-0
+  valence: 2p
+- d: gāpu
+  en:
+  - blow on
+  key: g0.a1.p0.u0
+  plus:
+  - - gāpopu
+    - breathe on
+  - - targāpu
+    - wind
+  valence: 2
+- d: gģa-
+  en:
+  - '[A] has damage, injury, or illness related to [B]'
+  key: g0.g1.a0.-0
+  valence: 1p
+- d: gģu
+  en:
+  - heavy
+  - massive
+  key: g0.g1.u0
+  plus:
+  - - kūgģu
+    - gain weight
+  valence: 1
+- d: gģur
+  en:
+  - eat
+  - drink
+  - smoke (tobacco, marijuana, etc.)
+  key: g0.g1.u0.r0
+  plus:
+  - - sāgģur
+    - tavern
+  valence: 2
+- d: gģū
+  en:
+  - hear
+  key: g0.g1.u1
+  valence: 2
+- d: gŋ
+  en:
+  - '[E] except/without [A]'
+  - '[E] is true and [A] is false'
+  - '[E] minus [A]'
+  key: g0.n1
+  valence: 2
+- d: gu
+  en:
+  - my [A]
+  - our (exclusive) [A]
+  key: g0.u0
+  valence: 1
+- d: gur
+  en:
+  - desires
+  - hungers for
+  - thirsts for
+  key: g0.u0.r0
+  valence: 2
+- d: -gur
+  en:
+  - with intention
+  key: g0.u0.r0.-1
+  notes: This distinguishes “watch” from “see,” “listen” from “hear,” and so on.
+  valence: s
+- d: gū
+  en:
+  - - binding
+    - bind free variable
+  key: g0.u1
+  valence: 2
+- d: -gū
+  en:
+  - - shape
+    - toroidal; looped
+  key: g0.u1.-1
+  valence: s
+- d: gvu
+  en:
+  - is red
+  - is orange
+  - is warm
+  key: g0.v0.u0
+  plus:
+  - - sāgvu
+    - radiator
+  valence: 1
+- d: gžar-
+  en:
+  - 'a shape (usually 3-D), geographic feature, or artifact with base [E] and height/radius
+    [A]
+
+    '
+  key: g0.z1.a0.r0.-0
+  valence: 2p
+- d: gžu
+  en:
+  - is hot
+  key: g0.z1.u0
+  valence: 1
+- d: gžur
+  en:
+  - '[E] gives a gift to [A]'
+  key: g0.z1.u0.r0
+  notes: 'This root emphasizes the relationship between the donor and the recipient.
+    An oblique argument may be added for the gift.
+
+    '
+  plus:
+  - - dagžur
+    - recipient of a gift
+  - - sāgžur
+    - charitable institution
+  - - šagžur
+    - donor
+  - - targžur
+    - gift
+  valence: 2
+- d: gžū
+  en:
+  - some arbitrary action or relationship
+  key: g0.z1.u1
+  valence: 2
+- d: kahu
+  en:
+  - is home
+  - is safe
+  key: k0.a0.h0.u0
+  plus:
+  - - šakahu
+    - mother (in the “household authority figure” sense); chamberlain
+  valence: 1
+- d: kaku
+  en:
+  - - digit
+    - one-fifth (⅕)
+  key: k0.a0.k0.u0
+  valence: n
+- d: kar-
+  en:
+  - an open (1-D) curve of type [B] with source [E] and destination [A]
+  key: k0.a0.r0.-0
+  notes: 'Depending on [B] this could be a road, a river, a wire, a line segment,
+    an arc, etc.
+
+    '
+  valence: 2p
+- d: kartu
+  en:
+  - surprises; [A] is surprised by [E]
+  key: k0.a0.r0.t0.u0
+  plus:
+  - - bakartu
+    - is surprising
+  - - fakartu
+    - feels surprised
+  - - sbakartu
+    - surprise (the emotion)
+  - - šakartu
+    - surprise (a thing that surprises)
+  valence: 2
+- d: šdakortu
+  en: [a laugh]
+  key: s1.d0.a0.k0.o0.r0.t0.u0
+  plus:
+    - [bašdakortu, is laughing]
+    - [fašdakortu, funny]
+    - [gāšdakortu, '[E] laughs at [A]']
+  valence: 0
+  xref: [šdu, kartu]
+- d: kayhuy
+  en:
+  - crush
+  - grind
+  key: k0.a0.y0.h0.u0.y0
+  plus:
+  - - bakayhuy
+    - abrasive
+  - - fakayhuy
+    - powdered
+  valence: 2
+- d: kazu
+  en:
+  - vocative case; “Hey, [A]!”
+  key: k0.a0.z0.u0
+  plus:
+  - - gākazu
+    - I call [A]’s attention to [E]
+  valence: 1
+- d: kāðu
+  en:
+  - take (from person or location)
+  key: k0.a1.d1.u0
+  notes: An oblique argument may specify the thing taken.
+  plus:
+  - - kāðoðu
+    - is a creditor of
+  - - šakāðu
+    - thief
+  valence: 2
+- d: kāku
+  en:
+  - is a caretaker for
+  key: k0.a1.k0.u0
+  plus:
+  - - šakāku
+    - mother (in the “nurturer” sense)
+  valence: 2
+- d: kāžu
+  en:
+  - illuminates
+  key: k0.a1.z1.u0
+  valence: 2
+- d: kķū
+  en:
+  - is higher than
+  - - with numeric prefix
+    - z-dimension
+  key: k0.k1.u1
+  valence: 2
+- d: kŋ
+  en:
+  - - stack operation
+    - DROP (delete top item)
+  key: k0.n1
+  valence: 2
+- d: kša-
+  en:
+  - '[A] is dependent on, or ruled by, [B]'
+  key: k0.s1.a0.-0
+  valence: 1p
+- d: kšu
+  en:
+  - untied; unlocked; unfastened
+  - in disarray; in deshabille
+  key: k0.s1.u0
+  valence: 1
+- d: kšū
+  en:
+  - falls toward
+  - orbits around
+  - [with numeric prefix, 2&pi; (the ratio between a circle’s radius and circumference)]
+  key: k0.s1.u1
+  plus:
+  - - bakšū
+    - is falling; is in zero gravity
+  - - kšākšū
+    - is dancing
+  valence: 2
+- d: ku
+  en:
+  - our (inclusive) [A]
+  key: k0.u0
+  valence: 1
+- d: ku
+  en:
+  - - digit
+    - five (5)
+  key: k0.u0
+  plus:
+  - - kažŋku
+    - two hundred and thirty-three (233)
+  valence: n
+- d: -ku
+  en:
+  - - quantifier
+    - plural
+  key: k0.u0.-1
+  valence: s
+- d: -kugŋku
+  en:
+  - - quantifier
+    - aggregate or mass plural
+  key: k0.u0.g0.n1.k0.u0.-1
+  notes: 'This is used for such constructions as “a flock of geese” or “he was shot
+    with a fusillade.”
+
+    '
+  valence: s
+- d: -kuku
+  en:
+  - - quantifier
+    - associative plural
+  key: k0.u0.k0.u0.-1
+  notes: 'The associative plural is used for such constructions as “Jones & Company,”
+    “the House of Windsor,” or “the solar system.”
+
+    '
+  valence: s
+- d: kur
+  en:
+  - wear
+  - carry
+  - use
+  key: k0.u0.r0
+  plus:
+  - - sbadakur
+    - tool; article of clothing
+  valence: 2
+- d: -kur
+  en:
+  - - evidential
+    - known from inference
+  key: k0.u0.r0.-1
+  valence: s
+- d: -kuy
+  en:
+  - - aspect
+    - gnomic
+  key: k0.u0.y0.-1
+  valence: s
+- d: kū
+  en:
+  - - case marker
+    - oblique/instrumental
+  key: k0.u1
+  valence: 2
+- d: -kū
+  en:
+  - - aspect
+    - incohative (start of action)
+  - - locative
+    - bottom of object
+  key: k0.u1.-1
+  valence: s
+- d: ky
+  en:
+  - '[E] or [A]'
+  key: k0.y0
+  valence: 2
+- d: ķay-
+  en:
+  - 'a closed (1-D) curve of type [B] with center or focus [E] and radius or similar
+    characteristic [A]
+
+    '
+  key: k1.a0.y0.-0
+  notes: 'Depending on [B] this could be a circle, an ellipse ([E] can be multiple
+    points), a geographic boundary, etc.
+
+    '
+  valence: 2p
+- d: ķāhu
+  en:
+  - duration between [E] and [A]
+  - - with numeric prefix
+    - time dimension
+  key: k1.a1.h0.u0
+  plus:
+  - - ķāhohu
+    - rate of [E] per [A]; derivative of time dimension
+  valence: 2
+- d: ķgur
+  en:
+  - are friends
+  - are corresponding parts
+  key: k1.g0.u0.r0
+  valence: 2
+- d: ķgū
+  en:
+  - - binding
+    - free binary variable
+  key: k1.g0.u1
+  valence: 2
+- d: ķu
+  en:
+  - far away
+  - long ago or far in the future
+  key: k1.u0
+  plus: [[gāķu, '[E] is distant (spatially or temporally) from [A]']]
+  valence: 1
+- d: ķū
+  en:
+  - is wet
+  - is contagious
+  - is radioactive
+  key: k1.u1
+  plus: [dažŋģū, fish (or marine mammal)]
+  valence: 2
+- d: pa-
+  en:
+  - unary numeric prefix
+  key: p0.a0.-0
+  notes: For example, <i>patu</i> means “three,” as an adjective.
+  valence: 1p
+- d: paðoybu
+  en:
+  - - phatic
+    - speaker yields turn
+  key: p0.a0.d1.o0.y0.b0.u0
+  valence: 1
+- d: papforhu
+  en:
+  - welded
+  - sealed
+  - forged
+  key: p0.a0.p0.f0.o0.r0.h0.u0
+  valence: 1
+- d: par-
+  en:
+  - '[E] outranks [A] in dimension/quality [B]'
+  key: p0.a0.r0.-0
+  valence: 2p
+- d: parhū
+  en:
+  - is a sign of
+  - is evidence for
+  key: p0.a0.r0.h0.u1
+  valence: 2
+- d: patþū
+  en:
+  - is calm; is motionless
+  key: p0.a0.t0.t1.u1
+  plus:
+  - - gāpatþū
+    - '[E] calms [A] down'
+  - - patþōtrtþū
+    - is asleep
+  - - patþōtrtþōtþū
+    - is tired
+  - - patþōtþū
+    - is under arrest; is forbidden to leave
+  - - sbapatþū
+    - calmness; tranquility; rest
+  - - šapatþū
+    - sedative
+  valence: 1
+- d: patþūždu
+  en: [is yawning]
+  key: p0.a0.t0.d1.u1.z1.d0.u0
+  valence: 1
+  xref: [patþū, šdu]
+- d: pāðu
+  en: hunt; fish
+  key: p0.a1.d1.u0
+  plus:
+  - - pāðoðu
+    - fight
+  - - šapāðoðu
+    - man (in the “hunter/warrior class” sense)
+  valence: 2
+- d: pātu
+  en:
+  - is a close relative (parent or sibling) of
+  - closely resembles
+  - is of the same species as
+  key: p0.a1.t0.u0
+  plus:
+  - - pātotu
+    - is a cousin or more distant relative of; somewhat resembles
+  valence: 2
+- d: pþū
+  en:
+  - - stack operation
+    - AND.THEN
+  key: p0.t1.u1
+  notes: 'Formally speaking, this drops the top stack item, but semantically, it operates
+    as an infix, so that one can describe a sequence of events without building up
+    a whole pile of predicates on the stack and then ending the story with <i>…bm
+    bm bm bm bm.</i>
+
+    '
+  valence: 2
+- d: pfaygū
+  en:
+  - is to the right of; is clockwise from
+  key: p0.f0.a0.y0.g0.u1
+  plus:
+    - - pfaygūdvpū
+      - is to the south of (see <i>davbū</i>; at the south pole, the planet is rotating clockwise)
+  valence: 2
+- d: pfaypu
+  en:
+  - a location or value between [E] and [A]
+  key: p0.f0.a0.y0.p0.u0
+  plus:
+  - - bapfaypopu
+    - less than or equal to [A]; at most [A]
+  - - bapfaypu
+    - less than [A]
+  - - fapfaypopu
+    - more than than or equal to [A]; at least [A]
+  - - fapfaypu
+    - more than [A]
+  valence: 2
+- d: pfā-
+  en:
+  - '[E] causes [A] by means of [B]'
+  key: p0.f0.a1.-0
+  valence: 2p
+- d: pfm
+  en:
+  - '[E] implies [A]'
+  - not-[E] or [A]
+  - '[E] causes or makes [A]'
+  key: p0.f0.m0
+  valence: 2
+- d: pfu
+  en:
+  - is electrically charged (negatively)
+  key: p0.f0.u0
+  valence: 1
+- d: -pfu
+  en:
+  - - shape
+    - icosahedral; bumpy; scaly
+  key: p0.f0.u0.-1
+  valence: s
+- d: pfur
+  en:
+  - '[E] sees [A]'
+  key: p0.f0.u0.r0
+  plus:
+  - - tarpfur
+    - eye; camera; antenna
+  - - tarpfurtuy
+    - glasses
+  valence: 2
+- d: -pfur
+  en:
+  - - aspect
+    - perfect (after action; result of action)
+  - - locative
+    - front side of object
+  key: p0.f0.u0.r0.-1
+  valence: s
+- d: pfū
+  en:
+  - opens
+  key: p0.f0.u1
+  valence: 2
+- d: pm
+  en:
+  - '[E] is an instance of [A]'
+  key: p0.m0
+  valence: 2
+- d: psarpur
+  en:
+  - inspires contempt in; [A] looks down on [E]
+  key: p0.s0.a0.r0.p0.u0.r0
+  plus:
+  - - bapsarpur
+    - is contemptible
+  - - fapsarpur
+    - feels contempt
+  - - sbapsarpur
+    - contempt
+  valence: 2
+- d: psu
+  en:
+  - - stack operation
+    - ROT (rotate third item to top)
+  key: p0.s0.u0
+  valence: 1
+- d: -psu
+  en:
+  - - mechanism adverbial
+    - organic
+  key: p0.s0.u0.-1
+  notes: For example, <i>pfurpsu</i> means “see with the naked eye.”
+  valence: s
+- d: pu
+  en:
+  - wh-question constructor
+  key: p0.u0
+  valence: 1
+- d: pur
+  en:
+  - - case marker
+    - absolutive
+  key: p0.u0.r0
+  valence: 2
+- d: -pur
+  en:
+  - - aspect
+    - imperfect
+  - - locative
+    - at location
+  - - locative
+    - inside container or boundary
+  key: p0.u0.r0.-1
+  valence: s
+- d: puy
+  en:
+  - - digit
+    - one-third (⅓)
+  key: p0.u0.y0
+  valence: n
+- d: -puy
+  en:
+  - - quantifier
+    - a little bit of
+  key: p0.u0.y0.-1
+  valence: s
+- d: -pū
+  en:
+  - this [B]
+  - the [B]
+  - a [B] which is deep in the stack
+  key: p0.u1.-1
+  valence: s
+- d: pw-
+  en:
+  - binary numeric prefix
+  key: p0.w0.-0
+  notes: For example, <i>pwtu</i> means “the sum of [E] and three times [A].”
+  valence: 2p
+- d: sa-
+  en:
+  - your (singular) [B]
+  key: s0.a0.-0
+  valence: 0p
+- d: sardður
+  en:
+  - dirt
+  - soil
+  key: s0.a0.r0.d0.d1.u0.r0
+  plus:
+  - - sardðordður
+    - mud; clay
+  - - sardðorždur
+    - pitch; bitumen; asphalt
+  - - sāzardður
+    - land animal
+  valence: 0
+- d: sarhū
+  en:
+  - arm
+  - limb
+  - mechanical boom
+  - - with numeric prefix
+    - cubit
+  key: s0.a0.r0.h0.u1
+  valence: 0
+- d: sarku
+  en:
+  - territory of an animal pack
+  - nation (in the geographic sense)
+  - biome
+  key: s0.a0.r0.k0.u0
+  valence: 0
+- d: sarpu
+  en:
+  - valley
+  key: s0.a0.r0.p0.u0
+  plus:
+  - - fpāsarpu
+    - valley located between [E] and [A]
+  valence: 0
+- d: sarvu
+  en:
+  - liquid water that is flowing
+  key: s0.a0.r0.v0.u0
+  plus:
+  - - sarvovu
+    - rain
+  - - fpāzarvu
+    - river with source [E] and outlet [A]
+  - - sbavpāzarvu
+    - river
+  - - tþayzarvu
+    - liquid; of low viscosity; free-flowing
+  valence: 0
+- d: sarzbuy
+  en:
+  - sodium chloride
+  - any other salt
+  key: s0.a0.r0.z0.b0.u0.y0
+  plus:
+  - - bazarzbuy
+    - is salted
+  valence: 0
+- d: savofpur
+  en:
+  - louse
+  key: s0.a0.v0.o0.f0.p0.u0.r0
+  valence: 0
+- d: sažgōvū
+  en:
+  - helium
+  key: s0.a0.z1.g0.o1.v0.u1
+  plus:
+  - sažgōvōvū
+  - noble gas
+  valence: 0
+- d: sā-
+  en:
+  - raise locative or adessive argument of [B]
+  - lair, home, or motherland of [B]
+  key: s0.a1.-0
+  notes: For example, <i>sāgžur</i> means “charity,” i.e., a place where giving happens.
+  valence: 0p
+- d: sba-
+  en:
+  - nominalized, infinitive, or abstract form
+  key: s0.b0.a0.-0
+  valence: 0p
+- d: sbāpur
+  en:
+  - hair (on head)
+  key: s0.b0.a1.p0.u0.r0
+  plus: [sbāpopur, hat; wig; helmet]
+  valence: 0
+- d: -sbu
+  en:
+  - - shape
+    - tetrahedral; sharp
+  key: s0.b0.u0.-1
+  valence: s
+- d: sbuy
+  en:
+  - woven
+  - tied
+  - locked
+  - bolted
+  key: s0.b0.u0.y0
+  valence: 1
+- d: sbū
+  en:
+  - liquid water in a container
+  key: s0.b0.u1
+  plus:
+  - - sāzbū
+    - container for liquid
+  - - sbāzbū
+    - shoreline; rim of a container for liquid
+  - - sbāznzbū
+    - tea; tisane; medication
+  valence: 0
+- d: sm
+  en:
+  - - stack operation
+    - OVER (copy 2nd-from-top item)
+  key: s0.m0
+  valence: 0
+- d: sparķkū
+  en:
+  - - expletive
+    - vacuum
+  key: s0.p0.a0.r0.k1.k0.u1
+  valence: 0
+- d: spu
+  en:
+  - ice
+  key: s0.p0.u0
+  valence: 0
+  xref: [tatorhozpu]
+- d: spū
+  en:
+  - fire
+  - plasma (in the physics sense)
+  key: s0.p0.u1
+  valence: 0
+- d: su
+  en:
+  - you (singular or plural)
+  key: s0.u0
+  valence: 0
+- d: su
+  en:
+  - - digit
+    - twenty-one (21)
+  key: s0.u0
+  plus:
+  - - sazrsu
+    - nine hundred and eighty-seven (987)
+  valence: n
+- d: sur
+  en:
+  - stone; rock
+  - - with numeric prefix
+    - 47 kg
+  key: s0.u0.r0
+  valence: 0
+- d: ša-
+  en:
+  - raise ergative argument of [B]
+  - heir, client, or other product of [B] (if [B] is not binary)
+  key: s1.a0.-0
+  notes: For example, <i>šagžur</i> means “donor.”
+  valence: 0p
+- d: šaypu
+  en:
+  - is the first among equals
+  key: s1.a0.y0.p0.u0
+  valence: 1
+- d: šāðū
+  en:
+  - bone
+  - framework
+  - infrastructure
+  key: s1.a1.d1.u1
+  valence: 0
+- d: šāpu
+  en:
+  - palace
+  - headquarters
+  key: s1.a1.p0.u0
+  valence: 0
+- d: šāpū
+  en:
+  - silver
+  - - with numeric prefix
+    - unit of currency
+  key: s1.a1.p0.u1
+  valence: 0
+- d: šdavuy
+  en:
+  - cattle
+  key: s1.d0.a0.v0.u0.y0
+  valence: 0
+- d: šdāpuy
+  en:
+  - root
+  - progenitor
+  - mother or father (in the genetic sense)
+  - inspiration
+  key: s1.d0.a1.p0.u0.y0
+  valence: 0
+- d: šdu
+  en:
+  - face
+  - breastplate
+  - escutcheon
+  key: s1.d0.u0
+  plus:
+  - - baždu
+    - the thing that [A] is looking at / oriented towards
+  - - daždužu
+    - without facial expression
+  - - gāždaznždu
+    - '[E] is dressed/disguised as [A]'
+  - - šdaždu
+    - mask
+  - - šdažnždu
+    - disguise
+  valence: 0
+- d: tatorhoždu
+  en: [raccoon]
+  key: t0.a0.t0.o0.r0.h0.o0.z1.d0.u0
+  valence: 0
+  xref: [šdu, tatorhu]
+- d: šdur
+  en:
+  - oil
+  - fat
+  - suet
+  - greasy substance
+  key: s1.d0.u0.r0
+  plus:
+  - - bvaždur
+    - oily; greasy
+  valence: 0
+- d: šduy
+  en:
+  - full
+  key: s1.d0.u0.y0
+  plus:
+  - - šdayžduy
+    - contains something but is not necessarily full
+  valence: 1
+- d: škarbur
+  en:
+  - genitals (male or female)
+  - linkage hardware (such as nuts and bolts)
+  - port (in either the geographic or electronic sense)
+  key: s1.k0.a0.r0.b0.u0.r0
+  notes: This is not considered an expletive.
+  plus:
+  - - gāškarbur
+    - '[E] mates with [A]; [E] becomes connected with [A]'
+  - - karškarbur
+    - link between [E] and [A]
+  valence: 0
+- d: škarkuy
+  en:
+  - chair; seat
+  key: s1.k0.a0.r0.k0.u0.y0
+  valence: 0
+- d: škarštur
+  en:
+  - sheep
+  key: s1.k0.a0.r0.s1.t0.u0.r0
+  valence: 0
+- d: škavorhur
+  en:
+  - wood
+  - lumber
+  key: s1.k0.a0.v0.o0.r0.h0.u0.r0
+  plus:
+  - - sāškavorhur
+    - forest
+  - - šaškavorhur
+    - tree
+  - - škavorhorhyhur
+    - leaf; canopy
+  valence: 0
+- d: šku
+  en:
+  - - binding
+    - free nullary variable
+  key: s1.k0.u0
+  notes: 'This may take a numeric prefix of any valence, in which case, the variable
+    being bound must be a quantity.
+
+    '
+  valence: 0
+- d: škur
+  en:
+  - expletive
+  - base matter; form without substance
+  key: s1.k0.u0.r0
+  valence: 0
+- d: škuy
+  en:
+  - is standing
+  - is adult
+  - is fully constructed
+  key: s1.k0.u0.y0
+  plus:
+  - - škuykū
+    - is a young adult
+  valence: 1
+- d: škū
+  en:
+  - hide (thick skin of animal)
+  - wall (exterior)
+  - hull
+  key: s1.k0.u1
+  plus:
+  - - baškū
+    - is enclosed; is closed
+  - - faškū
+    - a wall made of [A]
+  - - škāškū
+    - skin; interior wall; membrane
+  - - baškāškū
+    - a room for [A]
+  - - škāhŋškū
+    - robe; dress
+  valence: 0
+- d: štu
+  en:
+  - steam; water vapor
+  key: s1.t0.u0
+  plus:
+  - - faštu
+    - boiled
+  - - baštu
+    - cooks or processes by boiling
+  - - štaštu
+    - smoke (from something burning)
+  valence: 0
+- d: šu
+  en:
+  - nothing
+  key: s1.u0
+  valence: 0
+- d: šu
+  en:
+  - - numeric constant
+    - zero (0)
+  key: s1.u0
+  valence: n
+- d: -šu
+  en:
+  - - quantifier
+    - negation
+  key: s1.u0.-1
+  valence: s
+- d: -šur
+  en:
+  - - aspect
+    - prospective (before action)
+  - - locative
+    - back side of object
+  key: s1.u0.r0.-1
+  valence: s
+- d: -šuy
+  en:
+  - - shape
+    - twisted
+  key: s1.u0.y0.-1
+  valence: s
+- d: -šū
+  en:
+  - proper name marker
+  key: s1.u1.-1
+  notes: This may be applied to words of any valence.
+  valence: s
+- d: -šūðržū
+  en:
+  - honorific marker for sages, similar to “Dr.”
+  key: s1.u1.d1.r0.z1.u1.-1
+  valence: s
+- d: -šūžū
+  en:
+  - honorific marker
+  key: s1.u1.z1.u1.-1
+  valence: s
+- d: tabū
+  en:
+  - iron
+  key: t0.a0.b0.u1
+  plus:
+  - - gģatabū
+    - rusted; oxidized
+  - - tabōbū
+    - lead
+  - - tabōbwbū
+    - tin
+  valence: 0
+- d: tahu
+  en:
+  - great sage
+  - celestial being
+  - mythic hero
+  key: t0.a0.h0.u0
+  valence: 0
+- d: tapur
+  en:
+  - egg
+  - seed
+  - zygote
+  key: t0.a0.p0.u0.r0
+  plus:
+  - - fatapur
+    - egg of species [A]
+  - - šataporpmpur
+    - fruit-bearing or nut-bearing plant
+  - - taporpmpur
+    - fruit; nut
+  valence: 0
+- d: tar-
+  en:
+  - raise oblique or instrumental argument of [B]
+  - object associated with [B]
+  key: t0.a0.r0.-0
+  notes: For example, <i>targžur</i> means “gift.”
+  valence: 0p
+- d: taspu
+  en:
+  - hydrogen
+  - - with numeric prefix
+    - 21.106 cm
+  key: t0.a0.s0.p0.u0
+  valence: 0
+- d: tatorhu
+  en:
+  - bear (the animal)
+  key: t0.a0.t0.o0.r0.h0.u0
+  plus:
+  - - tadntorhu
+    - panda
+  - - tatorhohŋhu
+    - teddy bear
+  valence: 0
+- d: tatorhozpu
+  en:
+    - polar bear
+  key: t0.a0.t0.o0.r0.h0.o0.z0.p0.u0
+  valence: 0
+  xref: [tatorhu, spu]
+- d: tatšur
+  en:
+  - meteor
+  - comet
+  - spacecraft
+  - free agent
+  key: t0.a0.t0.s1.u0.r0
+  plus:
+  - - tatšurpfur
+    - meteorite
+  valence: 0
+- d: tavbur
+  en:
+  - school (educational institution)
+  - library
+  - database
+  - storage medium (hard drive
+  - etc.)
+  key: t0.a0.v0.b0.u0.r0
+  plus:
+  - - tadntovbur
+    - student; librarian; database administrator
+  - - tazrtovbur
+    - curriculum; database schema
+  valence: 0
+- d: tavur
+  en:
+  - house
+  - building
+  - ship
+  - body
+  plus: [tavorfur, cottage; boat; space capsule]
+  key: t0.a0.v0.u0.r0
+  valence: 0
+- d: tayžu
+  en:
+  - telically; with a goal
+  key: t0.a0.y0.z1.u0
+  notes: '<i>Þu bagģurbū</i> simply means “I stopped eating”; <i>þu bagģurbū tayžu</i>
+    means “I finished my meal.”
+
+    '
+  valence: 1
+- d: tā-
+  en:
+  - our (dual) [B]
+  key: t0.a1.-0
+  valence: 0p
+- d: tāhorgū
+  en:
+  - city
+  - colony (of animals)
+  - hive
+  key: t0.a1.h0.o0.r0.g0.u1
+  valence: 0
+- d: tākogū
+  en:
+  - wine
+  key: t0.a1.k0.o0.g0.u1
+  plus:
+  - - fatākogū
+    - naturally fermented product of [A]
+  valence: 0
+- d: tn
+  en:
+  - - stack operation
+    - DUP (copy top item)
+  key: t0.n0
+  valence: 0
+- d: tr-
+  en:
+  - nullary numeric prefix
+  key: t0.r0.-0
+  notes: For example, <i>trtu</i> means “three,” as a noun.
+  valence: 0p
+- d: tšapu
+  en:
+  - plain
+  key: t0.s1.a0.p0.u0
+  valence: 0
+- d: tšu
+  en:
+  - meat
+  - flesh
+  key: t0.s1.u0
+  valence: 0
+- d: tšur
+  en:
+  - leg
+  - drive shaft
+  - pillar
+  key: t0.s1.u0.r0
+  plus:
+  - - batšur
+    - is an engine
+  - - fatšur
+    - is supported; is propelled
+  - - gģatšur
+    - paraplegic
+  valence: 0
+- d: tšuy
+  en:
+  - some arbitrary attribute
+  key: t0.s1.u0.y0
+  valence: 1
+- d: tšū
+  en:
+  - waist
+  - hallway
+  - connection
+  - isthmus
+  key: t0.s1.u1
+  plus:
+  - - batšu
+    - is the larger object connected by a hallway/isthmus/etc.
+  - - dabatšu
+    - trunk (upper part of a primate body)
+  - - dabatšužur
+    - back (body part)
+  - - fatšu
+    - is the smaller object connected by a hallway/isthmus/etc.
+  - - šatšōtšū
+    - vertebrate land animal
+  - - šatšū
+    - chordate (vertebrate animal)
+  - - tšātšū
+    - neck
+  valence: 0
+- d: tþay-
+  en:
+  - having the color, shape, sound, or other sensory characteristic of [B]
+  key: t0.t1.a0.y0.-0
+  valence: 1p
+- d: tþartuy
+  en:
+  - weathered
+  - battered
+  - distressed (physically, mentally, or emotionally)
+  - prematurely aged
+  key: t0.t1.a0.r0.t0.u0.y0
+  plus:
+  - - tþartntuy
+    - precocious
+  - - tþardrtuy
+    - well-preserved
+  valence: 1
+- d: tþāžu
+  en:
+  - - with numeric prefix
+    - 2.73 K
+  key: t0.t1.a1.z1.u0
+  valence: 0
+- d: -tþu
+  en:
+  - - shape
+    - cubic; square; flat; a container
+  key: t0.t1.u0.-1
+  valence: s
+- d: -tþur
+  en:
+  - - irrealis
+  key: t0.t1.u0.r0.-1
+  valence: s
+- d: tþuy
+  en:
+  - is walking
+  key: t0.t1.u0.y0
+  plus:
+  - - kartþuy
+    - footpath from [E] to [A]
+  - - sbakartþuy
+    - footpath
+  valence: 1
+- d: tþū
+  en:
+  - some arbitrary object
+  key: t0.t1.u1
+  valence: 0
+- d: tu
+  en:
+  - - digit
+    - three (3)
+  key: t0.u0
+  plus:
+  - - taðntu
+    - one hundred and forty-four (144)
+  valence: n
+- d: -tu
+  en:
+  - - quantifier
+    - paucal
+  key: t0.u0.-1
+  valence: s
+- d: tur
+  en:
+  - here
+  - now
+  key: t0.u0.r0
+  valence: 0
+- d: -tuy
+  en:
+  - - mechanism adverbial
+    - prosthetic
+  key: t0.u0.y0.-1
+  notes: For example, <i>pfurtuy</i> means “see with the aid of a tool.”
+  valence: s
+- d: tū
+  en:
+  - we, us (inclusive)
+  key: t0.u1
+  valence: 0
+- d: tū
+  en:
+  - - digit
+    - thirteen (13)
+  key: t0.u1
+  plus:
+  - - tāzntū
+    - six hundred and ten (610)
+  valence: n
+- d: þa-
+  en:
+  - my (singular) [B]
+  key: t1.a0.-0
+  valence: 0p
+- d: þarbuy
+  en:
+  - bread
+  - grain
+  key: t1.a0.r0.b0.u0.y0
+  plus:
+  - - þarboybuy
+    - oatmeal; porridge; gruel
+  - - þarboypwbuy
+    - dough
+  valence: 0
+- d: þarfpuy
+  en:
+  - idea
+  - computer program
+  - law
+  key: t1.a0.r0.f0.p0.u0.y0
   notes: 'Connotes an idea, program, or law of substantial scope: not “I should go
     grocery shopping today” but “eating refined sugar is bad for you”; not a sorting
     algorithm or a whole operating system, but a word processor; not a single policy
     or a whole book of laws, but a chapter or title’s worth. Also connotes the purpose
-    and effect of a program or law, rather than its literal text.'
-  translations:
-  - english: idea
-    tags: []
-  - english: computer program
-    tags: []
-  - english: law
-    tags: []
-  valence: 0
-  xref: []
-- daemonica: ātsur
-  key: a1t0s0u0r
-  notes: ''
-  translations:
-  - english: vacuum
-    tags:
-    - expletive
-  valence: 0
-  xref:
-  - džartfur
-- daemonica: bahur
-  key: ba0hu0r
-  notes: ''
-  translations:
-  - english: locative
-    tags:
-    - case
-  - english: is simultaneous with
-    tags: []
-  valence: 2
-  xref:
-  - adu
-  - gu
-  - bmhu
-  - dahu
-  - sdu
-  - smdur
-  - whur
-  - arhur
-  - barvmķtu
-  - dngzu
-  - dzu
-  - sdur
-  - šdur
-- daemonica: bar
-  key: ba0r
-  notes: 'This is used as a prefixed form of a conjunction: a way of saying “this
-    <em>and</em> that” or “this <em>and then</em> that”.'
-  translations:
-  - english: emit top stack item and drop it
-    tags:
-    - prefix
-    - stack op
-  valence: 2
-  xref:
-  - dzu
-  - mdar
-  - drbur
-  - šudur
-  - šur
-  - darhur
-  - smbu
-  - ''
-  - tndā
-  - mhar
-  - mta
-  - mzar
-  - rta
-  - smda
-- daemonica: barhŋtu
-  key: ba0rhn1t0u0
-  notes: ''
-  translations:
-  - english: red
-    tags: []
-  - english: sad
-    tags: []
-  valence: 1
-  xref:
-  - mhu
-  - þpardū
-- daemonica: barvmķtu
-  key: ba0rvmk1t0u0
-  notes: “A long time ago, in a galaxy far, far away…”
-  translations:
-  - english: very distant in time and/or space
-    tags:
-    - tense
-  - english: according to legend
-    tags: []
-  valence: 1
-  xref:
-  - whur
-  - arhur
-  - bahur
-  - dngzu
-  - dzu
-  - sdur
-  - šdur
-- daemonica: batŋdu
-  key: ba0t0n1d0u0
-  notes: ''
-  translations:
-  - english: tie, bind
-    tags: []
-  valence: 2
-  xref: []
-- daemonica: bazu
-  key: ba0z0u0
-  notes: ''
-  translations:
-  - english: arbitrary action
-    tags: []
-  valence: 2
-  xref: []
-- daemonica: bðāzur
-  key: bd1a1z0u0r
-  notes: ''
-  translations:
-  - english: pause
-    tags: []
-  valence: 2
-  xref: []
-- daemonica: bmhu
-  key: bmhu0
-  notes: ''
-  translations:
-  - english: adessive (near…)
-    tags:
-    - case
-  - english: add argument for “X wants…”
-    tags:
-    - suffix
-  valence: 2
-  xref:
-  - adu
-  - gu
-  - bahur
-  - dahu
-  - sdu
-  - smdur
-  - dmdu
-  - šdur
-- daemonica: bmpu
-  key: bmpu0
-  notes: ''
-  translations:
-  - english: viscous
-    tags: []
-  - english: dense
-    tags: []
-  - english: '11'
-    tags:
-    - number
-  valence: 1
-  xref: []
-- daemonica: bmvur
-  key: bmvu0r
-  notes: ''
-  translations:
-  - english: break
-    tags: []
-  - english: rip
-    tags: []
-  valence: 2
-  xref: []
-- daemonica: bnhur
-  key: bn0hu0r
-  notes: ''
-  translations:
-  - english: hit, strike
-    tags: []
-  valence: 2
-  xref: []
-- daemonica: bntar
-  key: bn0t0a0r
-  notes: ''
-  translations:
-  - english: specify something organic as distinct from mechanical
-    tags:
-    - prefix
-  valence: 1
-  xref:
-  - knbar
-  - ŋha
-- daemonica: bu
-  key: bu0
-  notes: ''
-  translations:
-  - english: go to
-    tags: []
-  valence: 2
-  xref: []
-- daemonica: bur
-  key: bu0r
-  notes: As a suffix, transforms “bear” to “[A] is brown.”
-  translations:
-  - english: is the name of
-    tags: []
-  - english: color/shape/sound of base word
-    tags:
-    - suffix
-  valence: 2
-  xref: []
-- daemonica: dahoždu
-  key: d0a0ho0z1d0u0
-  notes: ''
-  translations:
-  - english: see
-    tags: []
-  valence: 2
-  xref: []
-- daemonica: dahu
-  key: d0a0hu0
-  notes: ''
-  translations:
-  - english: instrumental
-    tags:
-    - case
-  valence: 2
-  xref:
-  - adu
-  - gu
-  - bahur
-  - bmhu
-  - sdu
-  - smdur
-- daemonica: dakmhu
-  key: d0a0k0mhu0
-  notes: ''
-  translations:
-  - english: thick
-    tags: []
-  valence: 1
-  xref: []
-- daemonica: dapu
-  key: d0a0pu0
-  notes: ''
-  translations:
-  - english: high
-    tags: []
-  valence: 1
-  xref: []
-- daemonica: darhur
-  key: d0a0rhu0r
-  notes: ''
-  translations:
-  - english: or (in sense of options)
-    tags:
-    - logic
-  valence: 2
-  xref:
-  - bar
-  - dzu
-  - mdar
-  - drbur
-  - šudur
-  - šur
-  - smbu
-- daemonica: darzwtur
-  key: d0a0rz0wt0u0r
-  notes: ''
-  translations:
-  - english: falling
-    tags: []
-  valence: 1
-  xref: []
-- daemonica: datyhu
-  key: d0a0t0yhu0
-  notes: ''
-  translations:
-  - english: old
-    tags: []
-  - english: elderly
-    tags: []
-  valence: 1
-  xref: []
-- daemonica: dāfbū
-  key: d0a1fbu1
-  notes: ''
-  translations:
-  - english: give something to
-    tags: []
-  valence: 2
-  xref: []
-- daemonica: dāhur
-  key: d0a1hu0r
-  notes: ''
-  translations:
-  - english: are peers
-    tags: []
-  - english: exist at the same level of a hierarchy
-    tags: []
-  valence: 2
-  xref: []
-- daemonica: dður
-  key: d0d1u0r
-  notes: ''
-  translations:
-  - english: is the offspring of
-    tags: []
-  valence: 2
-  xref: []
-- daemonica: dģmtur
-  key: d0g1mt0u0r
-  notes: <em>not</em> considered an expletive
-  translations:
-  - english: waste
-    tags: []
-  - english: refuse
-    tags: []
-  - english: fecal matter
-    tags: []
-  - english: '28'
-    tags:
-    - number
-  valence: 1
-  xref: []
-- daemonica: dmdu
-  key: d0md0u0
-  notes: As a suffix, transforms “[A] is a bear” to “[A] is involved with bears”;
-    transforms “[E] chases [A]” to “[A] is chased towards [E]”
-  translations:
-  - english: is to the north of
-    tags:
-    - tense
-  - english: is magnetically attracted to
-    tags: []
-  - english: add agent argument to valence-0 word
-    tags:
-    - suffix
-  - english: add oblique argument to valence-1 word
-    tags:
-    - suffix
-  - english: put oblique argument in ergative position of valence-2 word
-    tags:
-    - suffix
-  valence: 2
-  xref:
-  - bmhu
-  - šdur
-- daemonica: dmtu
-  key: d0mt0u0
-  notes: ''
-  translations:
-  - english: part (non-specific)
-    tags:
-    - number
-  valence: 1
-  xref:
-  - pmbu
-  - tsmdu
-  - dwtū
-  - pwbu
-- daemonica: dngzu
-  key: d0n0g0z0u0
-  notes: ''
-  translations:
-  - english: happens after
-    tags:
-    - tense
-  - english: is below
-    tags: []
-  valence: 2
-  xref:
-  - whur
-  - arhur
-  - bahur
-  - barvmķtu
-  - dzu
-  - sdur
-  - šdur
-- daemonica: dngzū
-  key: d0n0g0z0u1
-  notes: ''
-  translations:
-  - english: approaches
-    tags: []
-  valence: 2
-  xref: []
-- daemonica: dnhu
-  key: d0n0hu0
-  notes: ''
-  translations:
-  - english: drink
-    tags: []
-  valence: 2
-  xref: []
-- daemonica: dntā
-  key: d0n0t0a1
-  notes: ''
-  translations:
-  - english: augmentative
-    tags:
-    - prefix
-  valence: 1
-  xref:
-  - fa
-  - fnha
-  - sā
-- daemonica: dntšu
-  key: d0n0t0s1u0
-  notes: ''
-  translations:
-  - english: new
-    tags: []
-  - english: young
-    tags: []
-  - english: short
-    tags: []
-  valence: 1
-  xref: []
-- daemonica: dntur
-  key: d0n0t0u0r
-  notes: ''
-  translations:
-  - english: stimulating
-    tags: []
-  - english: z-dimension
-    tags:
-    - number
-  valence: 1
-  xref:
-  - mhur
-  - prgur
-  - wzur
-- daemonica: dŋdu
-  key: d0n1d0u0
-  notes: ''
-  translations:
-  - english: carry
-    tags: []
-  valence: 2
-  xref: []
-- daemonica: dŋpu
-  key: d0n1pu0
-  notes: ''
-  translations:
-  - english: untied
-    tags: []
-  - english: unlocked
-    tags: []
-  - english: unfastened
-    tags: []
-  - english: in disarray
-    tags: []
-  - english: in deshabille
-    tags: []
-  - english: '18'
-    tags:
-    - number
-  valence: 1
-  xref: []
-- daemonica: dŋtu
-  key: d0n1t0u0
-  notes: ''
-  translations:
-  - english: slippery
-    tags: []
-  - english: greasy
-    tags: []
-  - english: cloudy
-    tags: []
-  - english: '20'
-    tags:
-    - number
-  - english: authority by example
-    tags:
-    - suffix
-  - english: prototype
-    tags:
-    - suffix
-  - english: design
-    tags:
-    - suffix
-  valence: 1
-  xref:
-  - fr
-  - mhu
-  - su
-  - wðu
-- daemonica: drbur
-  key: d0rbu0r
-  notes: ''
-  translations:
-  - english: or (in sense of randomness)
-    tags:
-    - logic
-  valence: 2
-  xref:
-  - bar
-  - dzu
-  - mdar
-  - šudur
-  - šur
-  - darhur
-  - smbu
-  - ''
-- daemonica: drbū
-  key: d0rbu1
-  notes: ''
-  translations:
-  - english: are acquaintances
-    tags: []
-  - english: are connected informally or sporadically
-    tags: []
-  valence: 2
-  xref: []
-- daemonica: du
-  key: d0u0
-  notes: As a suffix, transforms “bear” to “[A] is a bear,” and “[E] chases [A]” to
-    “[E] chases someone towards [A].”
-  translations:
-  - english: free valence-2 variable
-    tags:
-    - binding
-  - english: add argument to valence-0 and valence-1 word
-    tags:
-    - suffix
-  - english: put oblique argument in absolutive position of valence-2 word
-    tags:
-    - suffix
-  valence: 2
-  xref:
-  - ahur
-  - kapu
-  - mhur
-  - rdū
-- daemonica: dur
-  key: d0u0r
-  notes: ''
-  translations:
-  - english: do, make
-    tags: []
-  - english: is the cause of
-    tags:
-    - tense
-  - english: is implied by
-    tags:
-    - logic
-  valence: 2
-  xref: []
-- daemonica: dwpfu
-  key: d0wpfu0
-  notes: ''
-  translations:
-  - english: hot
-    tags: []
-  valence: 1
-  eref: []
-- daemonica: dwtū
-  key: d0wt0u1
-  notes: ''
-  translations:
-  - english: a little bit
-    tags:
-    - number
-  valence: 1
-  xref:
-  - dmtu
-  - pmbu
-  - tsmdu
-  - pwbu
-- daemonica: dznhū
-  key: d0z0n0hu1
-  notes: ''
-  translations:
-  - english: hear
-    tags: []
-  valence: 2
-  xref: []
-- daemonica: dzu
-  key: d0z0u0
-  notes: ''
-  translations:
-  - english: and
-    tags:
-    - logic
-  - english: simultaneously
-    tags:
-    - tense
-  valence: 2
-  xref:
-  - bar
-  - mdar
-  - drbur
-  - šudur
-  - šur
-  - darhur
-  - smbu
-  - whur
-  - arhur
-  - bahur
-  - barvmķtu
-  - dngzu
-  - sdur
-  - šdur
-- daemonica: dzū
-  key: d0z0u1
-  notes: ''
-  translations:
-  - english: are friends
-    tags: []
-  - english: are corresponding parts
-    tags: []
-  valence: 2
-  xref: []
-- daemonica: džarhu
-  key: d0z1a0rhu0
-  notes: ''
-  translations:
-  - english: take
-    tags: []
-  valence: 2
-  xref: []
-- daemonica: džartfur
-  key: d0z1a0rt0fu0r
-  notes: ''
-  translations:
-  - english: empty
-    tags: []
-  valence: 1
-  xref:
-  - ātsur
-- daemonica: džmpsu
-  key: d0z1mps0u0
-  notes: ''
-  translations:
-  - english: salted
-    tags: []
-  - english: made into salt
-    tags: []
-  valence: 1
-  xref: []
-- daemonica: džrtu
-  key: d0z1rt0u0
-  notes: ''
-  translations:
-  - english: scattered
-    tags: []
-  - english: '23'
-    tags:
-    - number
-  valence: 1
-  xref: []
-- daemonica: fa
-  key: fa0
-  notes: ''
-  translations:
-  - english: borderline [base word]
-    tags:
-    - prefix
-  valence: 1
-  xref:
-  - dntā
-  - fnha
-  - sā
-- daemonica: fazu
-  key: fa0z0u0
-  notes: ''
-  translations:
-  - english: wh-question constructor
-    tags: []
-  valence: 1
-  xref: []
-- daemonica: fbarvdur
-  key: fba0rvd0u0r
-  notes: ''
-  translations:
-  - english: are independent of each other
-    tags: []
-  - english: are either simultaneous or not depending on one’s frame of reference
-    tags:
-    - tense
-  valence: 2
-  xref: []
-- daemonica: fmfpu
-  key: fmfpu0
-  notes: ''
-  translations:
-  - english: blood
-    tags: []
-  - english: electrical current
-    tags: []
-  - english: water flowing through a course
-    tags: []
-  valence: 0
-  xref: []
-- daemonica: fnha
-  key: fn0ha0
-  notes: ''
-  translations:
-  - english: opposite
-    tags:
-    - prefix
-  valence: 1
-  xref:
-  - dntā
-  - fa
-  - sā
-- daemonica: fr
-  key: fr
-  notes: ''
-  translations:
-  - english: '7'
-    tags:
-    - number
-  - english: authority from bloodline
-    tags:
-    - suffix
-  - english: nobility
-    tags:
-    - suffix
-  - english: association with dominant ethnic group
-    tags:
-    - suffix
-  - english: kinship tie
-    tags:
-    - suffix
-  valence: 1
-  xref:
-  - dŋtu
-  - mhu
-  - su
-  - wðu
-- daemonica: ftaržŋhur
-  key: ft0a0rz1n1hu0r
-  notes: ''
-  translations:
-  - english: wall
-    tags: []
-  - english: hull
-    tags: []
-  - english: hide (body part)
-    tags: []
-  - english: guardian
-    tags: []
-  valence: 0
-  xref: []
-- daemonica: ftu
-  key: ft0u0
-  notes: ''
-  translations:
-  - english: mouth
-    tags: []
-  valence: 0
-  xref: []
-- daemonica: fu
-  key: fu0
-  notes: ''
-  translations:
-  - english: interior of
-    tags: []
-  - english: atmosphere of
-    tags: []
-  - english: '6'
-    tags:
-    - number
-  - english: hypernym
-    tags:
-    - suffix
-  valence: 1
-  xref: []
-- daemonica: fū
-  key: fu1
-  notes: ''
-  translations:
-  - english: telic marker
-    tags:
-    - suffix
-  - english: adult or finished object
-    tags:
-    - suffix
-  valence: 1
-  xref: []
-- daemonica: gahu
-  key: g0a0hu0
-  notes: ''
-  translations:
-  - english: fly to
-    tags: []
-  valence: 2
-  xref: []
-- daemonica: gapu
-  key: g0a0pu0
-  notes: ''
-  translations:
-  - english: cold
-    tags: []
-  valence: 1
-  xref: []
-- daemonica: gģur
-  key: g0g1u0r
-  notes: ''
-  translations:
-  - english: know
-    tags: []
-  - english: is expert regarding
-    tags: []
-  valence: 2
-  xref: []
-- daemonica: gu
-  key: g0u0
-  notes: '[E] is treated as a valence-1 word and [A] is treated as its absolute argument;
-    alternatively, if [E] can be interpreted as something capable of possession, [A]
-    is treated as the possessed object.'
-  translations:
-  - english: absolutive or genitive
-    tags:
-    - case
-  valence: 2
-  xref:
-  - adu
-  - bahur
-  - bmhu
-  - dahu
-  - sdu
-  - smdur
-- daemonica: gur
-  key: g0u0r
-  notes: ''
-  translations:
-  - english: say
-    tags: []
-  valence: 2
-  xref: []
-- daemonica: gū
-  key: g0u1
-  notes: ''
-  translations:
-  - english: mean (in the explanatory or linguistic sense)
-    tags: []
-  valence: 2
-  xref: []
-- daemonica: gvardŋdur
-  key: g0va0rd0n1d0u0r
-  notes: ''
-  translations:
-  - english: dance on
-    tags: []
-  - english: orbit around
-    tags: []
-  valence: 2
-  xref: []
-- daemonica: ģu
-  key: g1u0
-  notes: '<i>šurģu</i>: none; <i>uģu</i>: some; <i>þūģu</i>: a significant number;
-    <i>šuģu</i>: all'
-  translations:
-  - english: performative speech act
-    tags:
-    - phatic
-  - english: universal or existential quantifier
-    tags:
-    - number
-  - english: top side
-    tags:
-    - suffix
-  - english: incohative aspect (to start to X)
-    tags:
-    - suffix
-  valence: 1
-  xref:
-  - wža
-  - yhū
-  - mhur
-  - nžu
-  - sur
-  - szū
-- daemonica: kapu
-  key: k0a0pu0
-  notes: ''
-  translations:
-  - english: free valence-0 variable
-    tags: []
-  valence: 0
-  xref:
-  - ahur
-  - du
-  - mhur
-  - rdū
-- daemonica: katorhu
-  key: k0a0t0o0rhu0
-  notes: ''
-  translations:
-  - english: hair (on head)
-    tags: []
-  valence: 0
-  xref: []
-- daemonica: kāhmvu
-  key: k0a1hmvu0
-  notes: ''
-  translations:
-  - english: leg
-    tags: []
-  - english: drive shaft
-    tags: []
-  - english: pillar
-    tags: []
-  valence: 0
-  xref: []
-- daemonica: kmdur
-  key: k0md0u0r
-  notes: ''
-  translations:
-  - english: sharp
-    tags: []
-  - english: '26'
-    tags:
-    - number
-  valence: 1
-  xref: []
-- daemonica: knbar
-  key: k0n0ba0r
-  notes: ''
-  translations:
-  - english: specify mechanical accessory to something organic
-    tags:
-    - prefix
-  valence: 1
-  xref:
-  - ŋha
-  - bntar
-- daemonica: krbur
-  key: krbu0r
-  notes: Transforms “[A] is cloudy” to “[A] is the color of clouds.”
-  translations:
-  - english: color/shape/sound of base word
-    tags:
-    - suffix
-  valence: 1
-- daemonica: krtu
-  key: k0rt0u0
-  notes: ''
-  translations:
-  - english: waist
-    tags: []
-  - english: hallway
-    tags: []
-  - english: connection
-    tags: []
-  - english: isthmus
-    tags: []
-  valence: 0
-  xref: []
-- daemonica: kšu
-  key: k0s1u0
-  notes: ''
-  translations:
-  - english: star
-    tags: []
-  - english: leader
-    tags: []
-  - english: 1.337s
-    tags:
-    - measure
-  valence: 0
-  xref: []
-- daemonica: kur
-  key: k0u0r
-  notes: As a suffix, transforms “[A] is hungry” to “hunger”, or “[E] chases [A]”
-    to “[A] is involved in a chase.”
-  translations:
-  - english: foot
-    tags: []
-  - english: wheel
-    tags: []
-  - english: nozzle
-    tags: []
-  - english: traditional foot (approx. 30 cm)
-    tags:
-    - measure
-  - english: reduce valence
-    tags:
-    - suffix
-  - english: derive abstraction from valence-0 word
-    tags:
-    - suffix
-  valence: 0
-  xref:
-  - pū
-  - tū
-  - putur
-- daemonica: mdar
-  key: md0a0r
-  notes: ''
-  translations:
-  - english: drop top stack item
-    tags:
-    - prefix
-    - stack op
-  valence: 2
-  xref:
-  - bar
-  - dzu
-  - drbur
-  - šudur
-  - šur
-  - darhur
-  - smbu
-  - tndā
-  - mhar
-  - mta
-  - mzar
-  - rta
-  - smda
-- daemonica: mhar
-  key: mha0r
-  notes: ''
-  translations:
-  - english: roll third stack item to top
-    tags:
-    - prefix
-    - stack op
-  valence: 1
-  xref:
-  - tndā
-  - bar
-  - mdar
-  - mta
-  - mzar
-  - rta
-  - smda
-- daemonica: mhu
-  key: mhu0
-  notes: ''
-  translations:
-  - english: black
-    tags: []
-  - english: calm, tranquil
-    tags: []
-  - english: coercive authority
-    tags:
-    - suffix
-  - english: armed forces
-    tags:
-    - suffix
-  valence: 1
-  xref:
-  - barhŋtu
-  - þpardū
-  - dŋtu
-  - fr
-  - su
-  - wðu
-- daemonica: mhur
-  key: mhu0r
-  notes: ''
-  translations:
-  - english: free numeric (valence-1) variable
-    tags:
-    - binding
-  - english: y-dimension
-    tags:
-    - number
-  - english: habitual
-    tags:
-    - suffix
-    - aspect
-  - english: striped, tessellated, or otherwise patterned shape or quality
-    tags:
-    - suffix
-  valence: 1
-  xref:
-  - ahur
-  - du
-  - kapu
-  - rdū
-  - dntur
-  - prgur
-  - wzur
-  - wža
-  - yhū
-  - ģu
-  - nžu
-  - sur
-  - szū
-- daemonica: mpšu
-  key: mps1u0
-  notes: ''
-  translations:
-  - english: bird
-    tags: []
-  - english: airplane
-    tags: []
-  valence: 0
-  xref: []
-- daemonica: mta
-  key: mt0a0
-  notes: ''
-  translations:
-  - english: copy second-from-top stack item
-    tags:
-    - prefix
-    - stack op
-  valence: 0
-  xref:
-  - tndā
-  - bar
-  - mdar
-  - mhar
-  - mzar
-  - rta
-  - smda
-- daemonica: mtu
-  key: mt0u0
-  notes: ''
-  translations:
-  - english: meteor
-    tags: []
-  - english: comet
-    tags: []
-  - english: spacecraft
-    tags: []
-  - english: free agent
-    tags: []
-  - english: 2.73 K
-    tags:
-    - measure
-  valence: 0
-  xref: []
-- daemonica: mzar
-  key: mz0a0r
-  notes: ''
-  translations:
-  - english: swap top two stack items
-    tags:
-    - prefix
-    - stack op
-  valence: 1
-  xref:
-  - tndā
-  - bar
-  - mdar
-  - mhar
-  - mta
-  - rta
-  - smda
-- daemonica: mzā
-  key: mz0a1
-  notes: ''
-  translations:
-  - english: proper noun marker
-    tags:
-    - prefix
-  valence: 1
-  xref: []
-- daemonica: ngu
-  key: n0g0u0
-  notes: ''
-  translations:
-  - english: a circular path around [E] which contains [A]
-    tags:
-    - geometry
-  - english: a circular path around [E} with radius [A]
-    tags: []
-  valence: 2
-  xref:
-  - šydu
-- daemonica: nhar
-  key: n0ha0r
-  notes: ''
-  translations:
-  - english: illness or damage
-    tags:
-    - prefix
-  valence: 1
-  xref: []
-- daemonica: nhu
-  key: n0hu0
-  notes: ''
-  translations:
-  - english: '10'
-    tags:
-    - number
-  valence: 1
-  xref: []
-- daemonica: nhur
-  key: n0hu0r
-  notes: ''
-  translations:
-  - english: proven
-    tags: []
-  - english: '15'
-    tags:
-    - number
-  valence: 1
-  xref: []
-- daemonica: nžu
-  key: n0z1u0
-  notes: ''
-  translations:
-  - english: diminutive
-    tags:
-    - suffix
-  - english: perfective
-    tags:
-    - suffix
-    - aspect
-  valence: 1
-  xref:
-  - wža
-  - yhū
-  - ģu
-  - mhur
-  - sur
-  - szū
-- daemonica: nžur
-  key: n0z1u0r
-  notes: ''
-  translations:
-  - english: energetic (in the physics sense)
-    tags: []
-  - english: '21'
-    tags:
-    - number
-  valence: 1
-  xref: []
-- daemonica: ŋģu
-  key: n1g1u0
-  notes: ''
-  translations:
-  - english: base matter, form without substance
-    tags:
-    - expletive
-  valence: 1
-  xref: []
-- daemonica: ŋha
-  key: n1ha0
-  notes: ''
-  translations:
-  - english: specify something mechanical as distinct from organic
-    tags:
-    - prefix
-  valence: 1
-  xref:
-  - knbar
-  - bntar
-- daemonica: ŋhū
-  key: n1hu1
-  notes: ''
-  translations:
-  - english: gathered together
-    tags: []
-  - english: '24'
-    tags:
-    - number
-  valence: 1
-  xref: []
-- daemonica: ŋtur
-  key: n1t0u0r
-  notes: ''
-  translations:
-  - english: nose
-    tags: []
-  - english: nub, protrusion
-    tags: []
-  - english: make ordinal number
-    tags:
-    - measure
-  valence: 0
-  xref: []
-- daemonica: ŋvu
-  key: n1vu0
-  notes: ''
-  translations:
-  - english: alleged
-    tags: []
-  - english: '13'
-    tags:
-    - number
-  valence: 1
-  xref: []
-- daemonica: ŋžu
-  key: n1z1u0
-  notes: ''
-  translations:
-  - english: '14'
-    tags:
-    - number
-  valence: 1
-  xref: []
-- daemonica: padu
-  key: pa0d0u0
-  notes: ''
-  translations:
-  - english: arbitrary quality
-    tags: []
-  valence: 1
-  xref: []
-- daemonica: padur
-  key: pa0d0u0r
-  notes: ''
-  translations:
-  - english: good
-    tags: []
-  valence: 1
-  xref: []
-- daemonica: parhnpu
-  key: pa0rhn0pu0
-  notes: ''
-  translations:
-  - english: meat, flesh
-    tags: []
-  valence: 0
-  xref: []
-- daemonica: parhur
-  key: pa0rhu0r
-  notes: ''
-  translations:
-  - english: wine
-    tags: []
-  valence: 0
-  xref: []
-- daemonica: pazu
-  key: pa0z0u0
-  notes: ''
-  translations:
-  - english: arbitrary thing
-    tags: []
-  valence: 0
-  xref: []
-- daemonica: pāpmpu
-  key: pa1pmpu0
-  notes: ''
-  translations:
-  - english: bowl
-    tags: []
-  - english: pot
-    tags: []
-  valence: 0
-  xref: []
-- daemonica: pfur
-  key: pfu0r
-  notes: ''
-  translations:
-  - english: water
-    tags: []
-  - english: fear
-    tags: []
-  valence: 0
-  xref: []
-- daemonica: pmbu
-  key: pmbu0
-  notes: 'This combines irregularly with its preceding digit: <i>apmbu</i> = “one
-    half”; <i>þāpmbu</i> = “two thirds”; <i>šāpmbu</i> = “three quarters.”</i>'
-  translations:
-  - english: half
-    tags: []
-  - english: half
-    tags:
-    - number
-  - english: half
-    tags:
-    - suffix
-  valence: 1
-  xref:
-  - dmtu
-  - tsmdu
-  - dwtū
-  - pwbu
-- daemonica: pmhu
-  key: pmhu0
-  notes: ''
-  translations:
-  - english: school (educational institution)
-    tags: []
-  - english: library
-    tags: []
-  - english: database
-    tags: []
-  - english: storage medium (hard drive, etc.)
-    tags: []
-  valence: 0
-  xref: []
-- daemonica: pmkþu
-  key: pmk0t1u0
-  notes: ''
-  translations:
-  - english: chair, seat
-    tags: []
-  valence: 0
-  xref: []
-- daemonica: pndu
-  key: pn0d0u0
-  notes: When the non-numeric form is used to describe an event rather than a person,
-    it has a sense of “this was meant to be”.
-  translations:
-  - english: being on a quest
-    tags: []
-  - english: having a destiny
-    tags: []
-  - english: '29'
-    tags:
-    - number
-  valence: 1
-  xref: []
-- daemonica: pŋtsur
-  key: pn1t0s0u0r
-  notes: ''
-  translations:
-  - english: sodium
-    tags: []
-  - english: sodium chloride
-    tags: []
-  - english: alkalai metal
-    tags: []
-  valence: 0
-  xref: []
-- daemonica: prgur
-  key: prg0u0r
-  notes: ''
-  translations:
-  - english: tranquilizing
-    tags: []
-  - english: radial dimension
-    tags:
-    - number
-  valence: 1
-  xref:
-  - mhur
-  - dntur
-  - wzur
-- daemonica: psadōhū
-  key: ps0a0d0o1hu1
-  notes: ''
-  translations:
-  - english: electrically charged
-    tags: []
-  valence: 1
-  xref: []
-- daemonica: pþavur
-  key: pt1a0vu0r
-  notes: ''
-  translations:
-  - english: copper
-    tags: []
-  valence: 0
-  xref: []
-- daemonica: pu
-  key: pu0
-  notes: ''
-  translations:
-  - english: I, me (singular)
-    tags:
-    - pronoun
-  valence: 0
-  xref:
-  - tu
-  - tur
-  - tyhur
-  - tahur
-  - artur
-- daemonica: pur
-  key: pu0r
-  notes: ''
-  translations:
-  - english: oil
-    tags: []
-  - english: fat
-    tags: []
-  - english: suet
-    tags: []
-  valence: 0
-  xref: []
-- daemonica: putur
-  key: pu0t0u0r
-  notes: As a suffix, transforms “chase” (the transitive verb) to “chase” (the noun).
-  translations:
-  - english: iron
-    tags: []
-  - english: remove both arguments of valence-2 words
-    tags:
-    - suffix
-  valence: 0
-  xref:
-  - kur
-  - pū
-  - tū
-- daemonica: pū
-  key: pu1
-  notes: As a suffix, transforms “[E] chases [A]” to “[A] chases”
-  translations:
-  - english: metal
-    tags: []
-  - english: tin
-    tags: []
-  - english: lead
-    tags: []
-  - english: antipassivizer
-    tags:
-    - suffix
-  valence: 0
-  xref:
-  - kur
-  - tū
-  - putur
-- daemonica: pwbu
-  key: pwbu0
-  notes: ''
-  translations:
-  - english: a lot
-    tags:
-    - number
-  valence: 1
-  xref:
-  - dmtu
-  - pmbu
-  - tsmdu
-  - dwtū
-- daemonica: rdū
-  key: rd0u1
-  notes: ''
-  translations:
-  - english: bind free variable
-    tags:
-    - binding
-  valence: 2
-  xref:
-  - ahur
-  - du
-  - kapu
-  - mhur
-- daemonica: rta
-  key: rt0a0
-  notes: ''
-  translations:
-  - english: copy top stack item
-    tags:
-    - prefix
-    - stack op
-  valence: 0
-  xref:
-  - tndā
-  - bar
-  - mdar
-  - mhar
-  - mta
-  - mzar
-  - smda
-- daemonica: rtu
-  key: rt0u0
-  notes: <em>not</em> considered an expletive
-  translations:
-  - english: genitals (male or female)
-    tags: []
-  - english: linkage hardware (such as nuts and bolts)
-    tags: []
-  - english: port (in either the electronic or geographic sense)
-    tags: []
-  - english: vulnerable point
-    tags:
-    - suffix
-  valence: 0
-  xref: []
-- daemonica: rvur
-  key: rvu0r
-  notes: In numeric form, usually appears with ordinal unit of measure to mean “last.”
-  translations:
-  - english: finality
-    tags:
-    - number
-  - english: modal of necessity
-    tags:
-    - suffix
-    - mood
-  valence: 1
-  xref: []
-- daemonica: sa
-  key: s0a0
-  notes: ''
-  translations:
-  - english: article of clothing
-    tags:
-    - prefix
-  - english: type of fabric or fur
-    tags:
-    - prefix
-  - english: form of insulation or cladding
-    tags:
-    - prefix
-  - english: decoration
-    tags:
-    - prefix
-  valence: 1
-  xref: []
-- daemonica: sargrdu
-  key: s0a0rg0rd0u0
-  notes: ''
-  translations:
-  - english: blow on
-    tags: []
-  valence: 2
-  xref: []
-- daemonica: sarhur
-  key: s0a0rhu0r
-  notes: ''
-  translations:
-  - english: closed
-    tags: []
-  valence: 1
-  xref: []
-- daemonica: sartnhu
-  key: s0a0rt0n0hu0
-  notes: ''
-  translations:
-  - english: knee (body part)
-    tags: []
-  - english: elbow
-    tags: []
-  - english: hinge
-    tags: []
-  valence: 0
-  xref: []
-- daemonica: sā
-  key: s0a1
-  notes: ''
-  translations:
-  - english: diminutive
-    tags:
-    - prefix
-  valence: 1
-  xref:
-  - dntā
-  - fa
-  - fnha
-- daemonica: sbarkopsur
-  key: s0ba0rk0o0ps0u0r
-  notes: ''
-  translations:
-  - english: plastic
-    tags: []
-  - english: enamel
-    tags: []
-  - english: oilcloth
-    tags: []
-  valence: 0
-  xref: []
-- daemonica: sdarpordur
-  key: s0d0a0rpo0rd0u0r
-  notes: ''
-  translations:
-  - english: try, attempt
-    tags: []
-  valence: 2
-  xref: []
-- daemonica: sdnzu
-  key: s0d0n0z0u0
-  notes: ''
-  translations:
-  - english: bite
-    tags: []
-  valence: 2
-  xref: []
-- daemonica: sdu
-  key: s0d0u0
-  notes: ''
-  translations:
-  - english: oblique or dative
-    tags:
-    - case
-  valence: 2
-  xref:
-  - adu
-  - gu
-  - bahur
-  - bmhu
-  - dahu
-  - smdur
-- daemonica: sdur
-  key: s0d0u0r
-  notes: ''
-  translations:
-  - english: precedes, is above
-    tags:
-    - tense
-  valence: 2
-  xref:
-  - whur
-  - arhur
-  - bahur
-  - barvmķtu
-  - dngzu
-  - dzu
-  - šdur
-- daemonica: sgartsu
-  key: s0g0a0rt0s0u0
-  notes: ''
-  translations:
-  - english: long
-    tags: []
-  valence: 1
-  xref: []
-- daemonica: skahmfu
-  key: s0k0a0hmfu0
-  notes: ''
-  translations:
-  - english: planet
-    tags: []
-  valence: 0
-  xref: []
-- daemonica: sku
-  key: s0k0u0
-  notes: ''
-  translations:
-  - english: fire
-    tags: []
-  - english: anger
-    tags: []
-  - english: burning
-    tags:
-    - suffix
-  - english: plasma (in the physics sense)
-    tags:
-    - suffix
-  - english: metamorphosing
-    tags:
-    - suffix
-  valence: 0
-  xref: []
-- daemonica: smbu
-  key: s0mbu0
-  notes: ''
-  translations:
-  - english: costs, may be exchanged for
-    tags: []
-  - english: linear implication
-    tags:
-    - logic
-  valence: 2
-  xref:
-  - bar
-  - dzu
-  - mdar
-  - drbur
-  - šudur
-  - šur
-  - darhur
-- daemonica: smbū
-  key: s0mbu1
-  notes: ''
-  translations:
-  - english: are rivals
-    tags: []
-  - english: are parts serving opposite purposes
-    tags: []
-  valence: 2
-  xref: []
-- daemonica: smda
-  key: s0md0a0
-  notes: ''
-  translations:
-  - english: drop second-from-top stack item
-    tags:
-    - prefix
-    - stack op
-  valence: 2
-  xref:
-  - tndā
-  - bar
-  - mdar
-  - mhar
-  - mta
-  - mzar
-  - rta
-- daemonica: smdur
-  key: s0md0u0r
-  notes: ''
-  translations:
-  - english: ergative or ablative
-    tags:
-    - case
-  valence: 2
-  xref:
-  - adu
-  - gu
-  - bahur
-  - bmhu
-  - dahu
-  - sdu
-- daemonica: smhū
-  key: s0mhu1
-  notes: ''
-  translations:
-  - english: '27'
-    tags:
-    - number
-  valence: 1
-  xref: []
-- daemonica: snvu
-  key: s0n0vu0
-  notes: ''
-  translations:
-  - english: up to and including…
-    tags:
-    - number
-  valence: 1
-  xref:
-  - tndu
-- daemonica: sŋžu
-  key: s0n1z1u0
-  notes: ''
-  translations:
-  - english: woven
-    tags: []
-  - english: tied
-    tags: []
-  - english: locked
-    tags: []
-  - english: bolted
-    tags: []
-  - english: '17'
-    tags:
-    - number
-  valence: 1
-  xref: []
-- daemonica: spahorhū
-  key: s0pa0ho0rhu1
-  notes: ''
-  translations:
-  - english: navel
-    tags: []
-  - english: center of gravity
-    tags: []
-  - english: crossroads
-    tags: []
-  valence: 0
-  xref: []
-- daemonica: spnzur
-  key: s0pn0z0u0r
-  notes: ''
-  translations:
-  - english: door
-    tags: []
-  - english: gate
-    tags: []
-  - english: duct
-    tags: []
-  valence: 0
-  xref: []
-- daemonica: sprdū
-  key: s0prd0u1
-  notes: ''
-  translations:
-  - english: speaker yields turn
-    tags:
-    - phatic
-  valence: 1
-  xref: []
-- daemonica: sr
-  key: s0r
-  notes: ''
-  translations:
-  - english: '5'
-    tags:
-    - number
-  - english: very brief, very small, infinitesimal
-    tags:
-    - suffix
-    - aspect
-  valence: 1
-  xref: []
-- daemonica: stmtur
-  key: s0t0mt0u0r
-  notes: ''
-  translations:
-  - english: egg
-    tags: []
-  - english: seed
-    tags: []
-  - english: zygote
-    tags: []
-  valence: 0
-  xref: []
-- daemonica: stu
-  key: s0t0u0
-  notes: ''
-  translations:
-  - english: bread
-    tags: []
-  - english: grain
-    tags: []
-  valence: 0
-  xref: []
-- daemonica: su
-  key: s0u0
-  notes: 'To a Daemonica speaker, submissiveness is actually a form of <i>su</i>:
-    one who submerges their ego in an authority figure takes on that figure’s power
-    as if it were their own.'
-  translations:
-  - english: seeking power
-    tags: []
-  - english: seeking certainty
-    tags: []
-  - english: '8'
-    tags:
-    - number
-  - english: bureaucratic authority
-    tags:
-    - suffix
-  valence: 1
-  xref:
-  - dŋtu
-  - fr
-  - mhu
-  - wðu
-- daemonica: sur
-  key: s0u0r
-  notes: ''
-  translations:
-  - english: wet
-    tags: []
-  - english: contagious
-    tags: []
-  - english: radioactive
-    tags: []
-  - english: bottom side
-    tags:
-    - suffix
-  - english: cessative (finishing [A])
-    tags:
-    - suffix
-    - aspect
-  valence: 1
-  xref:
-  - wža
-  - yhū
-  - ģu
-  - mhur
-  - nžu
-  - szū
-- daemonica: sū
-  key: s0u1
-  notes: ''
-  translations:
-  - english: very large or flat shape
-    tags:
-    - suffix
-  - english: stippled or irregular quality
-    tags:
-    - suffix
-  - english: imperfective
-    tags:
-    - suffix
-    - aspect
-  valence: 1
-  xref: []
-- daemonica: ša
-  key: s1a0
-  notes: ''
-  translations:
-  - english: associative plural
-    tags:
-    - prefix
-  valence: 1
-  xref:
-  - šu
-- daemonica: šar
-  key: s1a0r
-  notes: ''
-  translations:
-  - english: negation
-    tags:
-    - prefix
-  valence: 1
-  xref:
-  - šur
-- daemonica: šarhoštur
-  key: s1a0rho0s1t0u0r
-  notes: ''
-  translations:
-  - english: house
-    tags: []
-  valence: 0
-  xref: []
-- daemonica: šartu
-  key: s1a0rt0u0
-  notes: ''
-  translations:
-  - english: back (body part)
-    tags: []
-  - english: trailing edge
-    tags: []
-  valence: 0
-  xref: []
-- daemonica: šaþtur
-  key: s1a0t1t0u0r
-  notes: ''
-  translations:
-  - english: smoke
-    tags: []
-  valence: 0
-  xref: []
-- daemonica: šavndur
-  key: s1a0vn0d0u0r
-  notes: ''
-  translations:
-  - english: is to the left of
-    tags:
-    - tense
-  valence: 2
-  xref: []
-- daemonica: šdur
-  key: s1d0u0r
-  notes: ''
-  translations:
-  - english: is uphill from
-    tags:
-    - tense
-  - english: is upstream from
-    tags:
-    - tense
-  - english: is upstairs from
-    tags:
-    - tense
-  - english: is a possible but not definite cause of
-    tags:
-    - tense
-  - english: add argument for “X believes…”
-    tags:
-    - suffix
-  valence: 2
-  xref:
-  - dmdu
-  - bmhu
-  - whur
-  - arhur
-  - bahur
-  - barvmķtu
-  - dngzu
-  - dzu
-  - sdur
-- daemonica: šmhar
-  key: s1mha0r
-  notes: ''
-  translations:
-  - english: vocative
-    tags:
-    - prefix
-    - case
-  valence: 1
-  xref: []
-- daemonica: šmhu
-  key: s1mhu0
-  notes: ''
-  translations:
-  - english: each
-    tags:
-    - number
-  valence: 1
-  xref:
-  - tndū
-- daemonica: šmtu
-  key: s1mt0u0
-  notes: ''
-  translations:
-  - english: breast
-    tags: []
-  - english: gland
-    tags: []
-  - english: mine (place to extract minerals)
-    tags: []
-  - english: benefactor
-    tags: []
-  valence: 0
-  xref: []
-- daemonica: šnku
-  key: s1n0k0u0
-  notes: ''
-  translations:
-  - english: bone
-    tags: []
-  - english: framework
-    tags: []
-  - english: infrastructure
-    tags: []
-  valence: 0
-  xref: []
-- daemonica: šr
-  key: s1r
-  notes: ''
-  translations:
-  - english: '9'
-    tags:
-    - number
-  - english: automatic
-    tags:
-    - suffix
-  - english: self-organized
-    tags:
-    - suffix
-  valence: 1
-  xref: []
-- daemonica: šrha
-  key: s1rha0
-  notes: ''
-  translations:
-  - english: y/n question
-    tags:
-    - prefix
-    - mood
-  valence: 1
-  xref: []
-- daemonica: štābŋtþū
-  key: s1t0a1bn1t0t1u1
-  notes: ''
-  translations:
-  - english: hydrogen
-    tags: []
-  - english: acid
-    tags: []
-  - english: 21.106 cm
-    tags:
-    - measure
-  valence: 0
-  xref: []
-- daemonica: štrdur
-  key: s1t0rd0u0r
-  notes: ''
-  translations:
-  - english: time dimension
-    tags:
-    - number
-  valence: 1
-  xref: []
-- daemonica: šu
-  key: s1u0
-  notes: ''
-  translations:
-  - english: '3'
-    tags:
-    - number
-  - english: '3'
-    tags:
-    - suffix
-  valence: 1
-  xref:
-  - ša
-- daemonica: šudur
-  key: s1u0d0u0r
-  notes: '[E] is true, [A] is false'
-  translations:
-  - english: and not, except for
-    tags:
-    - logic
-  valence: 2
-  xref:
-  - bar
-  - dzu
-  - mdar
-  - drbur
-  - šur
-  - darhur
-  - smbu
-- daemonica: šur
-  key: s1u0r
-  notes: ''
-  translations:
-  - english: '0'
-    tags:
-    - number
-  - english: negation
-    tags:
-    - suffix
-  valence: 1
-  xref:
-  - bar
-  - dzu
-  - mdar
-  - drbur
-  - šudur
-  - darhur
-  - smbu
-  - šar
-- daemonica: šydu
-  key: s1yd0u0
-  notes: ''
-  translations:
-  - english: a road, path, or line with source [E] and destination [A]
-    tags:
-    - geometry
-  - english: a location at distance [A] from [E]
-    tags: []
-  valence: 2
-  xref:
-  - ngu
-- daemonica: šyzū
-  key: s1yz0u1
-  notes: ''
-  translations:
-  - english: surprised
-    tags: []
-  valence: 1
-  xref: []
-- daemonica: taðorpur
-  key: t0a0d1o0rpu0r
-  notes: ''
-  translations:
-  - english: neck
-    tags: []
-  valence: 0
-  xref: []
-- daemonica: tahōhu
-  key: t0a0ho1hu0
-  notes: ''
-  translations:
-  - english: arm
-    tags: []
-  - english: limb
-    tags: []
-  - english: mechanical boom
-    tags: []
-  - english: cubit (approx. 45 cm)
-    tags:
-    - measure
-  valence: 0
-  xref: []
-- daemonica: tahur
-  key: t0a0hu0r
-  notes: ''
-  translations:
-  - english: we (exclusive)
-    tags:
-    - pronoun
-  valence: 0
-  xref:
-  - pu
-  - tu
-  - tur
-  - tyhur
-  - artur
-- daemonica: tardnhur
-  key: t0a0rd0n0hu0r
-  notes: ''
-  translations:
-  - english: full
-    tags: []
-  valence: 1
-  xref: []
-- daemonica: taršpu
-  key: t0a0rs1pu0
-  notes: ''
-  translations:
-  - english: ear
-    tags: []
-  - english: handle
-    tags: []
-  valence: 0
-  xref: []
-- daemonica: tartohur
-  key: t0a0rt0o0hu0r
-  notes: ''
-  translations:
-  - english: helium
-    tags: []
-  - english: noble gas
-    tags: []
-  valence: 0
-  xref: []
-- daemonica: tartsu
-  key: t0a0rt0s0u0
-  notes: ''
-  translations:
-  - english: mother
-    tags: []
-  - english: heart
-    tags: []
-  - english: primary star
-    tags: []
-  - english: home
-    tags: []
-  valence: 0
-  xref: []
-- daemonica: tartsū
-  key: t0a0rt0s0u1
-  notes: ''
-  translations:
-  - english: boss
-    tags: []
-  - english: headquarters
-    tags: []
-  valence: 0
-  xref: []
-- daemonica: tatŋðu
-  key: t0a0t0n1d1u0
-  notes: ''
-  translations:
-  - english: fish
-    tags: []
-  valence: 0
-  xref: []
-- daemonica: tatorhu
-  key: t0a0t0o0rhu0
-  notes: ''
-  translations:
-  - english: bear (the animal)
-    tags: []
-  valence: 0
-  xref: []
-- daemonica: tatsur
-  key: t0a0t0s0u0r
-  notes: ''
-  translations:
-  - english: wood
-    tags: []
-  - english: stick
-    tags: []
-  - english: lumber
-    tags: []
-  valence: 0
-  xref: []
-- daemonica: tatožur
-  key: t0a0t0o0z1u0r
-  translations:
-  - english: leaf
-    tags: []
-  - english: canopy
-    tags: []
-  valence: 0
-  xref: []
-- daemonica: tažur
-  key: t0a0z1u0r
-  notes: ''
-  translations:
-  - english: eye
-    tags: []
-  - english: camera
-    tags: []
-  - english: glasses
-    tags: []
-  valence: 0
-  xref: []
-- daemonica: tāsozur
-  key: t0a1s0o0z0u0r
-  notes: ''
-  translations:
-  - english: wind
-    tags: []
-  valence: 0
-  xref: []
-- daemonica: tātorhū
-  key: t0a1t0o0rhu1
-  notes: ''
-  translations:
-  - english: panda
-    tags: []
-  valence: 0
-  xref: []
-- daemonica: tfu
-  key: t0fu0
-  notes: ''
-  translations:
-  - english: hand
-    tags: []
-  - english: terminal
-    tags: []
-  - english: hand-span (approx. 22 cm)
-    tags:
-    - measure
-  valence: 0
-  xref: []
-- daemonica: tmdu
-  key: t0md0u0
-  notes: ''
-  translations:
-  - english: curious
-    tags: []
-  - english: '25'
-    tags:
-    - number
-  valence: 1
-  xref: []
-- daemonica: tmdur
-  key: t0md0u0r
-  notes: ''
-  translations:
-  - english: standing
-    tags: []
-  valence: 1
-  xref: []
-- daemonica: tmtu
-  key: t0mt0u0
-  notes: ''
-  translations:
-  - english: root
-    tags: []
-  valence: 0
-  xref: []
-- daemonica: tmvu
-  key: t0mvu0
-  notes: ''
-  translations:
-  - english: face
-    tags: []
-  - english: front
-    tags: []
-  - english: leading edge
-    tags: []
-  valence: 0
-  xref: []
-- daemonica: tndā
-  key: t0n0d0a1
-  notes: ''
-  translations:
-  - english: copy third-from-top stack item
-    tags:
-    - prefix
-    - stack op
-  valence: 1
-  xref:
-  - bar
-  - mdar
-  - mhar
-  - mta
-  - mzar
-  - rta
-  - smda
-- daemonica: tndu
-  key: t0n0d0u0
-  notes: ''
-  translations:
-  - english: more than…
-    tags:
-    - number
-  valence: 1
-  xref:
-  - snvu
-- daemonica: tndur
-  key: t0n0d0u0r
-  notes: ''
-  translations:
-  - english: welded
-    tags: []
-  - english: sealed
-    tags: []
-  - english: forged
-    tags: []
-  - english: '19'
-    tags:
-    - number
-  valence: 1
-  xref: []
-- daemonica: tndū
-  key: t0n0d0u1
-  notes: ''
-  translations:
-  - english: as a mass
-    tags:
-    - number
-  valence: 1
-  xref:
-  - šmhu
-- daemonica: tŋda
-  key: t0n1d0a0
-  notes: ''
-  translations:
-  - english: canonical [base word]
-    tags:
-    - prefix
-  valence: 1
-  xref: []
-- daemonica: tŋdu
-  key: t0n1d0u0
-  notes: ''
-  translations:
-  - english: weathered
-    tags: []
-  - english: battered
-    tags: []
-  - english: distressed (physically, mentally, or emotionally)
-    tags: []
-  - english: rusted
-    tags: []
-  - english: '16'
-    tags:
-    - number
-  - english: oxide
-    tags:
-    - suffix
-  valence: 1
-  xref: []
-- daemonica: tŋtšu
-  key: t0n1t0s1u0
-  notes: ''
-  translations:
-  - english: nest
-    tags: []
-  - english: uterus
-    tags: []
-  - english: nursery
-    tags: []
-  valence: 0
-  xref: []
-- daemonica: trdu
-  key: t0rd0u0
-  notes: suffix form distinguishes “see” from “look at”/“read”, “hear” from “listen,”
-    etc.
-  translations:
-  - english: '22'
-    tags:
-    - number
-  - english: with intention
-    tags:
-    - suffix
-    - mood
-  valence: 1
-  xref: []
-- daemonica: trha
-  key: t0rha0
-  notes: ''
-  translations:
-  - english: fruit
-    tags: []
-  - english: nut
-    tags: []
-  valence: 0
-  xref: []
-- daemonica: tsapŋždu
-  key: t0s0a0pn1z1d0u0
-  notes: ''
-  translations:
-  - english: box
-    tags: []
-  - english: stomach
-    tags: []
-  - english: oven
-    tags: []
-  valence: 0
-  xref: []
-- daemonica: tsazur
-  key: t0s0a0z0u0r
-  notes: ''
-  translations:
-  - english: tooth
-    tags: []
-  valence: 0
-  xref: []
-- daemonica: tsāstŋhū
-  key: t0s0a1s0t0n1hu1
-  notes: ''
-  translations:
-  - english: night
-    tags: []
-  valence: 0
-  xref: []
-- daemonica: tsmdu
-  key: t0s0md0u0
-  notes: ''
-  translations:
-  - english: fair
-    tags: []
-  - english: righteous
-    tags: []
-  - english: even-tempered
-    tags: []
-  - english: balanced
-    tags: []
-  - english: enough
-    tags:
-    - number
-  valence: 1
-  xref:
-  - dmtu
-  - pmbu
-  - dwtū
-  - pwbu
-- daemonica: tsur
-  key: t0s0u0r
-  notes: ''
-  translations:
-  - english: earth, soil
-    tags: []
-  valence: 0
-  xref: []
-- daemonica: tšarhu
-  key: t0s1a0rhu0
-  notes: ''
-  translations:
-  - english: rain
-    tags: []
-  valence: 0
-  xref: []
-- daemonica: tšarvu
-  key: t0s1a0rvu0
-  notes: ''
-  translations:
-  - english: gold
-    tags: []
-  - english: material resistant to corrosion
-    tags: []
-  valence: 0
-  xref: []
-- daemonica: tšarvū
-  key: t0s1a0rvu1
-  notes: ''
-  translations:
-  - english: silver
-    tags: []
-  - english: unit of local or arbitrary currency
-    tags:
-    - measure
-  valence: 0
-  xref: []
-- daemonica: tšur
-  key: t0s1u0r
-  notes: ''
-  translations:
-  - english: city
-    tags: []
-  - english: colony (of animals)
-    tags: []
-  - english: hive
-    tags: []
-  valence: 0
-  xref: []
-- daemonica: tþnhur
-  key: t0t1n0hu0r
-  notes: ''
-  translations:
-  - english: house
-    tags: []
-  - english: building
-    tags: []
-  - english: body
-    tags: []
-  valence: 0
-  xref: []
-- daemonica: tu
-  key: t0u0
-  notes: ''
-  translations:
-  - english: you (singular)
-    tags: []
-  valence: 0
-  xref:
-  - pu
-  - tur
-  - tyhur
-  - tahur
-  - artur
-- daemonica: tur
-  key: t0u0r
-  notes: ''
-  translations:
-  - english: you (plural)
-    tags:
-    - pronoun
-  valence: 0
-  xref:
-  - pu
-  - tu
-  - tyhur
-  - tahur
-  - artur
-- daemonica: tū
-  key: t0u1
-  notes: As a suffix, transforms “[A] is young” to “someone young,” and “[E] chases
-    [A]” to “[A] is chased”
-  translations:
-  - english: tea
-    tags: []
-  - english: tisane
-    tags: []
-  - english: medication
-    tags: []
-  - english: passivizer
-    tags:
-    - suffix
-  valence: 0
-  xref:
-  - kur
-  - pū
-  - putur
-- daemonica: twhū
-  key: t0whu1
-  notes: ''
-  translations:
-  - english: tongue
-    tags: []
-  valence: 0
-  xref: []
-- daemonica: tyhur
-  key: t0yhu0r
-  notes: ''
-  translations:
-  - english: we (corporate)
-    tags:
-    - pronoun
-  valence: 0
-  xref:
-  - pu
-  - tu
-  - tur
-  - tahur
-  - artur
-- daemonica: þahodur
-  key: t1a0ho0d0u0r
-  notes: ''
-  translations:
-  - english: crush, grind
-    tags: []
-  valence: 2
-  xref: []
-- daemonica: þarzur
-  key: t1a0rz0u0r
-  notes: ''
-  translations:
-  - english: dry
-    tags: []
-  valence: 1
-  xref: []
-- daemonica: þatšur
-  key: t1a0t0s1u0r
-  notes: ''
-  translations:
-  - english: louse
-    tags: []
-  valence: 0
-  xref: []
-- daemonica: þā
-  key: t1a1
-  notes: ''
-  translations:
-  - english: plural
-    tags:
-    - prefix
-  valence: 1
-  xref:
-  - þū
-- daemonica: þpardū
-  key: t1pa0rd0u1
-  notes: ''
-  translations:
-  - english: white
-    tags: []
-  - english: blue-white
-    tags: []
-  - english: happy, joyous
-    tags: []
-  valence: 1
-  xref:
-  - barhŋtu
-  - mhu
-- daemonica: þr
-  key: t1r
-  notes: ''
-  translations:
-  - english: member of taxon
-    tags:
-    - prefix
-  - english: member of taxon
-    tags:
-    - suffix
-  valence: 1
-  xref:
-  - vu
-- daemonica: þu
-  key: t1u0
-  notes: ''
-  translations:
-  - english: '4'
-    tags:
-    - number
-  valence: 1
-  xref: []
-- daemonica: þū
-  key: t1u1
-  notes: ''
-  translations:
-  - english: '2'
-    tags:
-    - number
-  - english: '2'
-    tags:
-    - suffix
-  valence: 1
-  xref:
-  - þā
-- daemonica: u
-  key: u0
-  notes: ''
-  translations:
-  - english: '1'
-    tags:
-    - number
-  - english: '1'
-    tags:
-    - suffix
-  valence: 1
-  xref:
-  - a
-- daemonica: ur
-  key: u0r
-  notes: ''
-  translations:
-  - english: that
-    tags:
-    - demonstrative
-  - english: possibility, irrealis, (informal) command form
-    tags:
-    - suffix
-    - mood
-  valence: 1
-  xref:
-  - ū
-  - ahur
-- daemonica: ū
-  key: u1
-  notes: ''
-  translations:
-  - english: this
-    tags:
-    - demonstrative
-  valence: 1
-  xref:
-  - ur
-  - ahur
-- daemonica: wðu
-  key: wd1u0
-  notes: ''
-  translations:
-  - english: of low viscosity
-    tags: []
-  - english: of low density
-    tags: []
-  - english: free-flowing
-    tags: []
-  - english: '12'
-    tags:
-    - number
-  - english: charismatic authority
-    tags:
-    - suffix
-  valence: 1
-  xref:
-  - dŋtu
-  - fr
-  - mhu
-  - su
-- daemonica: whur
-  key: whu0r
-  notes: ''
-  translations:
-  - english: yesterday
-    tags:
-    - tense
-  - english: recently
-    tags:
-    - tense
-  - english: in the heights
-    tags:
-    - tense
-  valence: 1
-  xref:
-  - arhur
-  - bahur
-  - barvmķtu
-  - dngzu
-  - dzu
-  - sdur
-  - šdur
-- daemonica: wtsur
-  key: wt0s0u0r
-  notes: ''
-  translations:
-  - english: clay
-    tags: []
-  - english: mud
-    tags: []
-  - english: raw materials
-    tags: []
-  - english: fetus
-    tags: []
-  - english: the interior of a seed
-    tags: []
-  valence: 0
-  xref: []
-- daemonica: wzur
-  key: wz0u0r
-  notes: ''
-  translations:
-  - english: per-time dimension
-    tags:
-    - number
-  valence: 1
-  xref:
-  - mhur
-  - dntur
-  - prgur
-- daemonica: wža
-  key: wz1a0
-  notes: used for attributes or actions that are repeated once or a few times, but
-    not habitually
-  translations:
-  - english: again
-    tags:
-    - prefix
-    - aspect
-  valence: 1
-  xref:
-  - yhū
-  - ģu
-  - mhur
-  - nžu
-  - sur
-  - szū
-- daemonica: yhū
-  key: yhu1
-  notes: ''
-  translations:
-  - english: gnomic
-    tags:
-    - suffix
-    - aspect
-  valence: 1
-  xref:
-  - wža
-  - ģu
-  - mhur
-  - nžu
-  - sur
-  - szū
+    and effect of a program or law, rather than its literal text.
 
+    '
+  valence: 0
+- d: þarģu
+  en:
+  - ear
+  - resonator
+  - repeater
+  key: t1.a0.r0.g1.u0
+  valence: 0
+- d: þarpfur
+  en:
+  - navel
+  - center of gravity
+  - compromise
+  - crossroads
+  key: t1.a0.r0.p0.f0.u0.r0
+  plus:
+  - - faðarpfur
+    - center of [A]
+  - - gāðarpfur
+    - compromise/cross-breed/midpoint between [E] and [A]
+  valence: 0
+- d: þarpū
+  en:
+  - hand
+  - terminal
+  - - with numeric prefix
+    - hand-span
+  key: t1.a0.r0.p0.u1
+  plus:
+  - - þarpōpū
+    - handle
+  valence: 0
+- d: þayžgu
+  en:
+  - white
+  - blue-white
+  key: t1.a0.y0.z1.g0.u0
+  valence: 1
+- d: þayžu
+  en:
+  - automatic
+  - self-organized
+  key: t1.a0.y0.z1.u0
+  valence: 1
+- d: þdur
+  en:
+  - elbow
+  - knee
+  - hinge
+  key: t1.d0.u0.r0
+  valence: 0
+- d: þduy
+  en:
+  - is black
+  - is dark
+  - is cold
+  key: t1.d0.u0.y0
+  plus:
+  - - sāðduy
+    - night
+  valence: 1
+- d: þn
+  en:
+  - - stack operation
+    - PICK (copy 3rd-from-top item)
+  key: t1.n0
+  valence: 0
+- d: þtaypuy
+  en: is alone
+  key: t1.t0.a0.y0.p0.u0.y0
+  valence: 1
+- d: þtu
+  en:
+  - everything
+  key: t1.t0.u0
+  valence: 0
+- d: þtu
+  en:
+  - - digit
+    - thirty-four (34)
+  key: t1.t0.u0
+  plus:
+  - - þadnðtu
+    - one thousand five hundred and ninety-seven (1597)
+  valence: n
+- d: -þtu
+  en:
+  - - quantifier
+    - all; every
+  key: t1.t0.u0.-1
+  valence: s
+- d: þtur
+  en:
+  - nose
+  - nub; protrusion
+  key: t1.t0.u0.r0
+  plus:
+  - - þtarsrþtur
+    - penis; man (in the “one who inseminates” sense)
+  - - þtarþtur
+    - tongue
+  valence: 0
+- d: þtū
+  en:
+  - mouth
+  - door; doorway; gate; duct
+  key: t1.t0.u1
+  plus:
+  - - baðtū
+    - exit from [A]
+  - - faðtū
+    - entry to [A]
+  - - gāðtū
+    - door from [E] to [A]
+  - - þtāþtū
+    - foyer; antechamber; mudroom
+  valence: 0
+- d: þu
+  en:
+  - I, me
+  - we, us (exclusive)
+  key: t1.u0
+  valence: 0
+- d: þu
+  en:
+  - - digit
+    - eight (8)
+  key: t1.u0
+  plus:
+  - - þavrðu
+    - three hundred and seventy-seven (377)
+  valence: n
+- d: -þuy
+  en:
+  - - shape
+    - spherical; smooth; unbounded
+  key: t1.u0.y0.-1
+  valence: s
+- d: þū
+  en:
+  - foot
+  - wheel
+  - nozzle
+  - - with numeric prefix
+    - any length between 250mm and 350mm
+  key: t1.u1
+  valence: 0
+- d: þavur
+  en: [copper]
+  key: t1.a0.v0.u0.r0
+  valence: 0
+- d: taypu
+  en:
+  - tomorrow
+  - soon
+  - in a house/office “downhill” from here
+  - [with numeric prefix, number of days from now]
+  key: t0.a0.y0.p0.u0
+  notes: >
+    “Downhill” can be meant literally, or it can refer to the direction towards
+    from the city center, significant route, or seat of power.
+  plus:
+    - [taypopu, next year; in a community / region / biome downhill from here]
+  valence: 1
+  xref: [akķu]
+- d: pfayhur
+  en:
+    - today
+    - approximately now
+    - in this house/office
+    - [with numeric prefix, timespan measured in days]
+  key: p0.f0.a0.y0.h0.u0.r0
+  plus:
+    - [pfayhorhur, this year; in this community / region / biome]
+  valence: 1
+  xref: [akķu, taypu]
+- d: pfargur
+  en:
+    - smell
+    - taste
+    - '[E] subjects [A] to chemical analysis'
+  plus:
+    - [babrpfargur, is in heat (estrus)]
+    - [dadnpfargur, skunk]
+    - [tarpfagur, odor]
+    - [šapmfargur, dog; detective; reagent]
+  notes: An oblique argument may be added to indicate what the absolutive argument smells like.
+  key: p0.f0.a0.r0.g0.u0.r0
+  valence: 1
+- d: pfaybū
+  en: [is noisy]
+  plus:
+    - [gāpfaybū, '[E] makes sound [A]']
+    - [pfaypfpybū, is quiet]
+  key: p0.f0.a0.y0.b0.u1
+  valence: 1
+- d: apsū
+  en: [is alive]
+  plus:
+    - [ahopsū, is dead]
+    - [apsōpsu, is a ghost]
+  key: a0.p0.s0.u1
+  valence: 1
+- d: sparģu
+  en: [head, summit, observation point]
+  plus:
+    - [sparģoģu, skull]
+  key: s0.p0.r0.g1.u0
+  valence: 0
