@@ -28,21 +28,20 @@ removed, until a single predicate remains and the speaker yields
 their turn.
 
 [^1]:
-    The endonyms for Daemonica are
-    _artorgorpū_, “our language,” and
-    _garštōbŋtþū_, “acid language.” However, even its native
+    The endonym for Daemonica is
+    _tāzbabzū_, “our language,” but even its native
     speakers admit that “Daemonica” has a certain cachet.
 
 [^2]:
     Daemonica is inspired by Jeffrey
     Henning’s award-winning conlang, [Fith](https://www.frathwiki.com/Fith).
-    _Kšu admpū mtisr gahupūdmdu._
+    _Þu davbī dðiy šüvbe gģe kši pm._
 
 For very simple sentences, this makes Daemonica resemble an SOV
 language:
 
->- Tatorhu artir-ðī abū.
->- bear D2\1PL.INCL-two chase
+>- Tatorhu þi-bi fābur.
+>- bear D2\1.EXCL-DU chase
 >- A bear chased[^3] both of us.
 
 [^3]:
@@ -56,17 +55,17 @@ same word is used as an argument more than once, prefixes can be
 used to change the word’s valence, invert the argument order, or
 manipulate the stack:
 
->- Dntšu-pū taterhi mta-gi ürter-ðē mhar-gi abū.
->- young-NMLZ D2\bear D2\OVER-DNMLZ D3\2PL-TWO D2\ROLL-DNMLZ chase
->- A bear, who is young like we are, chased both of us.
+>- Sba-dðuy   tn     tütærhe pir    fi      þe-be          pir    fābur.
+>- NMLZ-young D2\DUP D3\bear D2\ABS D2\SWAP D3\1.EXCL-DU   D2\ABS chase
+>- A bear, who is young like we are, chased us.
 
->- Pu taterhi te darhir ahnbzu.
->- 1SG D2\bear D3\1SG D2\choice.or flee
+>- Þu ķu-tþur taterhi se aybir fū.
+>- 1.EXCL far-IRR D2\bear D3\2 D2\choice.or ERG
 >- I don’t have to outrun the bear; I just have to outrun you.
 
 Every word is inflected, by changing its vowels, to indicate the
 current depth of the stack: hence _tatorhu_
-vs. _taterhi_.
+vs. _taterhi_ vs. _tütærhe_.
 
 Daemonica casual conversation heard by a person for whom recursive linguistic
 structures cause the short-term memory to balk at four stack levels

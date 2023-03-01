@@ -1,184 +1,157 @@
 ---
 layout: grammar
 title: Other lexical notes
-order: 5
+order: 4
 ---
 
-### Organic/mechanical polysemy
+### Logic
 
-In many languages, terms for organic
-matter are used as metaphors for artifacts, or vice versa:
-consider how a spy satellite may be called an “eye in the sky,”
-or how the human circulatory system involves a “bloodstream.” In
-Daemonica, this kind of usage is so pervasive that it hardly
-deserves to be called metaphorical. When there is a risk of
-confusion, there are prefixes to help disambiguate the possible
-meanings.
+Logical connectives (other than negation, covered earlier) are binary words.
 
->- Kāhmvu pi gu.
->- leg D2\1SG ABS
->- I have legs.
+>- Su taterhi pm.
+>- 2 D2\bear is.a
+>- You are a bear.
 
->- Ŋha-kāhmvu pi gu.
->- MECH-leg D2\1SG ABS
->- I have a drive shaft.
+>- Þu taterhi düžŋģē bm gžur.
+>- 1.EXCL D2\bear D3\fish D2\and give
+>- I gave things to a bear and a fish.
 
->- Bntar-kāhmvu pi šar-gu knbar-kāhmvi pe gi
-  dzu.
->- ORG-leg D2\1SG NEG-ABS D2\PROS-leg
-  D3\1SG D2\ABS and
->- I don’t have legs, but I have a wheelchair.
+>- Tatorhu taterhezpi gŋ þi fābur.
+>- bear D2\polar.bear except D2\1.EXCL chase
+>- A bear, but not a polar bear, chased me.
 
-The person saying _Ŋha-kāhmvu pi smdur_ might be an auto mechanic,
-or they might be using _ŋhakāhmvu_ as synecdoche for a
-car, in the way an English speaker might say “wheels.”
+>- Tatorhu dažŋģī ky þi fābur.
+>- bear D2\fish or D2\1.EXCL chase
+>- Either a bear or a fish chased me.
 
-### Hypernymy, co-hyponymy, metonymy
+>- Dažŋģū taterhi pfm.
+>- fish D2\bear imply
+>- Where there are fish, there are bears.
 
-The suffix _vu_ derives a hypernym of the word it is
-attached to.
+### Numbers and other forms of quantification
 
->- Tatorhu-vu pi abū.
->- bear-hypernym D2\1SG chase
->- A carnivore chased me.
+|   value | digit  |   value | numeric constant |
+|--------:|--------|--------:|------------------|
+|       ⅕ | _kaku_ |       0 | _šu_             | 
+|       ⅓ | _puy_  |       φ | _bmpu_           | 
+|       ½ | _du_   |      2π | _wðu_            | 
+|       1 | _fu_   |      55 | _fazmfu_         | 
+|       2 | _bu_   |      89 | _bazmbu_         | 
+|       3 | _tu_   |     144 | _taðntu_         | 
+|       5 | _ku_   |     233 | _kažŋku_         | 
+|       8 | _þu_   |     377 | _þavrðu_         | 
+|      13 | _tū_   |     610 | _tāzntū_         | 
+|      21 | _su_   |     987 | _sazrsu_         | 
+|      34 | _þtu_  |    1597 | _þadnðtu_        | 
 
->- Tatorhu pi-vi abū.
->- bear D2\1SG-hypernym chase
->- Bears chase my people.
+| valence | prefix |
+|--------:|--------|
+|       0 | _tr-_  |
+|       1 | _pa-_  |
+|       2 | _pw-_  |
 
->- Pu taterhi abū-vu.
->- 1SG D2\bear chase-hypernym
->- I am interested in bears.
+A Daemonica number is formed by a numeric prefix and
+either a numeric constant, or a sequence of digits.
+Repeated digits, such as _kaku_ (5, 5) are interpreted
+as reciprocals. The integers in the digit-representation
+are summed; the reciprocals are multiplied; and then the
+sum is multiplied by the reciprocals to form the actual
+number.
 
-The prefix _þr_ translates a word to a related and
-broader term, usually by metonymy.
+>- tr-pay-to-ko-ko-þu
+>- numeric.0-one.third-three-five-five-eight
+>- eleven fifteenths ((3 + 8) / (3 × 5))
 
->- Þr-ðu-kur pi abū.
->- LIKE-four-NMLZ D2\1SG chase
->- A land animal (tetrapod) chased me.
+Numeric constants are not treated as digits.
 
->- Pu þr-kši abū.
->- 1SG D2\LIKE-star chase
->- I pursue goals.
+>- tr-vazmfu
+>- numeric.0-fifty.five
+>- fifty-five
 
-The prefix _mzā_ could be thought of as the inverse of
-_þr_: it translates a stem to a metonymically
-_narrower_ meaning. Usually, this is a proper noun.
+>- *tr-vazmfo-þtu
+>- numeric.0-fifty.five-thirty.four
+>- eighty-nine
 
->- Mzā-tatorhu pi abū.
->- PN-bear D2\1SG chase
->- Bear (i.e., a person named Bear) chased me.
+A nullary number is simply an abstract value; a unary number
+is multiplied by its absolutive argument; a binary number is
+multiplied by its absolutive argument and then added to its
+ergative argument.
 
-In some cases, replacing long vowels with their short
-counterparts and vice versa (except for short vowels followed by
-‹r›) transforms a
-word into a closely
-related one, a co-hyponym.
+>- tr-vazmfu pa-bu
+>- numeric.0-fifty.five numeric.1-two
+>- one hundred and ten
 
->- Tātorhū pi abū.
->- panda D2\1SG chase
->- A panda chased me.
+>- tr-vazmfu tr-vu pw-þtu
+>- numeric.0-fifty.five numeric.0-one numeric.2-thirty-four
+>- eighty-nine
+
+Other words can take numeric prefixes as well. The most common
+reason for doing this is to form units of measure.
+
+>- dažŋģū pa-džur
+>- fish numeric.1-pot
+>- a pot of fish
+
+>- tatorhu tr-zir pw-ðu
+>- bear D2\numeric.0-rock numeric.2-eight
+>- a bear that weighs about 375 kg (eight ‘rocks’)
 
 ### Colors
 
-Daemonica has three basic color words: _mhu_ (black),
-_þpardū_ (white, gray, bright yellow, or pale blue), and
-_barhŋtu_ (orange or any shade of red). All other color terms
-must be derived.
+Daemonica has three basic color words: _þduy_ (black),
+_þayžgu_ (white, gray, bright yellow, or pale blue), and
+_gvu_ (orange or any shade of red). All other color terms
+are derived, often using the prefix _þay-_, which can derive
+a unary word for any sensory characteristic.
 
-|                                                         |                   |                 |
-|---------------------------------------------------------|-------------------|-----------------|
-| <span title="purple" style="color: purple">█</span>     | _barhŋtu-vr_      | noble red       |
-| <span title="maroon" style="color: maroon">█</span>     | _barhŋto:gopu_    | cold red        |
-| <span title="red" style="color: red">█</span>           | _tŋda-barhŋtu_    | exactly red     |
-| <span title="orange" style="color: orange">█</span>     | _barhŋto:dwpfu_   | hot red         |
-| <span title="yellow" style="color: yellow">█</span>     | _þpardō:gopu_     | cold white      |
-| <span title="white" style="color: white">█</span>       | _tŋda-þpardū_     | exactly white   |
-| <span title="cyan" style="color: aqua">█</span>         | _þpardō:dwpfu_    | hot white       |
-| <span title="magenta" style="color: fuchsia">█</span>   | _fnha-þpardū_     | anti-white      |
-| <span title="black" style="color: black">█</span>       | _mhu_             | black           |
-| <span title="gray" style="color: gray">█</span>         | _mhu:þpordū_      | black-white     |
-| <span title="silver" style="color: silver">█</span>     | _tšarvu-bur_      | silver-like     |
-| <span title="green" style="color: green">█</span>       | _tatožur-burbur_  | leaf-like       |
-| <span title="lime green" style="color: lime">█</span>   | _pþavur-bur_      | copper-like     |
-| <span title="olive green" style="color: olive">█</span> | _tsur-bur_        | dirt-like       |
-| <span title="navy blue" style="color: navy">█</span>    | _tsāstŋhū-burbur_ | night-like      |
-| <span title="blue" style="color: blue">█</span>         | _pfur-bur_        | water-like      |
-| <span title="teal" style="color: teal">█</span>         | _tsarvobor:dwpfu_ | hot silver-like |
+|                                                         |                 |               |
+|---------------------------------------------------------|-----------------|---------------|
+| <span title="purple" style="color: purple">█</span>     | _gva:vbū_       | noble red     |
+| <span title="maroon" style="color: maroon">█</span>     | _gva:ðduy_      | cold red      |
+| <span title="red" style="color: red">█</span>           | _gva:hoģur_     | exactly red   |
+| <span title="orange" style="color: orange">█</span>     | _gva:džu_       | hot red       |
+| <span title="yellow" style="color: yellow">█</span>     | _þayžgo:ðtuy_   | cold white    |
+| <span title="white" style="color: white">█</span>       | _þayžgo:hoģur_  | exactly white |
+| <span title="cyan" style="color: aqua">█</span>         | _þayžgo:džu_    | hot white     |
+| <span title="magenta" style="color: fuchsia">█</span>   | _þay:þoy:žgu_   | anti-white    |
+| <span title="black" style="color: black">█</span>       | _þduy_          | black         |
+| <span title="gray" style="color: gray">█</span>         | _þday:ðoyžgu_   | black-white   |
+| <span title="silver" style="color: silver">█</span>     | _þay-žāpū_      | silver-like   |
+| <span title="green" style="color: green">█</span>       | _þay-škavorhur_ | wood-like     |
+| <span title="lime green" style="color: lime">█</span>   | _þay-ðavur_     | copper-like   |
+| <span title="olive green" style="color: olive">█</span> | _þay-zartður_   | dirt-like     |
+| <span title="navy blue" style="color: navy">█</span>    | _þay-zāðduy_    | night-like    |
+| <span title="blue" style="color: blue">█</span>         | _þay-zbū_       | water-like    |
+| <span title="teal" style="color: teal">█</span>         | _þay-zpu_       | ice-like      |
 
 
 ### Ethnic and sexual language
 
-Daemonica has no simple and direct terms for categories of
-sex, gender,
-sexuality, or ethnicity. Instead, speakers either resort to
-euphemisms (which very widely by region and age cohort), or they
-use words that denote finer-grained concepts.
+Terms related to sex, gender, sexuality, and
+ethnicity cannot be translated precisely into Daemonica—or, rather,
+the closest corresponding terms are _too_ precise. Sometimes,
+speakers resort to euphemisms to hint at a culturally-specific category.
 
-For example, suppose someone of a certain gender and ethnicity
-was fired from her job in a discriminatory fashion. She might
-phrase her ex-employer’s motivation in any of the following ways:
+>- Ša-vbū þi bā-vparpuy-kū þi bva-ša-dðiy pfm.
+>- raise.ERG-lead D2\1.EXCL want-independent-INCOH D2\1.EXCL D2\REFL-raise.ERG-young imply
+>- The boss wants to fire me because I’m a woman
+   (because I should be taking care of children).
 
->- Pu rta-ðr-tŋtši-di[^1] mzür-türtsē
-  mzar-fnha-batŋdi-hnži dur.
->- 1SG D2\DUP-LIKE-nest-APPL
-  D3\SWAP-boss D2\SWAP-ANTI-tie-PFV make
->- I was fired because I am a woman (lit.,
-  because I belong to the child-nurturing class).
+>- Ša-vbū þi bā-vparpuy-kū þi bva-da-vbē:bī pfm.
+>- raise.ERG-lead D2\1.EXCL want-independent-INCOH D2\1.EXCL D2\REFL-raise.ABS-ruling.class imply
+>- The boss wants to fire me because I’m a woman
+   (because I should not be in a position of authority).
 
->- Pu rta-ðr-tažir-di[^2] mzür-türtsē
-  mzar-fnha-batŋdi-hnži dur.
->- 1SG D2\DUP-LIKE-eye-APPL
-  D3\SWAP-boss D2\SWAP-ANTI-tie-PFV make
->- I was fired because I am a woman (lit., because I belong to
-  the class of people who are judged by their
-  appearance).
+>- Ša-vbū þi bā-vparpuy-kū þi sũ-že fī pfm.
+>- raise.ERG-lead D2\1.EXCL want-independent-INCOH
+   D2\1.EXCL D3\raise.LOC-nothing D2\ERG imply
+>- The boss wants to fire me because I belong to a landless ethnic group.
 
->- Pu rta-žar-ðr-bnhir-di[^3] mzür-türtsē
-  mzar-fnha-batŋdi-hnži dur.
->- FSG D2\DUP-NEG-LIKE-hit-APPL
-  D3\SWAP-boss D2\SWAP-ANTI-tie-PFV make
->- I was fired because I am not a man (lit., because I do not
-  belong to the warrior class).
+>- Ša-vbū þi bā-vparpuy-kū þi tr-ðtü-ðæ-ti ķgir pfm.
+>- raise.ERG-lead D2\1.EXCL want-independent-INCOH
+   D2\1.EXCL D3\numeric.2-thirty.four-eight-three D2\friend imply
+>- The boss wants to fire me because I’m a friend of ‘45.’
 
->- Pu rta-ðr-žar-tsir-di[^4]
-  mzür-türtsē mzar-fnha-batŋdi-hnži dur.
->- 1SG D2\DUP-LIKE-NEG-earth-APPL
-  D3\SWAP-boss D2\SWAP-ANTI-tie-PFV make
->- I was fired because I belong to a landless ethnic
-   group.
-
->- Pu þaðēhi-di mta-dzī mzür-türtsē
-  mzar-fnha-batŋdi-hnži dur.
->- 1SG D2\four:two:one-NMLZ D2\OVER-friend
-  D3\SWAP-boss D2\SWAP-ANTI-tie-PFV make
->- I was fired because I am a friend of <q>44.</q>
-
-As an aside, let us observe how the stack changes with each word of
-a sentence like this. In the translations, separate items on the
-stack are divided by slashes, with the topmost on the
-right.
-
-<dl>
-  <dt>Pu</dt> <dd>Me</dd>
-  <dt>Pu rta…</dt> <dd>Me / me…</dd>
-  <dt>Pu rtaðrtŋtšidi</dt> <dd>Me / I am a woman</dd>
-  <dt>Pu rtaðrtŋtšidi mzür…</dt> <dd>I am a woman / me / …</dd>
-  <dt>Pu rtaðrtŋtšidi mzürtũrtsē</dt> <dd>I am a woman / me / boss</dd>
-  <dt>Pu rtaðrtŋtšidi mzürtũrtsē mzar…</dt> <dd>I am a woman / boss /
-  me / …</dd>
-  <dt>Pu rtaðrtŋtšidi mzürkše mzarfnhabatŋdihnži</dt>
-    <dd>I am a woman / I was fired</dd>
-  <dt>Pu rtaðrtŋtšidi mzürkše mzarfnhabatŋdihnži dur</dt>
-    <dd>I was fired because I am a woman.</dd>
-</dl>
-
-[^1]: A male day-care worker or a male seahorse could also be called _þrtŋtšu_.
-
-[^2]: A male model or a male songbird could also be called _þrtažur_.
-
-[^3]: A female soldier or a lioness could also be called _þrbnhur_.
-
-[^4]:
-    Depending on the local culture, a _þržartsir_ could be Jewish, Roma, an Irish
-    Traveller, or a member of an overseas Chinese community.
+Consisently using the same word to translate one of these terms,
+instead of choosing the right synonym for the context, is one of the
+surest marks of a non-fluent Daemonica speaker.

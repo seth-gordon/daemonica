@@ -4,11 +4,6 @@
   - high
   key: a0.b0.u1
   valence: 1
-- d: afū
-  en:
-  - occurs by chance
-  key: a0.f0.u1
-  valence: 1
 - d: agur
   en:
   - is trustworthy
@@ -30,7 +25,14 @@
   en:
   - yesterday
   - recently
+  - in a house/office “uphill” from ours
+  - [with numeric prefix, days ago]
   key: a0.k0.k1.u0
+  notes: >
+    “Uphill” can be meant literally, or it can refer to the direction away
+    from the city center, significant route, or seat of power.
+  plus:
+    - [akķokķu, last year; in a community / region / biome “uphill” from here]
   valence: 1
 - d: apfu
   en:
@@ -58,12 +60,6 @@
   - or (in the sense of randomness)
   key: a0.r0.d1.u1
   notes: As in, “tomorrow it will rain <em>or</em> snow.”
-  valence: 2
-- d: arfu
-  en:
-  - precedes
-  - is above
-  key: a0.r0.f0.u0
   valence: 2
 - d: arhu
   en:
@@ -110,6 +106,12 @@
   - - šaharpu
     - oddity; object of research
   valence: 2
+- d: arvu
+  en:
+  - precedes
+  - is above
+  key: a0.r0.v0.u0
+  valence: 2
 - d: arždorpfu
   en:
   - '[E] is uphill / upstream / upstairs from [A]'
@@ -122,11 +124,25 @@
   - '[A] happened again'
   key: a0.v0.u0
   valence: 1
+- d: avū
+  en:
+  - occurs by chance
+  key: a0.v0.u1
+  plus:
+    - [bahavū, probability; luck]
+    - [dahavū, accident]
+    - [gģahavū, suffered an accident]
+    - [sāhavū, casino]
+    - [tarhavū, gambler]
+  valence: 1
 - d: aybur
   en:
   - or (in the sense of choice)
   key: a0.y0.b0.u0.r0
   notes: As in, “would you like coffee <em>or</em> tea?”
+  plus:
+    - [sbahaybur, choice]
+    - [dahaybur, optionally]
   valence: 2
 - d: ayhu
   en:
@@ -169,6 +185,14 @@
   - - ažōgyžū
     - hit; strike
   valence: 2
+- d: šdahoyžū
+  en: [wincing or grimacing facial expression]
+  key: s1.d0.a0.h0.o0.y0.z1.u1
+  plus:
+    - [bašdahoyžū, is wincing]
+    - [gāšdahoyžū, '[E] winces at [A]; [E] is in pain from [A]']
+  valence: 0
+  xref: [šdu, ayžū]
 - d: ažu
   en:
   - possesses (alienably)
@@ -190,23 +214,28 @@
     - cheap
   - - šahākū
     - expensive
-  - - šahakūžu
+  - - šahākūžu
     - free (as in “free beer”)
   valence: 2
 - d: āpu
   en:
-  - '[E] is a physical object assembled from [A]'
+  - '[E] is a physical object assembled / built / sewn from [A]'
   key: a1.p0.u0
+  plus:
+    - [šapfāhāpu, construction worker; builder]
   valence: 2
 - d: āpū
   en:
   - wants to
   - is willing to
   key: a1.p0.u1
+  plus:
+    - [āpūbmpū, agrees with; approves]
+    - [favmhāpū, yes; indeed]
   valence: 2
 - d: ba-
   en:
-  - drop absolutive argument (or substitute an implied ergative argument)
+  - unergative; drop absolutive argument (or substitute an implied ergative argument)
   key: b0.a0.-0
   notes: For example, <i>bagžur</i> means “[A] gives” (to unspecified recipients).
   valence: 1p
@@ -221,6 +250,9 @@
   en:
   - is to the left of; is counter-clockwise from
   key: b0.a0.y0.b0.u0
+  plus:
+    - - baybudvbū
+      - is north of (see <i>davbū</i>; at the north pole, the planet is rotating counter-clockwise)
   valence: 2
 - d: baypuy
   en:
@@ -252,7 +284,14 @@
     - studies
   - - bðarznbður
     - is an expert in
+  - - bðuržuy
+    - is confused by
   valence: 2
+- d: babðuržoyždu
+  en: [has a confused facial expression]
+  key: b0.a0.b0.d1.u0.r0.z1.o0.y0.z1.d0.u0
+  valence: 1
+  xref: [bður, šdu]
 - d: bm
   en:
   - '[E] and [A]'
@@ -357,6 +396,8 @@
   - come from
   key: b0.z0.u0.r0
   valence: 2
+  plus:
+    - [šaznbzur, alien; foreigner]
 - d: bzū
   en:
   - says
@@ -368,6 +409,10 @@
     - statement
   - - dabzābzū
     - word
+  - - sbabzū
+    - language
+  - - tāzbabzū
+    - the Daemonica language
   valence: 2
 - d: da-
   en:
@@ -403,6 +448,14 @@
   key: d0.a0.r0.f0.p0.u0
   notes: This is not considered an expletive.
   valence: 0
+- d: darpoždu
+  en: [vomiting]
+  key: d0.a0.r0.p0.o0.z1.d0.u0
+  plus:
+    - [dadapoždu, is vomiting]
+    - [gādapoždu, '[E] vomits due to [A]']
+  valence: 0
+  xref: [darfpu, šdu]
 - d: dargu
   en:
   - breast
@@ -508,7 +561,7 @@
   - is healthy
   key: d0.v0.u0.y0
   plus:
-  - - sātuy
+  - - sādvuy
     - hospital
   valence: 1
 - d: džaboģu
@@ -562,7 +615,7 @@
   valence: s
 - d: fa-
   en:
-  - drop ergative argument (for nullary words, create an implied absolutive argument)
+  - unaccusative; drop ergative argument (for nullary words, create an implied absolutive argument)
   key: f0.a0.-0
   notes: For example, <i>fagžur</i> means “[A] receives gift(s)” (from unspecified
     donors).
@@ -650,7 +703,7 @@
     - are gathered together
   - - daðāhū
     - pile; assembly
-  - - šavahū
+  - - šavāhū
     - woman (in the “gatherer class” sense)
   valence: 2
 - d: fbur
@@ -676,6 +729,10 @@
   plus:
   - - davbū
     - planet
+  - - davbūpfur
+    - east (the “front side” of a planet, i.e., its direction of rotation)
+  - - davbūžur
+    - west
   - - davbōbū
     - woman (in the “excluded from patriarchal authority” sense)
   - - fbōvbū
@@ -752,6 +809,14 @@
   - - faftarður
     - is sexy; is delicious; is pleasurable
   valence: 2
+- d: šdaftorður
+  en: [smile]
+  key: s1.d0.a0.f0.t0.o0.r0.d1.u0.r0
+  plus:
+    - [bašdaftorður, is smiling]
+    - [gāšdaftorður, '[E] smiles at [A]']
+  valence: 0
+  xref: [šdu, ftarður]
 - d: ftāpu
   en:
   - asks
@@ -863,6 +928,8 @@
   - blow on
   key: g0.a1.p0.u0
   plus:
+  - - gāpopu
+    - breathe on
   - - targāpu
     - wind
   valence: 2
@@ -930,12 +997,13 @@
 - d: -gū
   en:
   - - shape
-    - toroidal
+    - toroidal; looped
   key: g0.u1.-1
   valence: s
 - d: gvu
   en:
   - is red
+  - is orange
   - is warm
   key: g0.v0.u0
   plus:
@@ -1016,6 +1084,15 @@
   - - šakartu
     - surprise (a thing that surprises)
   valence: 2
+- d: šdakortu
+  en: [a laugh]
+  key: s1.d0.a0.k0.o0.r0.t0.u0
+  plus:
+    - [bašdakortu, is laughing]
+    - [fašdakortu, funny]
+    - [gāšdakortu, '[E] laughs at [A]']
+  valence: 0
+  xref: [šdu, kartu]
 - d: kayhuy
   en:
   - crush
@@ -1087,6 +1164,7 @@
   en:
   - falls toward
   - orbits around
+  - [with numeric prefix, 2&pi; (the ratio between a circle’s radius and circumference)]
   key: k0.s1.u1
   plus:
   - - bakšū
@@ -1214,6 +1292,7 @@
   - far away
   - long ago or far in the future
   key: k1.u0
+  plus: [[gāķu, '[E] is distant (spatially or temporally) from [A]']]
   valence: 1
 - d: ķū
   en:
@@ -1221,6 +1300,7 @@
   - is contagious
   - is radioactive
   key: k1.u1
+  plus: [dažŋģū, fish (or marine mammal)]
   valence: 2
 - d: pa-
   en:
@@ -1259,6 +1339,10 @@
   plus:
   - - gāpatþū
     - '[E] calms [A] down'
+  - - patþōtrtþū
+    - is asleep
+  - - patþōtrtþōtþū
+    - is tired
   - - patþōtþū
     - is under arrest; is forbidden to leave
   - - sbapatþū
@@ -1266,6 +1350,11 @@
   - - šapatþū
     - sedative
   valence: 1
+- d: patþūždu
+  en: [is yawning]
+  key: p0.a0.t0.d1.u1.z1.d0.u0
+  valence: 1
+  xref: [patþū, šdu]
 - d: pāðu
   en: hunt; fish
   key: p0.a1.d1.u0
@@ -1285,11 +1374,11 @@
   - - pātotu
     - is a cousin or more distant relative of; somewhat resembles
   valence: 2
-- d: pðū
+- d: pþū
   en:
   - - stack operation
     - AND.THEN
-  key: p0.d1.u1
+  key: p0.t1.u1
   notes: 'Formally speaking, this drops the top stack item, but semantically, it operates
     as an infix, so that one can describe a sequence of events without building up
     a whole pile of predicates on the stack and then ending the story with <i>…bm
@@ -1301,6 +1390,9 @@
   en:
   - is to the right of; is clockwise from
   key: p0.f0.a0.y0.g0.u1
+  plus:
+    - - pfaygūdvpū
+      - is to the south of (see <i>davbū</i>; at the south pole, the planet is rotating clockwise)
   valence: 2
 - d: pfaypu
   en:
@@ -1451,6 +1543,8 @@
   plus:
   - - sardðordður
     - mud; clay
+  - - sardðorždur
+    - pitch; bitumen; asphalt
   - - sāzardður
     - land animal
   valence: 0
@@ -1483,11 +1577,11 @@
   - liquid water that is flowing
   key: s0.a0.r0.v0.u0
   plus:
-  - - karzuy
-    - river with source [E] and outlet [A]
   - - sarvovu
     - rain
-  - - sbakarzuy
+  - - fpāzarvu
+    - river with source [E] and outlet [A]
+  - - sbavpāzarvu
     - river
   - - tþayzarvu
     - liquid; of low viscosity; free-flowing
@@ -1530,6 +1624,7 @@
   en:
   - hair (on head)
   key: s0.b0.a1.p0.u0.r0
+  plus: [sbāpopur, hat; wig; helmet]
   valence: 0
 - d: -sbu
   en:
@@ -1550,10 +1645,8 @@
   - liquid water in a container
   key: s0.b0.u1
   plus:
-  - - sāzbōbū
-    - amphibian or amphibious mammal
   - - sāzbū
-    - fish or marine mammal
+    - container for liquid
   - - sbāzbū
     - shoreline; rim of a container for liquid
   - - sbāznzbū
@@ -1576,6 +1669,7 @@
   - ice
   key: s0.p0.u0
   valence: 0
+  xref: [tatorhozpu]
 - d: spū
   en:
   - fire
@@ -1657,7 +1751,20 @@
   plus:
   - - baždu
     - the thing that [A] is looking at / oriented towards
+  - - daždužu
+    - without facial expression
+  - - gāždaznždu
+    - '[E] is dressed/disguised as [A]'
+  - - šdaždu
+    - mask
+  - - šdažnždu
+    - disguise
   valence: 0
+- d: tatorhoždu
+  en: [raccoon]
+  key: t0.a0.t0.o0.r0.h0.o0.z1.d0.u0
+  valence: 0
+  xref: [šdu, tatorhu]
 - d: šdur
   en:
   - oil
@@ -1706,7 +1813,9 @@
   - lumber
   key: s1.k0.a0.v0.o0.r0.h0.u0.r0
   plus:
-  - - šažkavorhur
+  - - sāškavorhur
+    - forest
+  - - šaškavorhur
     - tree
   - - škavorhorhyhur
     - leaf; canopy
@@ -1866,11 +1975,17 @@
   - bear (the animal)
   key: t0.a0.t0.o0.r0.h0.u0
   plus:
-  - - tadntotorhu
+  - - tadntorhu
     - panda
   - - tatorhohŋhu
     - teddy bear
   valence: 0
+- d: tatorhozpu
+  en:
+    - polar bear
+  key: t0.a0.t0.o0.r0.h0.o0.z0.p0.u0
+  valence: 0
+  xref: [tatorhu, spu]
 - d: tatšur
   en:
   - meteor
@@ -1902,6 +2017,7 @@
   - building
   - ship
   - body
+  plus: [tavorfur, cottage; boat; space capsule]
   key: t0.a0.v0.u0.r0
   valence: 0
 - d: tayžu
@@ -2003,24 +2119,19 @@
   - having the color, shape, sound, or other sensory characteristic of [B]
   key: t0.t1.a0.y0.-0
   valence: 1p
-- d: tþaytuy
+- d: tþartuy
   en:
   - weathered
   - battered
   - distressed (physically, mentally, or emotionally)
   - prematurely aged
-  key: t0.t1.a0.y0.t0.u0.y0
+  key: t0.t1.a0.r0.t0.u0.y0
   plus:
-  - - tþaytoytuy
+  - - tþartntuy
     - precocious
-  - - tþotþaytuy
+  - - tþardrtuy
     - well-preserved
   valence: 1
-- d: tþābortur
-  en:
-  - fish (the animal)
-  key: t0.t1.a1.b0.o0.r0.t0.u0.r0
-  valence: 0
 - d: tþāžu
   en:
   - - with numeric prefix
@@ -2092,7 +2203,7 @@
     - thirteen (13)
   key: t0.u1
   plus:
-  - - tāzntu
+  - - tāzntū
     - six hundred and ten (610)
   valence: n
 - d: þa-
@@ -2195,11 +2306,6 @@
   en: is alone
   key: t1.t0.a0.y0.p0.u0.y0
   valence: 1
-- d: þtāþtū
-  en:
-  - duct
-  key: t1.t0.a1.t1.t0.u1
-  valence: 0
 - d: þtu
   en:
   - everything
@@ -2234,7 +2340,7 @@
 - d: þtū
   en:
   - mouth
-  - door; doorway; gate
+  - door; doorway; gate; duct
   key: t1.t0.u1
   plus:
   - - baðtū
@@ -2243,7 +2349,7 @@
     - entry to [A]
   - - gāðtū
     - door from [E] to [A]
-  - - þtāðtū
+  - - þtāþtū
     - foyer; antechamber; mudroom
   valence: 0
 - d: þu
@@ -2275,4 +2381,66 @@
   - - with numeric prefix
     - any length between 250mm and 350mm
   key: t1.u1
+  valence: 0
+- d: þavur
+  en: [copper]
+  key: t1.a0.v0.u0.r0
+  valence: 0
+- d: taypu
+  en:
+  - tomorrow
+  - soon
+  - in a house/office “downhill” from here
+  - [with numeric prefix, number of days from now]
+  key: t0.a0.y0.p0.u0
+  notes: >
+    “Downhill” can be meant literally, or it can refer to the direction towards
+    from the city center, significant route, or seat of power.
+  plus:
+    - [taypopu, next year; in a community / region / biome downhill from here]
+  valence: 1
+  xref: [akķu]
+- d: pfayhur
+  en:
+    - today
+    - approximately now
+    - in this house/office
+    - [with numeric prefix, timespan measured in days]
+  key: p0.f0.a0.y0.h0.u0.r0
+  plus:
+    - [pfayhorhur, this year; in this community / region / biome]
+  valence: 1
+  xref: [akķu, taypu]
+- d: pfargur
+  en:
+    - smell
+    - taste
+    - '[E] subjects [A] to chemical analysis'
+  plus:
+    - [babrpfargur, is in heat (estrus)]
+    - [dadnpfargur, skunk]
+    - [tarpfagur, odor]
+    - [šapmfargur, dog; detective; reagent]
+  notes: An oblique argument may be added to indicate what the absolutive argument smells like.
+  key: p0.f0.a0.r0.g0.u0.r0
+  valence: 1
+- d: pfaybū
+  en: [is noisy]
+  plus:
+    - [gāpfaybū, '[E] makes sound [A]']
+    - [pfaypfpybū, is quiet]
+  key: p0.f0.a0.y0.b0.u1
+  valence: 1
+- d: apsū
+  en: [is alive]
+  plus:
+    - [ahopsū, is dead]
+    - [apsōpsu, is a ghost]
+  key: a0.p0.s0.u1
+  valence: 1
+- d: sparģu
+  en: [head, summit, observation point]
+  plus:
+    - [sparģoģu, skull]
+  key: s0.p0.r0.g1.u0
   valence: 0
