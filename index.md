@@ -19,7 +19,7 @@ The reason for their frustration, and for the Inquisition’s
 accusations of heresy, is that the fundamental structure of
 Daemonica[^1] is
 unlike that of any natural human language. In other
-languages, a complete sentence is a sequence of words can be
+languages, a complete sentence is a sequence of words that can be
 parsed into a recursive, tree-like structure. In Daemonica, every
 utterance-in-progress is associated with a notional
 _stack_[^2], on which predicates can be added,
