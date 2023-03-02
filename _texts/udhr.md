@@ -16,8 +16,8 @@ order: 1
 >- AND.THEN D2\COPY D2\UNERG-study-IMPF D2\UNERG-take.care.of-IMPF
 >- They are endowed with reason and conscience
 
->- pðū      bva-ķgur-tþur.
->- AND.THEN REFL-friends-IRR
+>- pðū      sba-bva-gžī-þti              bva-ba-farzi          pur-tþur[^2].
+>- AND.THEN D2\NMLZ-REFL-arbitrary.2-all D2\REFL-UNERG-partner ABS-IRR
 >- and should act towards one another in a spirit of brotherhood.
 
 [^1]:
@@ -29,3 +29,7 @@ order: 1
     long utterance,
     the speaker holds the audience’s attention, and the item that lingers
     on the stack functions as a topic.
+
+[^2]:
+    More literally: “all their relationships with each other should resemble
+    the way someone treats a close friend.”
