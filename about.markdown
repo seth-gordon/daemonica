@@ -9,7 +9,7 @@ Such work includes:
 - [GitHub Pages service](https://pages.github.com)
 - [Minimal theme](https://github.com/orderedlist/minimal)
 - [Jekyll static Web framework](https://github.com/jekyll/jekyll)
-- [Gentium font family](https://software.sil.org/gentium/)
+- [Junicode font family](https://junicode.sourceforge.io)
 
 Bear logo 
 courtesy [Medieval Bestiary](https://bestiary.ca/beasts/beastgallery171.htm).

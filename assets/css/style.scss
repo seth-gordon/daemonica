@@ -31,41 +31,6 @@
   src: url('../fonts/Junicode/Junicode-Italic.ttf') format('truetype');
 }
 
-@font-face {
-  font-family: 'Gentium Plus';
-  font-weight: 400;
-  font-style: normal;
-  src: url('../fonts/GentiumPlus/web/GentiumPlus-Regular.woff2') format('woff2'),
-       url('../fonts/GentiumPlus/web/GentiumPlus-Regular.woff') format('woff'),
-       url('../fonts/GentiumPlus/GentiumPlus-Regular.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'Gentium Plus';
-  font-weight: 700;
-  font-style: normal;
-  src: url('../fonts/GentiumPlus/web/GentiumPlus-Bold.woff2') format('woff2'),
-       url('../fonts/GentiumPlus/web/GentiumPlus-Bold.woff') format('woff'),
-       url('../fonts/GentiumPlus/GentiumPlus-Bold.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'Gentium Plus';
-  font-weight: 400;
-  font-style: italic;
-  src: url('../fonts/GentiumPlus/web/GentiumPlus-Italic.woff2') format('woff2'),
-       url('../fonts/GentiumPlus/web/GentiumPlus-Italic.woff') format('woff'),
-       url('../fonts/GentiumPlus/GentiumPlus-Italic.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'Gentium Plus';
-  font-weight: 700;
-  font-style: italic;
-  src: url('../fonts/GentiumPlus/web/GentiumPlus-BoldItalic.woff2') format('woff2'),
-       url('../fonts/GentiumPlus/web/GentiumPlus-BoldItalic.woff') format('woff'),
-       url('../fonts/GentiumPlus/GentiumPlus-BoldItalic.ttf') format('truetype');
-}
 // paletton base rgb #eeca92, 50 degree hue, complementary
 // https://paletton.com/#uid=20N0u0kcntS2TP37cCHi-opp8iK
 
@@ -113,9 +78,9 @@ h4, h5, h6 { font-weight: inherit; }
 h4, h5 { font-style: italic;}
 h6 { font-variant: all-small-caps; }
 
-h1, h2 { margin: 0 0 1ex; }
-h3, h4 { margin: 1ex 0 0.5ex; }
-h5, h6 { margin: 0.5ex 0 0; }
+h1, h2 { margin: 0 0 0.5ex; }
+h3, h4 { margin: 0.5ex 0 0.25ex; }
+h5, h6 { margin: 0.25ex 0 0; }
 
 a { color: $light-blue; font-weight: bold; }
 
@@ -124,16 +89,16 @@ a:hover, a:focus { color: $pale-blue; font-weight: bold; }
 // prevent footnote markers from affecting the line spacing
 // https://leancrew.com/all-this/2011/12/beating-the-spread/
 sup, sub { vertical-align: 0; position: relative; font-variant-numeric: normal; }
-sup { bottom: 1ex; }
-sub { top: 0.8ex; }
+sup { bottom: 0.5ex; }
+sub { top: 0.4ex; }
 
 td[align~="right"], th[align~="right"] { text-align: right; }
 td[align~="center"], th[align~="center"] { text-align: center; }
 
-blockquote { border-left: 2px solid $steel; padding-left: 1em; }
+blockquote { border-left: 2px solid $steel; padding-left: 0.5em; }
 
 blockquote ul { list-style-type: none; font-style: normal; font-stretch: normal; }
-blockquote + blockquote ul { padding-top: 1ex; }
+blockquote + blockquote ul { padding-top: 0.5ex; }
 
 blockquote ul li:nth-of-type(1) { font-style: italic; }
 blockquote ul li:nth-of-type(2) {
@@ -144,16 +109,17 @@ blockquote ul li:nth-of-type(2) u { text-decoration-style: dotted; }
 blockquote ul li:nth-of-type(3)::before { content: open-quote; }
 blockquote ul li:nth-of-type(3)::after { content: close-quote; }
 
-ul { padding-left: 0.75ch; margin: 0 1em 0; }
+ul { padding-left: 0.375ch; margin: 0 0.5em 0; }
 
 section p { margin: 0; }
 
-section p + p { text-indent: 2em; margin-top: 0; }
+section p + p { text-indent: 1em; margin-top: 0; }
 
 section p + * { margin-top: 0.5ex; }
 
 section.footnotes {
     padding: 0.5ex 0;
+    margin-top: 0.75ex;
     background: linear-gradient(135deg, $bronze, transparent 20%)
 }
 
@@ -186,7 +152,7 @@ section.footnotes {
 .lexicon .derivations .deriv-en { text-indent: -0.5rem; }
 .lexicon .derivations li { list-style-type: circle; }
 .lexicon .translations li:only-child { list-style-type: none; }
-.lexicon .translations li::marker { font-size: smaller; }
+.lexicon .translations li::marker { font-size: smaller; font-variant-numeric: oldstyle-nums; }
 .lexicon .xref { list-style: none; }
 .lexicon .xref::before { content: "See also:"; }
 .lexicon .xref li { display: inline; font-style: italic; }

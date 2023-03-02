@@ -39,7 +39,13 @@ a prefix or suffix is attached.
         {% if lexitem.plus.size > 0 %}
         <div class="derivations">
             <table>
-                <caption class="deriv-header">derived forms</caption>
+                <caption class="deriv-header">
+                    {% if lexitem.plus.size == 1 %}
+                    derived form
+                    {% else %}
+                    derived forms
+                    {% endif %}
+                </caption>
             {% for item in lexitem.plus %}
                 <tr>
                     <td class="deriv-d">{{ item[0] }}</td>

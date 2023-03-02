@@ -143,16 +143,16 @@ the beginning of a word: for instance, _aybur_ is the word for
 but its nominalized form, meaning “choice,” is _sbahaybur._
 
 Note that, for example, _pfur,_ “see,” is pronounced
-[pf͡uɹ], not [pə.fuɹ], and _džardrdžur,_ “oven,”
-is pronounced [dʒ͡ɑɹ.dɹ̩.dʒ͡uɹ], not [dʒ͡ɑɹd.əɹ.dʒ͡uɹ].
+[p͡fuɹ], not [pə.fuɹ], and _džardrdžur,_ “oven,”
+is pronounced [d͡ʒɑɹ.dɹ̩.ʤuɹ], not [d͡ʒɑɹd.əɹ.d͡ʒuɹ].
 
 Stress falls on the first vowel of the stem, so
 _tatorhu_ is pronounced [ˈtɑ.toɹ.hu], but _bvatatorhu_
-is pronounced [bv͡ɑˈtɑ.toɹ.hu]. In a stem formed as a compound
+is pronounced [b͡vɑˈtɑ.toɹ.hu]. In a stem formed as a compound
 of multiple roots or by duplication of a syllable,
 there may be secondary stress on the first
 vowel of the other roots, or on the duplicated syllable:
-_tatorhozpuvu,_ “one polar bear,” is pronounced [ˈtɑ.toɹ.hoˌzpu.vu],
+_tatorhozpuvu,_ “one polar bear,” is pronounced [ˈtɑ.toɹ.hoˌz͡pu.vu],
 and _tatorhohŋhu,_ “teddy bear,” is [ˈtɑ.toɹˌho.hŋ.hu].
 
 A vowel followed by /ɹ/ in a non-accented syllable may be realized
