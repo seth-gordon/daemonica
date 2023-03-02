@@ -4,7 +4,7 @@ title: UDHR article 1
 order: 1
 ---
 
->- Dðatþur-þtu[^1] tn      ba-fperpiy-kiy                  sm        
+>- Dðatþur-þtu[^1] tn      ba-fparpiy-kiy                  sm        
 >- human-all       D2\COPY D2\UNERG-independent.of-gnomic  D3\COPY.2 
 >- All human beings are born free and
 
